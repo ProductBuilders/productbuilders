@@ -13,7 +13,7 @@ This guide will help you navigate through the book content.
 ## Welcome to ProductBuilders
 
 <StaticContent 
-  markdown='
+  :markdown='`
 # Welcome to ProductBuilders
 
 ProductBuilders is an open-source book designed to help non-technical founders build digital products using AI tools.
@@ -30,7 +30,7 @@ ProductBuilders is an open-source book designed to help non-technical founders b
 ## Book Structure
 
 The book is organized into sections covering the entire product development lifecycle, from idea to launch and beyond.
-'
+`'
 />
 
 ## How This Works
