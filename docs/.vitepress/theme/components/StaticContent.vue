@@ -1,22 +1,24 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { marked } from 'marked'
 
 const props = defineProps({
-  markdown: {
+  content: {
     type: String,
     required: true
   }
 })
 
-const content = ref('')
+const parsedContent = ref('')
 
-// Parse the markdown on component creation
-content.value = marked.parse(props.markdown)
+onMounted(() => {
+  // Parse the markdown in the onMounted hook to avoid SSR issues
+  parsedContent.value = marked.parse(props.content)
+})
 </script>
 
 <template>
-  <div class="static-content" v-html="content"></div>
+  <div class="static-content" v-html="parsedContent"></div>
 </template>
 
 <style scoped>
