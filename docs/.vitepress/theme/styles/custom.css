@@ -1,0 +1,83 @@
+/* Book-specific styling */
+
+/* Improve readability for book content */
+.vp-doc {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Style chapter headings */
+.vp-doc h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.vp-doc h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+/* Improve blockquote styling for book quotes */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand);
+  padding: 1rem 1.5rem;
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg-soft);
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.vp-doc blockquote p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Style code blocks */
+.vp-doc pre {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+/* Style tables */
+.vp-doc table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+}
+
+.vp-doc th, .vp-doc td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .vp-doc {
+    font-size: 16px;
+  }
+  
+  .vp-doc h1 {
+    font-size: 2rem;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.5rem;
+  }
+  
+  .vp-doc h3 {
+    font-size: 1.25rem;
+  }
+} 

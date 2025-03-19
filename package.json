@@ -1,0 +1,29 @@
+{
+  "name": "book-productbuilders",
+  "version": "1.0.0",
+  "description": "An open-source book guiding non-technical founders to build products with AI tools",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "ai",
+    "product-building",
+    "founders",
+    "open-source",
+    "book"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "marked": "^15.0.7",
+    "octokit": "^4.1.2"
+  }
+}
