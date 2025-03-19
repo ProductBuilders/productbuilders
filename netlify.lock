@@ -1,0 +1,4 @@
+# This file prevents Netlify from using automatic build detection
+# and forces it to use our explicit configuration
+
+buildType = "javascript" 

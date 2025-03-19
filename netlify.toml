@@ -1,9 +1,13 @@
 [build]
   publish = "docs/.vitepress/dist"
-  command = "npm run docs:build"
+  command = "npm run netlify-build"
 
 [build.environment]
   NODE_VERSION = "18"
+  # Explicitly disable other languages that might be auto-detected
+  GO_VERSION = ""
+  RUBY_VERSION = ""
+  PYTHON_VERSION = ""
 
 # Redirects and headers for SPA routing
 [[redirects]]
