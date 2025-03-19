@@ -1,0 +1,12 @@
+[build]
+  publish = "docs/.vitepress/dist"
+  command = "npm run docs:build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirects and headers for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
