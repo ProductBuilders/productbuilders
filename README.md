@@ -99,6 +99,18 @@ We welcome contributions from the community! Whether it's adding new content, fi
 
 See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
 
+## Join Our Discord Community
+
+Connect with other non-technical founders, product builders, and AI enthusiasts in our Discord community. Get help, share your experiences, discuss the latest AI tools, and collaborate on projects.
+
+- Ask questions and get help from the community
+- Share your journey building products without code
+- Learn about new AI tools and techniques
+- Connect with other non-technical founders
+- Get direct feedback on your product ideas
+
+[Join our Discord server](https://discord.gg/XbYrxMPW) to become part of the Product Builders community!
+
 ## Author
 
 Product Builders is created and maintained by [Angshuman Gupta](https://angshumangupta.com/), a product leader with experience at multinationals, tech unicorns and early stage startups.
