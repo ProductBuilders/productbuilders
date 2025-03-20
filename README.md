@@ -101,7 +101,7 @@ See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for
 
 ## Author
 
-Product Builders is created and maintained by [Angshuman Gupta](https://github.com/angshu-min-js), a product leader with experience at multinationals, tech unicorns and early stage startups.
+Product Builders is created and maintained by [Angshuman Gupta](https://angshumangupta.com/), a product leader with experience at multinationals, tech unicorns and early stage startups.
 
 ## License
 
