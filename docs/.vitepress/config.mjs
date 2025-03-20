@@ -99,7 +99,7 @@ export default defineConfig({
     ],
     footer: {
     //  copyright: 'Released under the MIT License.',
-      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project by <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>. Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>. Powered by AI coding assistants for non-technical founders.',
+      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project by <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>. Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>. Powered by AI coding assistants.',
       nav: [
         { text: 'Discord Community', link: 'https://discord.gg/XbYrxMPW' },
         { text: 'Contribute', link: '/contribute' },
@@ -124,6 +124,14 @@ export default defineConfig({
     appearance: true
   },
   head: [
+    // Google Analytics
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-S3TK4P84LM' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S3TK4P84LM');`],
+    
+    // Existing meta tags
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }],
