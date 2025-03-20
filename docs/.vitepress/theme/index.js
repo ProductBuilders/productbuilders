@@ -2,7 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import './styles/custom.css'
 import PageAuthor from './components/PageAuthor.vue'
-import { analytics } from './analytics.js'
+// import { analytics } from './analytics.js'
 
 // Simple test for debugging
 console.log('Theme loaded')
@@ -13,7 +13,7 @@ export default {
   enhanceApp({ app }) {
     app.component('PageAuthor', PageAuthor)
     
-    // Register analytics plugin
-    app.use(analytics)
+    // Register analytics plugin - disabled temporarily to fix white screen
+    // app.use(analytics)
   }
 } 

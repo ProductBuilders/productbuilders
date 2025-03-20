@@ -39,8 +39,8 @@ features:
 Product Builders is an open-source free guide that takes you through every step of creating digital products by coding with AI-powered agents like Cursor, Bolt, and Lovable. No traditional coding knowledge required.
 
 <div class="cta-container">
-  <a href="/introduction/what-is-this-book" class="cta-button" v-track-click="{ category: 'CTA', action: 'Click', label: 'Start Your Journey' }">Start Your Journey</a>
-  <a href="/contribute" class="cta-button-secondary" v-track-click="{ category: 'CTA', action: 'Click', label: 'Contribute' }">Contribute</a>
+  <a href="/introduction/what-is-this-book" class="cta-button">Start Your Journey</a>
+  <a href="/contribute" class="cta-button-secondary">Contribute</a>
 </div>
 
 ## Build products people actually want
@@ -74,7 +74,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
     <div class="app-content">
       <h3>CaptionsGPT</h3>
       <p>An AI-powered mobile app that generates captions for videos, built by a non-technical founder using AI coding agents and the frameworks in this guide.</p>
-      <a href="https://captionsgpt.site/" target="_blank" class="app-link" v-track-click="{ category: 'Case Study', action: 'Click', label: 'CaptionsGPT' }">Visit App →</a>
+      <a href="https://captionsgpt.site/" target="_blank" class="app-link">Visit App →</a>
     </div>
   </div>
   
@@ -83,7 +83,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
     <div class="app-content">
       <h3>German with Nik</h3>
       <p>A language learning app that provides personalized German lessons through an AI tutor. Built from idea to launch using AI coding assistants and Product Builders.</p>
-      <a href="https://germanwithnik.com/" target="_blank" class="app-link" v-track-click="{ category: 'Case Study', action: 'Click', label: 'German with Nik' }">Visit App →</a>
+      <a href="https://germanwithnik.com/" target="_blank" class="app-link">Visit App →</a>
     </div>
   </div>
 </div>
@@ -113,7 +113,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   <div class="community-content">
     <h3>Connect with Fellow AI-Powered Builders</h3>
     <p>Join our Discord community to connect with other non-technical founders coding with AI agents, share your product journey, get feedback on your AI prompts, and access exclusive resources and support.</p>
-    <a href="https://discord.gg/XbYrxMPW" target="_blank" class="discord-button" v-track-click="{ category: 'Community', action: 'Click', label: 'Join Discord' }">
+    <a href="https://discord.gg/XbYrxMPW" target="_blank" class="discord-button">
       Join Discord Server
     </a>
   </div>
@@ -135,8 +135,8 @@ This open-source book guides you through every step of the journey:
 </div>
 
 <div class="cta-container">
-  <a href="/introduction/what-is-this-book" class="cta-button" v-track-click="{ category: 'CTA', action: 'Click', label: 'Start Reading' }">Start Reading</a>
-  <a href="https://github.com/angshu-min-js/productbuilders" target="_blank" class="cta-button-secondary" v-track-click="{ category: 'CTA', action: 'Click', label: 'Star on GitHub' }">Star on GitHub</a>
+  <a href="/introduction/what-is-this-book" class="cta-button">Start Reading</a>
+  <a href="https://github.com/angshu-min-js/productbuilders" target="_blank" class="cta-button-secondary">Star on GitHub</a>
 </div>
 
 </div>

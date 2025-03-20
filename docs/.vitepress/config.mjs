@@ -124,12 +124,12 @@ export default defineConfig({
     appearance: true
   },
   head: [
-    // Google Analytics
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-S3TK4P84LM' }],
+    // Google Analytics - implemented per https://github.com/vuejs/vitepress/issues/1131
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-S3TK4P84LM' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-S3TK4P84LM');`],
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S3TK4P84LM');`],
     
     // Existing meta tags
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
