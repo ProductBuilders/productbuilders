@@ -165,11 +165,15 @@ This open-source book guides you through every step of the journey:
   font-weight: 600;
   text-decoration: none;
   transition: background 0.2s;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .cta-button:hover {
   background: var(--vp-c-brand-dark);
   text-decoration: none;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .cta-button-secondary {
