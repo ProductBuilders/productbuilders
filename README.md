@@ -1,19 +1,20 @@
 # Product Builders
 
-> An open-source guide for non-technical founders: Anyone can build Apps!
+> An open-source guide for non-technical founders: Build real apps by coding with AI Agents!
 
 ## About this Guide
 
-Product Builders is an open-source, collaborative guide that helps non-technical founders and entrepreneurs build and launch digital products using AI-powered tools. It emphasizes problem identification, user understanding, and iterative development, all without requiring coding knowledge.
+Product Builders is an open-source, collaborative guide that helps non-technical founders and entrepreneurs build and launch digital products by coding with AI-powered agents. It shows you how to use tools like Cursor, Bolt, and Lovable to write real code without traditional coding knowledge. The guide emphasizes problem identification, user understanding, and iterative development - all powered by AI coding assistants.
 
 ## Key Topics Covered
 
 - Identifying valuable problems to solve
 - Methods for understanding your users
 - Designing and prototyping your product
-- Building with minimal technical knowledge using AI tools
+- Building with AI coding agents (Cursor, Bolt, Lovable, Claude, etc.)
+- Using AI to write, debug, and deploy real code
 - Launching, getting feedback, and iterating
-- Creating a successful product without code
+- Creating a successful product as a non-technical founder
 
 ## Tech Stack
 
@@ -92,25 +93,25 @@ npm run docs:preview
 
 ## How to Contribute
 
-We welcome contributions from the community! Whether it's adding new content, fixing typos, or sharing your experience building products without code, your help is appreciated.
+We welcome contributions from the community! Whether it's adding new content, fixing typos, sharing your experience using AI coding agents, or showcasing apps you've built with AI assistance, your help is appreciated.
 
 See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
 
 ## Join Our Discord Community
 
-Connect with other non-technical founders, product builders, and AI enthusiasts in our Discord community. Get help, share your experiences, discuss the latest AI tools, and collaborate on projects.
+Connect with other non-technical founders, product builders, and AI enthusiasts in our Discord community. Get help, share your experiences, discuss the latest AI coding tools, and collaborate on projects.
 
-- Ask questions and get help from the community
-- Share your journey building products without code
-- Learn about new AI tools and techniques
+- Ask questions and get help with AI coding agents
+- Share your journey building products with AI assistance
+- Learn about new AI development tools and techniques
 - Connect with other non-technical founders
-- Get direct feedback on your product ideas
+- Get direct feedback on your product ideas and code
 
 [Join our Discord server](https://discord.gg/XbYrxMPW) to become part of the Product Builders community!
 
 ## Author
 
-Product Builders is created and maintained by [Angshuman Gupta](https://angshumangupta.com/), a product leader with experience at multinationals, tech unicorns and early stage startups.
+Product Builders is created and maintained by [Angshuman Gupta](https://angshumangupta.com/), a product leader with experience at multinationals, tech unicorns and early stage startups who has built multiple products using AI coding assistants.
 
 ## License
 
