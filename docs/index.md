@@ -107,6 +107,23 @@ ProductBuilders helps you identify genuine market needs, design intuitive soluti
   </div>
 </div>
 
+## Meet the Creator
+
+<div class="creator-section">
+  <div class="creator-image"></div>
+  <div class="creator-content">
+    <h3>Angshuman Gupta</h3>
+    <p class="creator-title">Product Leader & AI Enthusiast</p>
+    <p>ProductBuilders is my passion project, born from a decade of experience building digital products and helping non-technical founders bring their ideas to life. As a product leader who has worked with startups and unicorns like Zalando, Zeta, and Ola, I've seen firsthand how AI tools are democratizing product development.</p>
+    <p>This guide combines my experience in eCommerce, Consumer Tech, Fintech, and AI/ML with practical frameworks that anyone can use—regardless of technical background. My mission is to empower aspiring founders to build products people actually want, without the traditional barriers to entry.</p>
+    <div class="creator-links">
+      <a href="https://angshumangupta.com/" target="_blank" class="creator-link">Personal Website</a>
+      <a href="https://github.com/angshu-min-js" target="_blank" class="creator-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/guptaangshuman/" target="_blank" class="creator-link">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
 ## Start building your product today
 
 This open-source book guides you through every step of the journey:
@@ -293,6 +310,82 @@ This open-source book guides you through every step of the journey:
   opacity: 0.3;
 }
 
+.creator-section {
+  display: grid;
+  grid-template-columns: minmax(150px, 300px) 1fr;
+  gap: 40px;
+  margin: 40px 0;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.creator-image {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0EA5E9 0%, #6366F1 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.creator-image::after {
+  content: "AG";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.creator-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.creator-content h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+}
+
+.creator-title {
+  color: var(--vp-c-brand);
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.creator-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.creator-link {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.creator-link:hover {
+  background: var(--vp-c-brand);
+  color: white;
+  text-decoration: none;
+}
+
 .app-content {
   padding: 20px;
 }
@@ -389,6 +482,15 @@ This open-source book guides you through every step of the journey:
   
   .book-structure {
     grid-template-columns: 1fr;
+  }
+  
+  .creator-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .creator-image {
+    max-width: 200px;
+    margin: 0 auto;
   }
 }
 </style> 
