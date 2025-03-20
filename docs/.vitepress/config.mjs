@@ -86,7 +86,8 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/angshu-min-js/productbuilders' }
+      { icon: 'github', link: 'https://github.com/angshu-min-js/productbuilders' },
+      { icon: 'discord', link: 'https://discord.gg/productbuilders' }
     ],
     footer: {
       message: 'Released under the MIT License.',

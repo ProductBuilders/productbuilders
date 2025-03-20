@@ -107,20 +107,15 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   </div>
 </div>
 
-## Meet the Creator
+## Join our Discord Community
 
-<div class="creator-section">
-  <div class="creator-image"></div>
-  <div class="creator-content">
-    <h3>Angshuman Gupta</h3>
-    <p class="creator-title">Product Leader & AI Enthusiast</p>
-    <p>Product Builders is my passion project, born from a decade of experience building digital products and helping non-technical founders bring their ideas to life. As a product leader who has worked with startups and unicorns like Zalando, Zeta, and Ola, I've seen firsthand how AI tools are democratizing product development.</p>
-    <p>This guide combines my experience in eCommerce, Consumer Tech, Fintech, and AI/ML with practical frameworks that anyone can use—regardless of technical background. My mission is to empower aspiring founders to build products people actually want, without the traditional barriers to entry.</p>
-    <div class="creator-links">
-      <a href="https://angshumangupta.com/" target="_blank" class="creator-link">Personal Website</a>
-      <a href="https://github.com/angshu-min-js" target="_blank" class="creator-link">GitHub</a>
-      <a href="https://www.linkedin.com/in/guptaangshuman/" target="_blank" class="creator-link">LinkedIn</a>
-    </div>
+<div class="community-section">
+  <div class="community-content">
+    <h3>Connect with Fellow Builders</h3>
+    <p>Join our Discord community to connect with other non-technical founders, share your product journey, get feedback, and access exclusive resources and support.</p>
+    <a href="https://discord.gg/productbuilders" target="_blank" class="discord-button">
+      Join Discord Server
+    </a>
   </div>
 </div>
 
@@ -469,6 +464,44 @@ This open-source book guides you through every step of the journey:
   background: var(--vp-c-bg-mute);
   transform: translateY(-3px);
   text-decoration: none;
+}
+
+.community-section {
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 40px 0;
+}
+
+.community-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.community-content h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.discord-button {
+  display: inline-block;
+  background: var(--vp-c-brand);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 900;
+  text-decoration: none;
+  transition: background 0.2s;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.discord-button:hover {
+  background: var(--vp-c-brand-dark);
+  text-decoration: none;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 768px) {
