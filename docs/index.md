@@ -159,20 +159,20 @@ This open-source book guides you through every step of the journey:
 .cta-button {
   display: inline-block;
   background: var(--vp-c-brand);
-  color: white;
+  color: white !important;
   padding: 12px 24px;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: 900;
   text-decoration: none;
   transition: background 0.2s;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .cta-button:hover {
   background: var(--vp-c-brand-dark);
   text-decoration: none;
-  color: white;
+  color: white !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
