@@ -2,7 +2,7 @@
 layout: home
 hero:
   text: "Anyone can build Apps!"
-  tagline: The open-source guide for non-technical founders to create successful apps with AI tools
+  tagline: The open-source free guide for non-technical founders to create successful apps with AI tools
   image:
     src: /images/hero-image.png
     alt: Product Builder - Non-technical founder building apps
@@ -36,7 +36,7 @@ features:
 
 > "The best way to predict the future is to build it." - Alan Kay
 
-Product Builders is an open-source guide that takes you through every step of creating digital products using AI-powered tools. No coding required.
+Product Builders is an open-source free guide that takes you through every step of creating digital products using AI-powered tools. No coding required.
 
 <div class="cta-container">
   <a href="/introduction/what-is-this-book" class="cta-button">Start Your Journey</a>

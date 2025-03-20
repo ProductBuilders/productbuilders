@@ -73,9 +73,6 @@ productbuilders/
 │   ├── contribute.md          # Contribution guide
 │   ├── contributors.md        # Contributors list
 │   └── index.md               # Home page
-├── .github/workflows/         # GitHub Actions
-│   ├── deploy.yml             # Deployment workflow
-│   └── pr.yml                 # PR validation workflow
 └── package.json               # Dependencies
 ```
 
