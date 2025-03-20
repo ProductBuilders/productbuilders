@@ -52,6 +52,17 @@ If you've ever thought, "I have a great idea, but I don't know how to build it,"
 - ✅ Build apps using AI-powered coding tools—even if you don't know how to code
 - ✅ Launch, grow, and scale your product from MVP to revenue
 
+## Book Structure
+
+- **[Introduction](/introduction/what-is-this-book)**: What this book is about and who it's for
+- **[Part 1: Ideation & Problem Discovery](/part1/overview)**: Finding problems worth solving and understanding users
+- **[Part 2: Planning Your Product](/part2/overview)**: Designing solutions and choosing the right tech stack
+- **[Part 3: Building Your Product](/part3/overview)**: Creating requirements and using AI as your junior developer
+- **[Part 4: Deploying with Confidence](/part4/overview)**: Taking your product live on web and mobile platforms
+- **[Part 5: Monetize, Launch and Get Noticed](/part5/overview)**: Crafting your launch and growth strategies
+- **[Part 6: Grow to New Heights](/part6/overview)**: Scaling your product and building a sustainable business
+- **[Case Studies](/case-studies/overview)**: Real-world examples of products built by non-technical founders
+
 ## Open Source & Community-Driven
 
 This isn't just a how-to guide—it's an evolving playbook for builders. While it begins with the author's experiences and case studies, it's designed to grow with contributions from the community.

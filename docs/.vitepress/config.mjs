@@ -17,7 +17,7 @@ export default defineConfig({
       { text: 'Guide', link: '/guide/' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Contributors', link: '/contributors' },
-      { text: 'GitHub', link: 'https://github.com/yourusername/book-productbuilders' }
+      { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
     ],
     sidebar: [
       {
@@ -28,31 +28,65 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Getting Started',
+        text: 'Part 1: Ideation & Problem Discovery',
         items: [
-          { text: 'Identifying Problems', link: '/getting-started/identifying-problems' },
-          { text: 'Understanding Users', link: '/getting-started/understanding-users' }
+          { text: 'Overview', link: '/part1/overview' },
+          { text: 'Chapter 1: Identifying a Problem Worth Solving', link: '/part1/identifying-problems' },
+          { text: 'Chapter 2: Understanding Your Users', link: '/part1/understanding-users' }
         ]
       },
       {
-        text: 'Building with AI',
+        text: 'Part 2: Planning Your Product',
         items: [
-          { text: 'AI Tools Overview', link: '/building-with-ai/tools-overview' },
-          { text: 'No-code Solutions', link: '/building-with-ai/no-code-solutions' },
-          { text: 'Product Design', link: '/building-with-ai/product-design' }
+          { text: 'Overview', link: '/part2/overview' },
+          { text: 'Chapter 3: Designing Your Solution', link: '/part2/designing-solution' },
+          { text: 'Chapter 4: Choosing Your Tech Stack', link: '/part2/choosing-tech-stack' }
         ]
       },
       {
-        text: 'Launching',
+        text: 'Part 3: Building Your Product',
         items: [
-          { text: 'MVP Strategy', link: '/launching/mvp-strategy' },
-          { text: 'Getting Feedback', link: '/launching/getting-feedback' },
-          { text: 'Iteration', link: '/launching/iteration' }
+          { text: 'Overview', link: '/part3/overview' },
+          { text: 'Chapter 5: Starting with the Requirements', link: '/part3/starting-with-requirements' },
+          { text: 'Chapter 6: AI Agents as Your Junior Developer', link: '/part3/ai-agents' }
+        ]
+      },
+      {
+        text: 'Part 4: Deploying with Confidence',
+        items: [
+          { text: 'Overview', link: '/part4/overview' },
+          { text: 'Chapter 7: From Localhost to Live – Web App Deployment', link: '/part4/web-app-deployment' },
+          { text: 'Chapter 8: Mobile App Deployment – From Build to Store', link: '/part4/mobile-app-deployment' }
+        ]
+      },
+      {
+        text: 'Part 5: Monetize, Launch and Get Noticed',
+        items: [
+          { text: 'Overview', link: '/part5/overview' },
+          { text: 'Chapter 9: Crafting the Perfect Launch Package', link: '/part5/launch-package' },
+          { text: 'Chapter 10: Growth & Visibility', link: '/part5/growth-visibility' }
+        ]
+      },
+      {
+        text: 'Part 6: Grow to New Heights',
+        items: [
+          { text: 'Overview', link: '/part6/overview' }
+        ]
+      },
+      {
+        text: 'Case Studies',
+        items: [
+          { text: 'Overview', link: '/case-studies/overview' },
+          { text: 'Mobile App - Captions GPT (Launching)', link: '/case-studies/captions-gpt-launching' },
+          { text: 'Web App - PII Shield (Idea Validation)', link: '/case-studies/pii-shield-validation' },
+          { text: 'Mobile App - LeagueAdda (Mocks to Launch)', link: '/case-studies/leagueadda-mocks-to-launch' },
+          { text: 'Mobile App - Captions GPT (Scaling)', link: '/case-studies/captions-gpt-scaling' },
+          { text: 'Mobile App - LeagueAdda (Scaling to 1M)', link: '/case-studies/leagueadda-scaling' }
         ]
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/book-productbuilders' }
+      { icon: 'github', link: 'https://github.com/angshu-min-js/productbuilders' }
     ],
     footer: {
       message: 'Released under the MIT License.',

@@ -47,8 +47,8 @@ cp .env.example .env
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/book-productbuilders.git
-cd book-productbuilders
+git clone https://github.com/angshu-min-js/productbuilders.git
+cd productbuilders
 ```
 
 2. Install dependencies
@@ -66,7 +66,7 @@ npm run docs:dev
 ## Project Structure
 
 ```
-book-productbuilders/
+productbuilders/
 ├── docs/                      # VitePress content
 │   ├── .vitepress/            # VitePress configuration
 │   │   ├── theme/             # Custom theme components
@@ -74,9 +74,13 @@ book-productbuilders/
 │   │   ├── github-client.js   # GitHub API client
 │   │   └── supabase.js        # Supabase client
 │   ├── introduction/          # Introduction content
-│   ├── getting-started/       # Getting Started content
-│   ├── building-with-ai/      # Building with AI content
-│   ├── launching/             # Launching content
+│   ├── part1/                 # Part 1: Ideation & Problem Discovery
+│   ├── part2/                 # Part 2: Planning Your Product
+│   ├── part3/                 # Part 3: Building Your Product
+│   ├── part4/                 # Part 4: Deploying with Confidence
+│   ├── part5/                 # Part 5: Monetize, Launch and Get Noticed
+│   ├── part6/                 # Part 6: Grow to New Heights
+│   ├── case-studies/          # Case Studies
 │   ├── login.md               # Login page
 │   ├── contribute.md          # Contribution guide
 │   ├── contributors.md        # Contributors list
@@ -89,7 +93,7 @@ book-productbuilders/
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages when changes are pushed to the main branch. To deploy manually:
+This site is automatically deployed to Netlify when changes are pushed to the main branch. To deploy manually:
 
 1. Build the site:
 ```bash
@@ -105,7 +109,7 @@ npm run docs:preview
 
 We welcome contributions from the community! Whether it's adding new content, fixing typos, or improving existing material, your help is appreciated.
 
-See our [Contribution Guide](https://yourusername.github.io/book-productbuilders/contribute) for detailed instructions.
+See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
 
 ## Supabase Setup
 
@@ -119,4 +123,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-A big thank you to all our [contributors](https://yourusername.github.io/book-productbuilders/contributors) who help make this resource better! 
+A big thank you to all our [contributors](https://productbuilders.netlify.app/contributors) who help make this resource better! 

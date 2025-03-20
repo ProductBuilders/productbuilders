@@ -4,7 +4,7 @@ We extend our heartfelt thanks to all the contributors who have helped make Prod
 
 ## Core Team
 
-- [Your Name](https://github.com/yourusername) - Creator and maintainer
+- [Angshuman Min](https://github.com/angshu-min-js) - Creator and maintainer
 
 ## Content Contributors
 
