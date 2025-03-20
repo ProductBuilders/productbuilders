@@ -4,9 +4,6 @@ hero:
   name: "ProductBuilders"
   text: "Build digital products without code"
   tagline: The open-source guide for non-technical founders to create successful apps with AI tools
-  image:
-    src: /hero.png
-    alt: ProductBuilders
   actions:
     - theme: brand
       text: Start Building
