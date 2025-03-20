@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  text: "Build real apps by coding with AI Agents!"
-  tagline: The open-source free guide for non-technical founders to create successful apps using AI coding assistants
+  text: "Launch apps that make money!"
+  tagline: The open-source free guide for founders to create successful apps using AI
   image:
     src: /images/hero-image.png
     alt: Product Builder - Non-technical founder building apps with AI agents
