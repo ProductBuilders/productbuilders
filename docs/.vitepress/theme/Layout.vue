@@ -1,10 +1,11 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
+import PageAuthor from './components/PageAuthor.vue'
 
 // Use the default VitePress theme
 const { Layout } = DefaultTheme
-const { frontmatter } = useData()
+const { frontmatter, page } = useData()
 
 // Simple debug info
 console.log('Layout component loaded')
@@ -12,7 +13,9 @@ console.log('Layout component loaded')
 
 <template>
   <Layout>
-    <!-- Clean layout with no auth UI -->
+    <template #doc-after>
+      <PageAuthor v-if="page.isPage" />
+    </template>
   </Layout>
 </template>
 
