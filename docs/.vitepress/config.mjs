@@ -91,7 +91,18 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present ProductBuilders Contributors'
+      copyright: 'Copyright © 2023-present ProductBuilders',
+      nav: [
+        { text: 'Discord Community', link: 'https://discord.gg/XbYrxMPW' },
+        { text: 'Contribute', link: '/contribute' },
+        { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
+      ],
+      credits: [
+        { text: 'By the community, for the community.' },
+        { text: 'A passion project by', link: 'https://angshumangupta.com/', linkText: 'Angshuman Gupta' },
+        { text: 'Built with VitePress', link: 'https://vitepress.dev/' },
+        { text: 'Powered by AI tools for non-technical founders' }
+      ]
     },
     
     // Enhance UX with additional features
