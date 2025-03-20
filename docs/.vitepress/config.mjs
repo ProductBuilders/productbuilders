@@ -91,7 +91,6 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present ProductBuilders',
       nav: [
         { text: 'Discord Community', link: 'https://discord.gg/XbYrxMPW' },
         { text: 'Contribute', link: '/contribute' },
