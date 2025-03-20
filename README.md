@@ -1,10 +1,10 @@
-# ProductBuilders
+# Product Builders
 
-> An open-source book guiding non-technical founders to build products with AI tools
+> An open-source guide for non-technical founders: Anyone can build Apps!
 
-## About this Book
+## About this Guide
 
-ProductBuilders is an open-source, collaborative book that guides non-technical founders and entrepreneurs through the process of building and launching digital products using AI-powered tools. It emphasizes problem identification, user understanding, and iterative development.
+Product Builders is an open-source, collaborative guide that helps non-technical founders and entrepreneurs build and launch digital products using AI-powered tools. It emphasizes problem identification, user understanding, and iterative development, all without requiring coding knowledge.
 
 ## Key Topics Covered
 
@@ -13,10 +13,11 @@ ProductBuilders is an open-source, collaborative book that guides non-technical 
 - Designing and prototyping your product
 - Building with minimal technical knowledge using AI tools
 - Launching, getting feedback, and iterating
+- Creating a successful product without code
 
 ## Tech Stack
 
-This book is built using:
+This guide is built using:
 - [VitePress](https://vitepress.dev/) - A static site generator
 - [Supabase](https://supabase.com/) - For authentication
 - GitHub API - For fetching content
@@ -107,7 +108,7 @@ npm run docs:preview
 
 ## How to Contribute
 
-We welcome contributions from the community! Whether it's adding new content, fixing typos, or improving existing material, your help is appreciated.
+We welcome contributions from the community! Whether it's adding new content, fixing typos, or sharing your experience building products without code, your help is appreciated.
 
 See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
 
@@ -116,6 +117,10 @@ See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for
 1. Create a new project in Supabase
 2. Enable Email and OAuth providers in Authentication settings
 3. Copy the project URL and anon key to your `.env` file
+
+## Author
+
+Product Builders is created and maintained by [Angshuman Gupta](https://github.com/angshu-min-js), a product leader with experience at companies like Zalando, Zeta, and Ola.
 
 ## License
 
