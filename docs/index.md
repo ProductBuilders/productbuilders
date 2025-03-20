@@ -1,7 +1,6 @@
 ---
 layout: home
 hero:
-  name: "Product Builders"
   text: "Anyone can build Apps!"
   tagline: The open-source guide for non-technical founders to create successful apps with AI tools
   actions:
