@@ -80,4 +80,4 @@ The beauty of an open-source book is that it can grow to address the needs of di
 
 ---
 
-Now that you know who this book is for, let's dive into [identifying problems worth solving](/getting-started/identifying-problems). 
+Now that you know who this book is for, let's dive into [identifying problems worth solving](/part1/identifying-problems). 
