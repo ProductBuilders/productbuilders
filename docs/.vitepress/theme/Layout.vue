@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import PageAuthor from './components/PageAuthor.vue'
+import JsonLd from './components/JsonLd.vue'
 
 // Use the default VitePress theme
 const { Layout } = DefaultTheme
@@ -16,6 +17,8 @@ console.log('Layout component loaded')
     <template #doc-after>
       <PageAuthor v-if="page.isPage" />
     </template>
+    <!-- Add structured data -->
+    <JsonLd />
   </Layout>
 </template>
 

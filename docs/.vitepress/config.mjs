@@ -3,8 +3,16 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Product Builders",
-  description: "Anyone can build Apps! A guide for non-technical founders",
+  description: "Anyone can build Apps! A guide for non-technical founders building with AI tools",
   lastUpdated: true,
+  
+  // SEO optimizations
+  lang: 'en-US',
+  titleTemplate: '%s | Product Builders',
+  
+  sitemap: {
+    hostname: 'https://productbuilders.netlify.app'
+  },
   
   // Enable search functionality
   themeConfig: {
@@ -118,6 +126,28 @@ export default defineConfig({
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
-    ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }]
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }],
+    
+    // SEO meta tags
+    ['meta', { name: 'author', content: 'Angshuman Gupta' }],
+    ['meta', { name: 'keywords', content: 'product building, no-code, low-code, AI tools, non-technical founders, entrepreneurship, app development, startup guide' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    
+    // Open Graph / Facebook
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Product Builders | A guide for non-technical founders' }],
+    ['meta', { property: 'og:description', content: 'Learn how to build digital products without coding using AI-powered tools. A comprehensive guide for non-technical founders and entrepreneurs.' }],
+    ['meta', { property: 'og:image', content: 'https://productbuilders.netlify.app/og-image.png' }],
+    ['meta', { property: 'og:url', content: 'https://productbuilders.netlify.app' }],
+    
+    // Twitter
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Product Builders | A guide for non-technical founders' }],
+    ['meta', { name: 'twitter:description', content: 'Learn how to build digital products without coding using AI-powered tools. A comprehensive guide for non-technical founders.' }],
+    ['meta', { name: 'twitter:image', content: 'https://productbuilders.netlify.app/og-image.png' }],
+    ['meta', { name: 'twitter:creator', content: '@angshu-min-js' }],
+    
+    // Canonical link to prevent duplicate content issues
+    ['link', { rel: 'canonical', href: 'https://productbuilders.netlify.app' }]
   ]
 }) 

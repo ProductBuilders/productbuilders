@@ -1,5 +1,22 @@
 ---
-title: What is this book?
+title: What is this book? | Product Builders Guide
+description: An open-source playbook for non-technical founders to build digital products using AI tools. Learn from real stories and case studies.
+head:
+  - - meta
+    - name: keywords
+      content: product building, non-technical founders, AI tools, product development, no-code, app building, startup guide
+  - - meta
+    - property: og:title
+      content: What is this book? | Product Builders Guide
+  - - meta
+    - property: og:description
+      content: An open-source playbook for non-technical founders to build digital products using AI tools. Learn from real stories and case studies.
+  - - meta
+    - name: twitter:title
+      content: What is this book? | Product Builders Guide
+  - - meta
+    - name: twitter:description
+      content: An open-source playbook for non-technical founders to build digital products using AI tools. Learn from real stories and case studies.
 ---
 
 # Introduction
