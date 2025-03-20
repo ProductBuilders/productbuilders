@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, onBeforeUnmount, ref } from 'vue'
 import { useData } from 'vitepress'
 
 const { frontmatter, site, page } = useData()
@@ -67,8 +67,28 @@ const jsonLd = computed(() => {
 
   return baseJsonLd
 })
+
+// Reference to keep track of the script element
+const scriptElement = ref(null)
+
+// Add the script element to the document head when the component is mounted
+onMounted(() => {
+  if (typeof document !== 'undefined') {
+    scriptElement.value = document.createElement('script')
+    scriptElement.value.setAttribute('type', 'application/ld+json')
+    scriptElement.value.textContent = JSON.stringify(jsonLd.value)
+    document.head.appendChild(scriptElement.value)
+  }
+})
+
+// Clean up the script element when the component is unmounted
+onBeforeUnmount(() => {
+  if (scriptElement.value && typeof document !== 'undefined') {
+    document.head.removeChild(scriptElement.value)
+  }
+})
 </script>
 
 <template>
-  <script type="application/ld+json">{{ JSON.stringify(jsonLd) }}</script>
+  <!-- No template content needed as we're injecting the script via onMounted -->
 </template> 
