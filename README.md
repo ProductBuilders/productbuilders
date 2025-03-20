@@ -101,7 +101,7 @@ See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for
 
 ## Author
 
-Product Builders is created and maintained by [Angshuman Gupta](https://github.com/angshu-min-js), a product leader with experience at companies like Zalando, Zeta, and Ola.
+Product Builders is created and maintained by [Angshuman Gupta](https://github.com/angshu-min-js), a product leader with experience at multinationals, tech unicorn and early stage startups.
 
 ## License
 
