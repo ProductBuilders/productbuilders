@@ -1,0 +1,141 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <title>Product Builder Hero Image</title>
+  <rect width="800" height="600" fill="#f5f5f2" rx="40" ry="40"/>
+  <g transform="translate(90, 50) scale(0.9)">
+    <!-- Businessman with laptop -->
+    <g transform="translate(380, 400)">
+      <!-- Desk -->
+      <rect x="-160" y="-30" width="280" height="15" rx="2" fill="#d4b895"/>
+      <rect x="-150" y="-15" width="10" height="120" fill="#a9a9a9"/>
+      <rect x="120" y="-15" width="10" height="120" fill="#a9a9a9"/>
+      
+      <!-- Chair -->
+      <rect x="-25" y="2" width="80" height="90" rx="5" fill="#369" opacity="0.8"/>
+      <rect x="-40" y="90" width="110" height="10" rx="2" fill="#222"/>
+      
+      <!-- Laptop -->
+      <rect x="-100" y="-25" width="150" height="10" fill="#999"/>
+      <rect x="-90" y="-90" width="130" height="65" rx="3" fill="#ccc"/>
+      <circle cx="-25" cy="-55" r="5" fill="#eee"/>
+      
+      <!-- Person -->
+      <g transform="translate(0, -25)">
+        <!-- Body -->
+        <rect x="-40" y="-5" width="80" height="120" rx="10" fill="#1a2639"/>
+        
+        <!-- Head -->
+        <circle cx="0" cy="-50" r="40" fill="#f6d7b8"/>
+        
+        <!-- Hair -->
+        <path d="M-20,-80 Q0,-90 20,-80 L30,-60 Q35,-40 30,-30 L15,-35 L-15,-35 L-30,-30 Q-35,-40 -30,-60 Z" fill="#222"/>
+        
+        <!-- Glasses -->
+        <rect x="-25" y="-55" width="20" height="10" rx="2" fill="#444"/>
+        <rect x="5" y="-55" width="20" height="10" rx="2" fill="#444"/>
+        <line x1="-5" y1="-50" x2="5" y2="-50" stroke="#444" stroke-width="2"/>
+        
+        <!-- Neck -->
+        <rect x="-10" y="-15" width="20" height="15" fill="#f6d7b8"/>
+        
+        <!-- Tie -->
+        <path d="M0,-5 L10,-10 L10,15 L0,20 L-10,15 L-10,-10 Z" fill="#e03a3e"/>
+        
+        <!-- Arms -->
+        <rect x="-80" y="0" width="40" height="15" rx="5" fill="#1a2639"/>
+        <rect x="40" y="0" width="40" height="15" rx="5" fill="#1a2639"/>
+        <rect x="-90" y="10" width="20" height="10" rx="5" fill="#f6d7b8"/>
+        <rect x="70" y="10" width="20" height="10" rx="5" fill="#f6d7b8"/>
+      </g>
+    </g>
+    
+    <!-- Phone Screens and Icons -->
+    <g>
+      <!-- App Screens -->
+      <g transform="translate(240, 300)">
+        <!-- Phone Screen 1 -->
+        <rect x="0" y="0" width="70" height="120" rx="10" fill="#fff" stroke="#444" stroke-width="2"/>
+        <rect x="10" y="10" width="50" height="50" rx="5" fill="#369"/>
+        <circle cx="35" cy="35" r="15" fill="#fff"/>
+        <rect x="10" y="70" width="20" height="5" fill="#f90"/>
+        <rect x="10" y="80" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="90" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="100" width="35" height="5" fill="#ddd"/>
+      </g>
+      
+      <g transform="translate(240, 500)">
+        <!-- Phone Screen 2 -->
+        <rect x="0" y="0" width="70" height="120" rx="10" fill="#fff" stroke="#444" stroke-width="2"/>
+        <circle cx="35" cy="40" r="25" fill="#f44"/>
+        <polygon points="25,40 50,40 35,60" fill="#fff"/>
+        <rect x="10" y="70" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="80" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="90" width="35" height="5" fill="#ddd"/>
+      </g>
+      
+      <g transform="translate(570, 280)">
+        <!-- Phone Screen 3 -->
+        <rect x="0" y="0" width="70" height="120" rx="10" fill="#fff" stroke="#444" stroke-width="2"/>
+        <circle cx="35" cy="30" r="20" fill="#4c1"/>
+        <path d="M25,30 L35,40 L50,20" stroke="#fff" stroke-width="3" fill="none"/>
+        <rect x="10" y="60" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="70" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="80" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="90" width="35" height="5" fill="#ddd"/>
+      </g>
+      
+      <g transform="translate(570, 450)">
+        <!-- Phone Screen 4 -->
+        <rect x="0" y="0" width="70" height="120" rx="10" fill="#fff" stroke="#444" stroke-width="2"/>
+        <rect x="10" y="20" width="50" height="60" fill="#fff" stroke="#ddd"/>
+        <path d="M10,60 L25,45 L35,55 L60,30" stroke="#f90" stroke-width="2" fill="none"/>
+        <rect x="10" y="90" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="100" width="35" height="5" fill="#ddd"/>
+      </g>
+      
+      <g transform="translate(570, 620)">
+        <!-- Phone Screen 5 -->
+        <rect x="0" y="0" width="70" height="120" rx="10" fill="#fff" stroke="#444" stroke-width="2"/>
+        <circle cx="25" cy="30" r="10" fill="#f90"/>
+        <circle cx="50" cy="30" r="10" fill="#49d"/>
+        <rect x="10" y="60" width="20" height="5" fill="#ddd"/>
+        <rect x="40" y="60" width="20" height="5" fill="#ddd"/>
+        <rect x="10" y="70" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="80" width="50" height="5" fill="#ddd"/>
+        <rect x="10" y="90" width="35" height="5" fill="#ddd"/>
+      </g>
+      
+      <!-- Coins and Graph -->
+      <g transform="translate(400, 250)">
+        <!-- Coin 1 -->
+        <circle cx="0" cy="0" r="40" fill="#f90"/>
+        <circle cx="0" cy="0" r="35" fill="#fd2"/>
+        <text x="0" y="10" font-family="Arial" font-size="40" text-anchor="middle" fill="#963">$</text>
+        
+        <!-- Graph line and up arrow -->
+        <path d="M50,0 L100,50 L150,20 L200,0 L250,-50" stroke="#369" stroke-width="4" fill="none"/>
+        <polygon points="250,-80 265,-40 235,-40" fill="#369"/>
+        
+        <!-- Coin 2 -->
+        <circle cx="100" cy="140" r="40" fill="#f90"/>
+        <circle cx="100" cy="140" r="35" fill="#fd2"/>
+        <text x="100" y="150" font-family="Arial" font-size="40" text-anchor="middle" fill="#963">$</text>
+      </g>
+      
+      <!-- Dotted connection lines -->
+      <path d="M290,360 Q375,320 400,250" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+      <path d="M290,560 Q200,450 100,390" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+      <path d="M495,250 Q520,200 570,340" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+      <path d="M570,400 Q550,465 570,450" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+      <path d="M570,570 Q500,600 450,500" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+    </g>
+    
+    <!-- Sparkles -->
+    <g fill="#fd2">
+      <path d="M350,400 L355,410 L360,400 L355,390 Z"/>
+      <path d="M450,450 L455,460 L460,450 L455,440 Z"/>
+      <path d="M550,380 L555,390 L560,380 L555,370 Z"/>
+      <path d="M250,500 L255,510 L260,500 L255,490 Z"/>
+      <path d="M150,450 L155,460 L160,450 L155,440 Z"/>
+    </g>
+  </g>
+</svg> 
