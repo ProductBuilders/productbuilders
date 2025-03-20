@@ -4,7 +4,7 @@ hero:
   text: "Anyone can build Apps!"
   tagline: The open-source guide for non-technical founders to create successful apps with AI tools
   image:
-    src: /images/hero-image.svg
+    src: /images/hero-image.png
     alt: Product Builder - Non-technical founder building apps
   actions:
     - theme: brand

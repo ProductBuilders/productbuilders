@@ -11,7 +11,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo: '/logo.png',
+    logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
@@ -111,6 +111,7 @@ export default defineConfig({
   },
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }]
   ]
 }) 
