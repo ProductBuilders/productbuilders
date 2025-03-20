@@ -422,7 +422,7 @@ This open-source book guides you through every step of the journey:
 }
 
 .testimonial-card:before {
-  content: """;
+  content: "\201C";
   position: absolute;
   top: 10px;
   left: 16px;
