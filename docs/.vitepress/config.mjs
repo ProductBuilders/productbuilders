@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Product Builders",
-  description: "Anyone can build Apps! A guide for non-technical founders building with AI tools",
+  description: "Build real apps by coding with AI Agents! A guide for non-technical founders building with AI coding assistants like Cursor, Bolt, and Lovable",
   lastUpdated: true,
   
   // SEO optimizations
@@ -99,7 +99,7 @@ export default defineConfig({
     ],
     footer: {
     //  copyright: 'Released under the MIT License.',
-      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project by <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>. Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>. Powered by AI tools for non-technical founders.',
+      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project by <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>. Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>. Powered by AI coding assistants for non-technical founders.',
       nav: [
         { text: 'Discord Community', link: 'https://discord.gg/XbYrxMPW' },
         { text: 'Contribute', link: '/contribute' },
@@ -130,20 +130,20 @@ export default defineConfig({
     
     // SEO meta tags
     ['meta', { name: 'author', content: 'Angshuman Gupta' }],
-    ['meta', { name: 'keywords', content: 'product building, no-code, low-code, AI tools, non-technical founders, entrepreneurship, app development, startup guide' }],
+    ['meta', { name: 'keywords', content: 'product building, AI coding agents, Cursor, Bolt, Lovable, Claude, non-technical founders, entrepreneurship, app development, coding with AI, AI-assisted programming' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     
     // Open Graph / Facebook
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Product Builders | A guide for non-technical founders' }],
-    ['meta', { property: 'og:description', content: 'Learn how to build digital products without coding using AI-powered tools. A comprehensive guide for non-technical founders and entrepreneurs.' }],
+    ['meta', { property: 'og:title', content: 'Product Builders | Build real apps by coding with AI Agents' }],
+    ['meta', { property: 'og:description', content: 'Learn how to write real code using AI-powered coding assistants like Cursor, Bolt, and Lovable. A comprehensive guide for non-technical founders to build applications without traditional programming knowledge.' }],
     ['meta', { property: 'og:image', content: 'https://productbuilders.netlify.app/og-image.png' }],
     ['meta', { property: 'og:url', content: 'https://productbuilders.netlify.app' }],
     
     // Twitter
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Product Builders | A guide for non-technical founders' }],
-    ['meta', { name: 'twitter:description', content: 'Learn how to build digital products without coding using AI-powered tools. A comprehensive guide for non-technical founders.' }],
+    ['meta', { name: 'twitter:title', content: 'Product Builders | Build real apps by coding with AI Agents' }],
+    ['meta', { name: 'twitter:description', content: 'Learn how to write real code using AI-powered coding assistants like Cursor, Bolt, and Lovable. A comprehensive guide for non-technical founders.' }],
     ['meta', { name: 'twitter:image', content: 'https://productbuilders.netlify.app/og-image.png' }],
     ['meta', { name: 'twitter:creator', content: '@angshu-min-js' }],
     
