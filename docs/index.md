@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: "ProductBuilders"
-  text: "Build digital products without code"
+  name: "Product Builders"
+  text: "Anyone can build Apps!"
   tagline: The open-source guide for non-technical founders to create successful apps with AI tools
   actions:
     - theme: brand
@@ -33,7 +33,7 @@ features:
 
 > "The best way to predict the future is to build it." - Alan Kay
 
-ProductBuilders is an open-source guide that takes you through every step of creating digital products using AI-powered tools. No coding required.
+Product Builders is an open-source guide that takes you through every step of creating digital products using AI-powered tools. No coding required.
 
 <div class="cta-container">
   <a href="/introduction/what-is-this-book" class="cta-button">Start Your Journey</a>
@@ -42,7 +42,7 @@ ProductBuilders is an open-source guide that takes you through every step of cre
 
 ## Build products people actually want
 
-ProductBuilders helps you identify genuine market needs, design intuitive solutions, and build functional products—even if you've never written a line of code.
+Product Builders helps you identify genuine market needs, design intuitive solutions, and build functional products—even if you've never written a line of code.
 
 <div class="features-grid">
   <div class="feature-card">
@@ -79,7 +79,7 @@ ProductBuilders helps you identify genuine market needs, design intuitive soluti
     <div class="app-image german-with-nik-image"></div>
     <div class="app-content">
       <h3>German with Nik</h3>
-      <p>A language learning app that provides personalized German lessons through an AI tutor. Built from idea to launch using ProductBuilders.</p>
+      <p>A language learning app that provides personalized German lessons through an AI tutor. Built from idea to launch using Product Builders.</p>
       <a href="https://germanwithnik.com/" target="_blank" class="app-link">Visit App →</a>
     </div>
   </div>
@@ -111,7 +111,7 @@ ProductBuilders helps you identify genuine market needs, design intuitive soluti
   <div class="creator-content">
     <h3>Angshuman Gupta</h3>
     <p class="creator-title">Product Leader & AI Enthusiast</p>
-    <p>ProductBuilders is my passion project, born from a decade of experience building digital products and helping non-technical founders bring their ideas to life. As a product leader who has worked with startups and unicorns like Zalando, Zeta, and Ola, I've seen firsthand how AI tools are democratizing product development.</p>
+    <p>Product Builders is my passion project, born from a decade of experience building digital products and helping non-technical founders bring their ideas to life. As a product leader who has worked with startups and unicorns like Zalando, Zeta, and Ola, I've seen firsthand how AI tools are democratizing product development.</p>
     <p>This guide combines my experience in eCommerce, Consumer Tech, Fintech, and AI/ML with practical frameworks that anyone can use—regardless of technical background. My mission is to empower aspiring founders to build products people actually want, without the traditional barriers to entry.</p>
     <div class="creator-links">
       <a href="https://angshumangupta.com/" target="_blank" class="creator-link">Personal Website</a>

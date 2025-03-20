@@ -2,8 +2,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "ProductBuilders",
-  description: "Build digital products with AI tools - A guide for non-technical founders",
+  title: "Product Builders",
+  description: "Anyone can build Apps! A guide for non-technical founders",
   lastUpdated: true,
   
   // Enable search functionality
