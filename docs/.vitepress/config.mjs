@@ -14,7 +14,7 @@ export default defineConfig({
     logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Guide', link: '/guide/' },
+      { text: 'Build', link: '/introduction/what-is-this-book', class: 'action-button' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Contributors', link: '/contributors' },
      // { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
