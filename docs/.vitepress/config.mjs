@@ -14,7 +14,7 @@ export default defineConfig({
     logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      // { text: 'Guide', link: '/guide/' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Contributors', link: '/contributors' },
       { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
@@ -87,7 +87,7 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/angshu-min-js/productbuilders' },
-      { icon: 'discord', link: 'https://discord.gg/productbuilders' }
+      { icon: 'discord', link: 'https://discord.gg/XbYrxMPW' }
     ],
     footer: {
       message: 'Released under the MIT License.',
