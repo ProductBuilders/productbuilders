@@ -113,7 +113,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   <div class="community-content">
     <h3>Connect with Fellow Builders</h3>
     <p>Join our Discord community to connect with other non-technical founders, share your product journey, get feedback, and access exclusive resources and support.</p>
-    <a href="https://discord.gg/productbuilders" target="_blank" class="discord-button">
+    <a href="https://discord.gg/XbYrxMPW" target="_blank" class="discord-button">
       Join Discord Server
     </a>
   </div>

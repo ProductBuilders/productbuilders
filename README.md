@@ -19,8 +19,6 @@ Product Builders is an open-source, collaborative guide that helps non-technical
 
 This guide is built using:
 - [VitePress](https://vitepress.dev/) - A static site generator
-- [Supabase](https://supabase.com/) - For authentication
-- GitHub API - For fetching content
 - Markdown for content
 - GitHub for collaboration and version control
 
@@ -30,19 +28,11 @@ This guide is built using:
 
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - npm or yarn
-- A [Supabase](https://supabase.com/) account
-- A GitHub account and personal access token (for content fetching)
+- A GitHub account (for contributing)
 
 ### Environment Setup
 
-1. Copy the `.env.example` file to `.env` and fill in the values:
-
-```bash
-cp .env.example .env
-```
-
-2. Add your Supabase project URL and anon key (from Supabase dashboard)
-3. Add your GitHub token, repository owner, and repository name
+No special environment variables are needed for local development.
 
 ### Local Development
 
@@ -71,9 +61,7 @@ productbuilders/
 ├── docs/                      # VitePress content
 │   ├── .vitepress/            # VitePress configuration
 │   │   ├── theme/             # Custom theme components
-│   │   ├── config.mjs         # Site configuration
-│   │   ├── github-client.js   # GitHub API client
-│   │   └── supabase.js        # Supabase client
+│   │   └── config.mjs         # Site configuration
 │   ├── introduction/          # Introduction content
 │   ├── part1/                 # Part 1: Ideation & Problem Discovery
 │   ├── part2/                 # Part 2: Planning Your Product
@@ -82,7 +70,6 @@ productbuilders/
 │   ├── part5/                 # Part 5: Monetize, Launch and Get Noticed
 │   ├── part6/                 # Part 6: Grow to New Heights
 │   ├── case-studies/          # Case Studies
-│   ├── login.md               # Login page
 │   ├── contribute.md          # Contribution guide
 │   ├── contributors.md        # Contributors list
 │   └── index.md               # Home page
@@ -111,12 +98,6 @@ npm run docs:preview
 We welcome contributions from the community! Whether it's adding new content, fixing typos, or sharing your experience building products without code, your help is appreciated.
 
 See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
-
-## Supabase Setup
-
-1. Create a new project in Supabase
-2. Enable Email and OAuth providers in Authentication settings
-3. Copy the project URL and anon key to your `.env` file
 
 ## Author
 

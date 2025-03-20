@@ -17,7 +17,7 @@ export default defineConfig({
       // { text: 'Guide', link: '/guide/' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Contributors', link: '/contributors' },
-      { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
+     // { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
     ],
     sidebar: [
       {
