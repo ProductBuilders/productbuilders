@@ -22,6 +22,16 @@ This guide is built using:
 - [VitePress](https://vitepress.dev/) - A static site generator
 - Markdown for content
 - GitHub for collaboration and version control
+- Google Analytics for usage tracking
+- Custom Vue components for enhanced functionality
+
+## Features
+
+- **AI-First Approach**: Learn how to code using AI assistants without traditional programming knowledge
+- **Comprehensive Guide**: From ideation to scaling, covering the entire product development lifecycle
+- **Interactive Components**: Track user engagement with Google Analytics event tracking
+- **Real-World Case Studies**: Examples of applications built by non-technical founders using AI coding tools
+- **Community Integration**: Connect with other founders through our Discord community
 
 ## Getting Started
 
@@ -62,11 +72,13 @@ productbuilders/
 ├── docs/                      # VitePress content
 │   ├── .vitepress/            # VitePress configuration
 │   │   ├── theme/             # Custom theme components
+│   │   │   ├── analytics.js   # Google Analytics integration
+│   │   │   └── ...           # Other theme files
 │   │   └── config.mjs         # Site configuration
 │   ├── introduction/          # Introduction content
 │   ├── part1/                 # Part 1: Ideation & Problem Discovery
 │   ├── part2/                 # Part 2: Planning Your Product
-│   ├── part3/                 # Part 3: Building Your Product
+│   ├── part3/                 # Part 3: Building With AI Coding Agents
 │   ├── part4/                 # Part 4: Deploying with Confidence
 │   ├── part5/                 # Part 5: Monetize, Launch and Get Noticed
 │   ├── part6/                 # Part 6: Grow to New Heights
@@ -76,6 +88,16 @@ productbuilders/
 │   └── index.md               # Home page
 └── package.json               # Dependencies
 ```
+
+## Analytics & Tracking
+
+The website implements Google Analytics (GA4) to track:
+
+- **Page Views**: Track which content is most popular
+- **Button Clicks**: Monitor CTA effectiveness through event tracking
+- **User Engagement**: Follow user journeys through the site
+- **User Information**: Basic demographic and device information
+- **Session Duration**: How long users stay engaged with the content
 
 ## Deployment
 
