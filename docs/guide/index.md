@@ -1,5 +1,5 @@
 ---
-title: ProductBuilders Guide
+title: Product Builders Guide
 ---
 
 <script setup>
@@ -7,9 +7,9 @@ import StaticContent from '../.vitepress/theme/components/StaticContent.vue'
 
 // Define the content as a variable to avoid Vue template parsing issues
 const welcomeContent = `
-# Welcome to ProductBuilders
+# Welcome to Product Builders
 
-ProductBuilders is an open-source book designed to help non-technical founders build digital products using AI tools.
+Product Builders is an open-source guide designed to help non-technical founders build digital products using AI tools. Anyone can build Apps with the right guidance!
 
 ## Key Topics
 
@@ -26,20 +26,20 @@ The book is organized into sections covering the entire product development life
 `
 </script>
 
-# ProductBuilders Guide
+# Product Builders Guide
 
-This guide will help you navigate through the book content.
+This guide will help you navigate through the book content and start building your app today.
 
-## Welcome to ProductBuilders
+## Welcome to Product Builders
 
 <StaticContent :content="welcomeContent" />
 
 ## How This Works
 
-This book is designed to be easy to navigate and learn from. Each section contains practical advice, examples, and exercises to help you apply the concepts to your own product ideas.
+This book is designed to be easy to navigate and learn from. Each section contains practical advice, examples, and exercises to help you apply the concepts to your own product ideas. No coding experience required!
 
 ## Navigation
 
 Use the sidebar to navigate through different sections of the book. Each section is organized into chapters and sub-sections for easy reading.
 
-[Home](/) | [Contributors](/contributors) 
+[Home](/) | [Contribute](/contribute) | [Contributors](/contributors) 

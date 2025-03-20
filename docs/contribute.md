@@ -1,16 +1,17 @@
 # How to Contribute
 
-Thank you for your interest in contributing to ProductBuilders! This open-source book thrives on community contributions and shared experiences.
+Thank you for your interest in contributing to Product Builders! This open-source guide thrives on community contributions and shared experiences. Just like our tagline says - "Anyone can build Apps!" - anyone can also contribute to making this resource better!
 
 ## Ways to Contribute
 
-There are many ways you can help improve this resource:
+There are many ways you can help improve this resource, regardless of your technical background:
 
 1. **Content Contributions**: Add new chapters, sections, or improve existing content
 2. **Case Studies**: Share your experience building products as a non-technical founder
 3. **Tool Reviews**: Document your experience with AI tools for product development
 4. **Error Corrections**: Fix typos, broken links, or clarify confusing sections
-5. **Translations**: Help translate the book into other languages
+5. **Translations**: Help translate the guide into other languages
+6. **User Testimonials**: Share how Product Builders helped you create your app
 
 ## Contribution Process
 
@@ -54,8 +55,8 @@ git push origin your-feature-name
 
 To maintain quality and consistency:
 
-- Write in a clear, concise manner
-- Use practical examples where possible
+- Write in a clear, concise manner accessible to non-technical readers
+- Use practical examples from real-world experiences where possible
 - Cite sources for statistics or research
 - Use inclusive language
 - Follow the existing structure and formatting
@@ -63,7 +64,7 @@ To maintain quality and consistency:
 
 ## Markdown Formatting
 
-This book uses VitePress, which supports standard Markdown plus some extensions:
+This guide uses VitePress, which supports standard Markdown plus some extensions:
 
 ```md
 # Heading 1
@@ -103,8 +104,8 @@ Custom containers for warnings
 
 ## Recognition
 
-All contributors will be acknowledged in the book's [Contributors](/contributors) section. We believe in giving credit to everyone who helps make this resource better!
+All contributors will be acknowledged in the guide's [Contributors](/contributors) section. We believe in giving credit to everyone who helps make this resource better!
 
 ## Questions?
 
-If you have any questions about contributing, please [open an issue](https://github.com/angshu-min-js/productbuilders/issues/new) on GitHub. 
+If you have any questions about contributing, please [open an issue](https://github.com/angshu-min-js/productbuilders/issues/new) on GitHub or reach out to [Angshuman Gupta](https://github.com/angshu-min-js) directly. 
