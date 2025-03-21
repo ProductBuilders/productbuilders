@@ -8,7 +8,7 @@ const { frontmatter, site, page } = useData()
 const title = computed(() => frontmatter.value.title || site.value.title)
 const description = computed(() => frontmatter.value.description || site.value.description)
 const url = computed(() => {
-  const siteUrl = 'https://productbuilders.netlify.app'
+  const siteUrl = 'https://productbuilders.xyz'
   return `${siteUrl}${page.value.relativePath.replace(/\.md$/, '')}`
 })
 const type = computed(() => frontmatter.value.type || 'WebPage')
@@ -30,7 +30,7 @@ const jsonLd = computed(() => {
       '@type': 'Book',
       name: 'Product Builders: A Guide for Non-Technical Founders',
       description: 'A comprehensive guide for non-technical founders to build digital products using AI tools without coding.',
-      url: 'https://productbuilders.netlify.app',
+      url: 'https://productbuilders.xyz',
       author: {
         '@type': 'Person',
         name: 'Angshuman Gupta',
@@ -39,7 +39,7 @@ const jsonLd = computed(() => {
       publisher: {
         '@type': 'Organization',
         name: 'Product Builders',
-        url: 'https://productbuilders.netlify.app'
+        url: 'https://productbuilders.xyz'
       },
       inLanguage: 'en-US',
       genre: 'Product Development',
@@ -61,7 +61,7 @@ const jsonLd = computed(() => {
     baseJsonLd.publisher = {
       '@type': 'Organization',
       name: 'Product Builders',
-      url: 'https://productbuilders.netlify.app'
+      url: 'https://productbuilders.xyz'
     }
   }
 
