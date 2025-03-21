@@ -35,10 +35,11 @@ I'm Angshuman Gupta, a product leader with 12+ years of experience in startups a
 
 Beyond my full-time role, I build AI-powered apps on the side, including:
 
-- 🚀 **PII Shield** – A document redaction tool powered by AI *(Coming Soon)*
-- 🎯 **Product Management Interviews** – A SaaS for PM interview prep *(Coming Soon)*
-- 🗣 **German with Nik** – A language-learning AI assistant – [https://germanwithnik.com/](https://germanwithnik.com/)
-- 📸 **Captions GPT** – An AI-powered caption generator – [https://captionsgpt.site/](https://captionsgpt.site/)
+- 🗣  **[German with Nik](https://germanwithnik.com/)** – A german language learning app providing German lessons through an AI tutor
+- 📸 **[CaptionsGPT](https://captionsgpt.site/)**  –  An AI-powered mobile app that generates captions for photos & videos
+- 🚀 **PII Shield** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*.
+- 🎯 **Product Management Interviews** – A comprehensive SaaS platform for product management interview preparation *(Coming Soon)*.
+
 
 Throughout my career, I've navigated the complexities of product development—from zero to one, scaling, and launching in competitive markets. I believe that with the right tools and mindset, anyone can turn their idea into a real product, even without being a coding expert.
 
@@ -99,20 +100,6 @@ To set the right expectations:
 Product Builders is designed to evolve. As new tools emerge, as methodologies improve, and as contributors share their experiences, this book will grow and adapt.
 
 In the spirit of product development itself, consider this the first version—the MVP—of a resource that will continually improve with community input.
-
-## Real-World Case Studies
-
-Throughout this guide, you'll find detailed case studies of real products built using AI coding tools:
-
-- **[CaptionsGPT](https://captionsgpt.site/)** – An AI-powered mobile app that generates captions for videos, built from scratch by a non-technical founder using AI coding agents.
-
-- **[German with Nik](https://germanwithnik.com/)** – A language learning app providing personalized German lessons through an AI tutor, developed using the methods described in this guide.
-
-- **PII Shield** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*.
-
-- **Product Management Interviews** – A comprehensive SaaS platform for product management interview preparation *(Coming Soon)*.
-
-Each case study walks through the entire journey from idea validation to launch, including actual prompts used with AI coding agents, challenges encountered, and solutions implemented.
 
 ---
 

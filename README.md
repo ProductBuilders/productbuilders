@@ -1,6 +1,6 @@
 # Product Builders
 
-> An open-source guide for non-technical founders: Build real apps by coding with AI Agents!
+> An open-source guide for founders: Build real apps by coding with AI Agents!
 
 ## About this Guide
 
