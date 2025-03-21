@@ -117,7 +117,7 @@ npm run docs:preview
 
 We welcome contributions from the community! Whether it's adding new content, fixing typos, sharing your experience using AI coding agents, or showcasing apps you've built with AI assistance, your help is appreciated.
 
-See our [Contribution Guide](https://productbuilders.netlify.app/contribute) for detailed instructions.
+See our [Contribution Guide](https://productbuilders.xyz/contribute) for detailed instructions.
 
 ## Join Our Discord Community
 
@@ -141,4 +141,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-A big thank you to all our [contributors](https://productbuilders.netlify.app/contributors) who help make this resource better! 
+A big thank you to all our [contributors](https://productbuilders.xyz/contributors) who help make this resource better! 
