@@ -113,6 +113,15 @@ npm run docs:build
 npm run docs:preview
 ```
 
+### Infrastructure
+
+The Product Builders website uses the following infrastructure:
+- **Domain Registration**: [Namecheap](https://www.namecheap.com/) manages the productbuilders.xyz domain
+- **Hosting**: [Netlify](https://www.netlify.com/) hosts the site with automatic deployments from GitHub
+- **DNS & SSL**: [CloudFlare](https://www.cloudflare.com/) handles DNS management and SSL certification
+- **Primary Domain**: https://productbuilders.xyz
+- **Alternate Domain**: https://productbuilders.netlify.app (redirects to primary domain)
+
 ## How to Contribute
 
 We welcome contributions from the community! Whether it's adding new content, fixing typos, sharing your experience using AI coding agents, or showcasing apps you've built with AI assistance, your help is appreciated.
