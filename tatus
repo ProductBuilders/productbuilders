@@ -1,0 +1,54 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 3254a78..3dfb42f 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,6 +1,6 @@[m
+ # Product Builders[m
+ [m
+[31m-> An open-source guide for non-technical founders: Build real apps by coding with AI Agents![m
+[32m+[m[32m> An open-source guide for founders: Build real apps by coding with AI Agents![m
+ [m
+ ## About this Guide[m
+ [m
+[1mdiff --git a/docs/introduction/what-is-this-book.md b/docs/introduction/what-is-this-book.md[m
+[1mindex 18026dd..6399d52 100644[m
+[1m--- a/docs/introduction/what-is-this-book.md[m
+[1m+++ b/docs/introduction/what-is-this-book.md[m
+[36m@@ -35,10 +35,11 @@[m [mI'm Angshuman Gupta, a product leader with 12+ years of experience in startups a[m
+ [m
+ Beyond my full-time role, I build AI-powered apps on the side, including:[m
+ [m
+[31m-- 🚀 **PII Shield** – A document redaction tool powered by AI *(Coming Soon)*[m
+[31m-- 🎯 **Product Management Interviews** – A SaaS for PM interview prep *(Coming Soon)*[m
+[31m-- 🗣 **German with Nik** – A language-learning AI assistant – [https://germanwithnik.com/](https://germanwithnik.com/)[m
+[31m-- 📸 **Captions GPT** – An AI-powered caption generator – [https://captionsgpt.site/](https://captionsgpt.site/)[m
+[32m+[m[32m- 🗣  **[German with Nik](https://germanwithnik.com/)** – A german language learning app providing German lessons through an AI tutor[m
+[32m+[m[32m- 📸 **[CaptionsGPT](https://captionsgpt.site/)**  –  An AI-powered mobile app that generates captions for photos & videos[m
+[32m+[m[32m- 🚀 **PII Shield** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*.[m
+[32m+[m[32m- 🎯 **Product Management Interviews** – A comprehensive SaaS platform for product management interview preparation *(Coming Soon)*.[m
+[32m+[m
+ [m
+ Throughout my career, I've navigated the complexities of product development—from zero to one, scaling, and launching in competitive markets. I believe that with the right tools and mindset, anyone can turn their idea into a real product, even without being a coding expert.[m
+ [m
+[36m@@ -100,20 +101,6 @@[m [mProduct Builders is designed to evolve. As new tools emerge, as methodologies im[m
+ [m
+ In the spirit of product development itself, consider this the first version—the MVP—of a resource that will continually improve with community input.[m
+ [m
+[31m-## Real-World Case Studies[m
+[31m-[m
+[31m-Throughout this guide, you'll find detailed case studies of real products built using AI coding tools:[m
+[31m-[m
+[31m-- **[CaptionsGPT](https://captionsgpt.site/)** – An AI-powered mobile app that generates captions for videos, built from scratch by a non-technical founder using AI coding agents.[m
+[31m-[m
+[31m-- **[German with Nik](https://germanwithnik.com/)** – A language learning app providing personalized German lessons through an AI tutor, developed using the methods described in this guide.[m
+[31m-[m
+[31m-- **PII Shield** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*.[m
+[31m-[m
+[31m-- **Product Management Interviews** – A comprehensive SaaS platform for product management interview preparation *(Coming Soon)*.[m
+[31m-[m
+[31m-Each case study walks through the entire journey from idea validation to launch, including actual prompts used with AI coding agents, challenges encountered, and solutions implemented.[m
+[31m-[m
+ ---[m
+ [m
+ Ready to start your product journey? Let's continue by understanding [who this book is for](/introduction/who-is-it-for). [m
+\ No newline at end of file[m
