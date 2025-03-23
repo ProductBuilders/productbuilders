@@ -181,7 +181,7 @@ Before investing time & money, validate your idea quickly:
 
 ### 🔹 AI Tools for Research & Trends
 
-✅ [ChatGPT](https://chatgpt.com/) or [Perplexity AI]("https://www.perplexity.ai/") – Ask AI for competition, industry trends & market gaps  
+✅ [ChatGPT](https://chatgpt.com/) or [Perplexity AI](https://perplexity.ai) – Ask AI for competition, industry trends & market gaps  
 ✅ [Google Trends](https://trends.google.com/trends/) – Check search demand  
 ✅ [SimilarWeb](https://www.similarweb.com/) – Analyze traffic sources for competitors  
 
