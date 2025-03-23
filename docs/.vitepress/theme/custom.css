@@ -1,0 +1,204 @@
+/* Common Theme Styles for Product Builders Documentation */
+
+:root {
+  --primary-color: #42b983;
+  --secondary-color: #f5a623;
+  --warning-color: #e7c000;
+  --info-color: #0088cc;
+  --background-light: #f8f9fa;
+  --background-lighter: #f0f7ff;
+  --border-color: #ddd;
+}
+
+/* Learning Objectives */
+.learning-objectives {
+  background: var(--background-light);
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+  margin: 20px 0;
+}
+
+/* Key Questions */
+.key-questions {
+  background: var(--background-lighter);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Success Stories */
+.success-stories {
+  margin: 20px 0;
+}
+
+.success-stories table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.success-stories th,
+.success-stories td {
+  padding: 12px;
+  border: 1px solid var(--border-color);
+}
+
+/* Example Box */
+.example-box {
+  background: #fff8f0;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary-color);
+  margin: 20px 0;
+}
+
+/* Grid Layouts */
+.validation-framework,
+.validation-techniques,
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* Content Boxes */
+.content-box {
+  background: var(--background-light);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Custom Blocks */
+.custom-block {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.custom-block.tip {
+  border-color: var(--primary-color);
+  background-color: #f0f9f4;
+}
+
+.custom-block.warning {
+  border-color: var(--warning-color);
+  background-color: #fffae7;
+}
+
+.custom-block.info {
+  border-color: var(--info-color);
+  background-color: #f0f7ff;
+}
+
+/* Steps and Checklists */
+.steps-list,
+.checklist {
+  list-style: none;
+  padding: 0;
+}
+
+.steps-list li,
+.checklist li {
+  margin: 12px 0;
+  padding-left: 24px;
+  position: relative;
+}
+
+.steps-list li:before {
+  content: '🔹';
+  position: absolute;
+  left: 0;
+}
+
+.checklist li:before {
+  content: '✅';
+  position: absolute;
+  left: 0;
+}
+
+/* Resource Links */
+.resource-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.resource-link {
+  padding: 16px;
+  background: var(--background-light);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.resource-link:hover {
+  transform: translateY(-2px);
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+  padding: 16px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .validation-framework,
+  .validation-techniques,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/* Code Blocks */
+.code-block {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+  overflow-x: auto;
+}
+
+/* Callouts */
+.callout {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.callout.primary {
+  border-color: var(--primary-color);
+  background: #f0f9f4;
+}
+
+.callout.secondary {
+  border-color: var(--secondary-color);
+  background: #fff8f0;
+}
+
+.callout.warning {
+  border-color: var(--warning-color);
+  background: #fffae7;
+}
+
+/* Icons */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+} 

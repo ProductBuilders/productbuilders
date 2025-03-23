@@ -1,14 +1,23 @@
 ---
-title: Case Studies Overview
+title: "Case Studies Overview"
+description: "Real-world examples of how non-technical founders have built successful digital products using AI and no-code tools."
+keywords: "case studies, success stories, product examples, startup journey, AI products, no-code development"
+author: "Product Builders"
 ---
 
-# Case Studies
+# Case Studies 📚
 
 > "In theory, theory and practice are the same. In practice, they are not." - Albert Einstein
 
-Welcome to the Case Studies section of ProductBuilders. While the main chapters provide you with frameworks and principles, these case studies offer real-world examples of how non-technical founders have built successful digital products.
+<div class="content-box">
 
-## Featured Case Studies
+Welcome to the Case Studies section of Product Builders. While the main chapters provide you with frameworks and principles, these case studies offer real-world examples of how non-technical founders have built successful digital products.
+
+</div>
+
+## Featured Case Studies 🌟
+
+<div class="content-box">
 
 ### [Mobile App - Captions GPT (Launching)](/case-studies/captions-gpt-launching)
 Follow the journey of how Captions GPT, an AI-powered caption generation app, went from idea to launch.
@@ -25,13 +34,25 @@ Discover the strategies and challenges in scaling Captions GPT from initial user
 ### [Mobile App - LeagueAdda (Scaling to 1M)](/case-studies/leagueadda-scaling)
 Explore the growth journey of LeagueAdda from early traction to reaching over a million users.
 
-## Why Case Studies Matter
+</div>
+
+## Why Case Studies Matter 💡
+
+<div class="content-box">
 
 Case studies provide context for applying the concepts you're learning in real-world scenarios. Each case study highlights:
 
-- The specific challenges faced at different stages
-- The strategies and tools used to overcome them
-- Lessons learned and mistakes made
-- Key metrics and outcomes
+### Key Elements
+✅ Specific challenges at different stages  
+✅ Strategies and tools used to succeed  
+✅ Lessons learned and mistakes made  
+✅ Important metrics and outcomes  
 
-These stories are meant to inspire you and provide practical insights that complement the more instructional content in the main chapters. 
+These stories are meant to inspire you and provide practical insights that complement the more instructional content in the main chapters.
+
+</div>
+
+<div class="nav-links">
+  <a href="/part6/overview" class="nav-link">← Previous: Part 6 Overview</a>
+  <a href="/case-studies/captions-gpt-launching" class="nav-link">Next: Captions GPT Launch Story →</a>
+</div> 

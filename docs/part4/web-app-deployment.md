@@ -1,14 +1,23 @@
 ---
-title: Chapter 7 - From Localhost to Live – Web App Deployment
+title: "Chapter 7 - From Localhost to Live – Web App Deployment"
+description: "Learn how to deploy your web application from localhost to production using modern hosting platforms and best practices."
+keywords: "web deployment, Vercel, Render, Netlify, GitHub, CI/CD, performance monitoring"
+author: "Product Builders"
 ---
 
 # Chapter 7: From Localhost to Live – Web App Deployment 🚀
 
 > "Deploy in haste, debug at leisure." - Unknown
 
+<div class="content-box">
+
 You've built your web application and tested it locally, and now it's time for the final step—deployment! Getting your web app live means users can access it from anywhere, but a smooth launch requires the right setup.
 
+</div>
+
 ## 📌 Key Steps to Deploy Your Web App Successfully
+
+<div class="content-box">
 
 ### 1️⃣ Choose Your Hosting Platform
 
@@ -67,14 +76,37 @@ Set up automatic deployments whenever you push new code:
 - Vercel, Render, and Netlify automatically redeploy on new commits.
 - Use [GitHub Actions](https://github.com/features/actions) or CI/CD pipelines for advanced automation.
 
-### 6️⃣ Final Checks Before Going Live
+### 6️⃣ Purchase a Domain & Set Up CDN & SSL
+</div>
 
-- ✅ Performance Testing – Use [Lighthouse](https://developers.google.com/web/tools/lighthouse) or [WebPageTest](https://www.webpagetest.org/) to optimize loading times.
-- ✅ Security & HTTPS – Ensure SSL is enabled for a secure connection.
-- ✅ Error Logging – Set up monitoring tools like [Sentry](https://sentry.io/) or [LogRocket](https://logrocket.com/).
-- ✅ Analytics Integration – Use [PostHog](https://posthog.com/) or [Google Analytics](https://analytics.google.com/) to track usage.
+<div class="content-box">
+
+To give your app a professional touch, purchase a custom domain and set up a Content Delivery Network (CDN) for performance and security:
+
+- **Domain Registration**: Buy your domain from [GoDaddy](https://godaddy.com) or [Namecheap](https://namecheap.com)
+- **CDN & SSL**: Use [Cloudflare](https://cloudflare.com) for a free CDN, DDoS protection, and automatic SSL certificates
+
+#### Custom Domain Setup:
+1. Configure DNS settings in Cloudflare
+2. Add CNAME and A records to point to your hosting platform
+3. Ensure HTTPS is enforced for security
+
+</div>
+
+### 7️⃣ Final Checks Before Going Live
+
+<div class="content-box">
+
+- ✅ Performance Testing – Use [Lighthouse](https://developers.google.com/web/tools/lighthouse) or [WebPageTest](https://www.webpagetest.org/) to optimize loading times
+- ✅ Security & HTTPS – Ensure SSL is enabled for a secure connection
+- ✅ Error Logging – Set up monitoring tools like [Sentry](https://sentry.io/) or [LogRocket](https://logrocket.com/)
+- ✅ Analytics Integration – Use [PostHog](https://posthog.com/) or [Google Analytics](https://analytics.google.com/) to track usage
+
+</div>
 
 ## 🚀 Your Web App is Now Live — What's Next?
+
+<div class="content-box">
 
 Congratulations! 🎉 Your web app is now accessible to users worldwide. But the work doesn't stop here:
 
@@ -100,4 +132,9 @@ Congratulations! 🎉 Your web app is now accessible to users worldwide. But the
 - Consider CDN integration with [Cloudflare](https://www.cloudflare.com/) or [Fastly](https://www.fastly.com/)
 - Implement caching strategies
 
-👉 Up next: How to iterate, scale, and grow your product to the next level! 🚀 
+</div>
+
+<div class="nav-links">
+  <a href="/part4/overview" class="nav-link">← Previous: Deployment Overview</a>
+  <a href="/part4/mobile-app-deployment" class="nav-link">Next: Mobile App Deployment →</a>
+</div> 

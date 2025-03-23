@@ -1,14 +1,23 @@
 ---
-title: Chapter 8 - Mobile App Deployment – From Build to Store
+title: "Chapter 8 - Mobile App Deployment – From Build to Store"
+description: "Learn how to deploy your mobile application to the App Store and Google Play Store using Expo and best practices."
+keywords: "mobile deployment, Expo, App Store, Google Play, TestFlight, app publishing"
+author: "Product Builders"
 ---
 
 # Chapter 8: Mobile App Deployment – From Build to Store 📱🚀
 
 > "The most important thing is the user experience and how your app can solve a problem." - WWDC
 
+<div class="content-box">
+
 Building your mobile app is a big step, but getting it into the hands of users through the [App Store](https://developer.apple.com/app-store/) (iOS) and [Google Play Store](https://play.google.com/console) (Android) is where your product truly comes to life. This chapter walks you through how to deploy an Expo-based mobile app, starting from setting up your Expo project to publishing on both platforms.
 
+</div>
+
 ## 1️⃣ Setting Up Your Expo Project for Deployment
+
+<div class="content-box">
 
 Expo makes mobile app development and deployment significantly easier. Before you think about publishing, properly configuring your Expo project is essential.
 
@@ -53,7 +62,11 @@ For the most up-to-date details, always refer to Expo's official documentation:
 👉 [EAS Build Documentation](https://docs.expo.dev/eas/)
 👉 [Expo Updates Guide](https://docs.expo.dev/versions/latest/sdk/updates/)
 
+</div>
+
 ## 2️⃣ Generating Production Builds (Android & iOS)
+
+<div class="content-box">
 
 ### 📌 Step 1: Set Up Developer Accounts
 
@@ -72,7 +85,11 @@ eas build -p ios
 - iOS → .ipa file
 - These are the files you will upload to the respective app stores.
 
+</div>
+
 ## 3️⃣ Uploading Your App to the Stores
+
+<div class="content-box">
 
 ### 📱 Google Play Store (Android)
 
@@ -91,12 +108,16 @@ To move to production, Google now requires:
 
 #### ✅ Testing Tracks Explained:
 
+<div class="table-container">
+
 | Type | Purpose | Visible Publicly? | Tester Limit | Counts for 14-Day Rule? |
 |------|---------|------------------|--------------|------------------------|
 | Internal | Quick internal tests within the dev team | ❌ No | Up to 100 | ❌ No |
 | Closed | Private invite-only testing (QA teams, trusted users) | ❌ No | Flexible (email/groups) | ✅ Yes |
 | Open | Public beta testing, anyone can join | ✅ Yes (as a test) | Unlimited | ✅ Yes |
 | Production | Full public release | ✅ Yes | Unlimited | ✅ After meeting the 14-day requirement |
+
+</div>
 
 #### 💡 Recommended Google Play Flow:
 1. Start with Internal Testing to fix initial bugs.
@@ -130,7 +151,11 @@ To move to production, Google now requires:
 
 💡 Pro Tip: Apple is strict about [Privacy Policies](https://developer.apple.com/app-store/app-privacy-details/), [UI guidelines](https://developer.apple.com/design/human-interface-guidelines/), and [in-app purchases](https://developer.apple.com/in-app-purchase/)—double-check these before submission.
 
+</div>
+
 ## 4️⃣ Handling Common Review Rejections
+
+<div class="content-box">
 
 ### 💥 Google Play Rejections:
 - ❌ Policy Violations – Review [Google's Content Policies](https://play.google.com/about/developer-content-policy/).
@@ -141,7 +166,11 @@ To move to production, Google now requires:
 - ❌ Inaccurate Metadata – Ensure descriptions & screenshots reflect real app behavior.
 - ❌ Performance Bugs – Apple tests on real devices, to avoid crashes!
 
+</div>
+
 ## 5️⃣ Post-Launch: Monitoring & Updates
+
+<div class="content-box">
 
 🚀 Once your app is live, focus on growth and stability:
 - ✅ Crash Monitoring → Tools like [Sentry](https://sentry.io/) or [Firebase Crashlytics](https://firebase.google.com/products/crashlytics).
@@ -149,7 +178,11 @@ To move to production, Google now requires:
 - ✅ OTA (Over-The-Air) Updates → Use [Expo Updates](https://docs.expo.dev/versions/latest/sdk/updates/) or [CodePush](https://appcenter.ms/).
 - ✅ Push Notifications → [OneSignal](https://onesignal.com/), [Firebase Messaging](https://firebase.google.com/products/cloud-messaging).
 
+</div>
+
 ## 🎯 Your App is Live — What's Next?
+
+<div class="content-box">
 
 Congratulations! 🎉 Your app is now available for users worldwide. But the work doesn't stop here:
 - Gather real user feedback.
@@ -157,3 +190,10 @@ Congratulations! 🎉 Your app is now available for users worldwide. But the wor
 - Plan and release updates to improve user experience.
 
 👉 Up next: How to iterate, scale, and grow your product to the next level! 🚀 
+
+</div>
+
+<div class="nav-links">
+  <a href="/part4/web-app-deployment" class="nav-link">← Previous: Web App Deployment</a>
+  <a href="/part4/overview" class="nav-link">Next: Deployment Overview →</a>
+</div> 

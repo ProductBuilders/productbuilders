@@ -36,8 +36,9 @@ Many founders hesitate at this stage because they think they need fancy UI/UX de
 
 ### 🛠 Tools You Can Use:
 - ✔ Pen & Paper – Fastest way to sketch ideas
-- ✔ Figma / Uizard – AI-powered wireframing tools for beginners
-- ✔ Whimsical / Miro – Drag-and-drop tools for user flows
+- ✔ [Figma](https://figma.com) / [Uizard](https://uizard.io) – AI-powered wireframing tools for beginners
+- ✔ [Whimsical](https://whimsical.com) / [Miro](https://miro.com) – Drag-and-drop tools for user flows
+- ✔ [Balsamiq](https://balsamiq.com) – Simple, fast wireframing tool perfect for MVPs
 
 ### 💡 Pro Tip:
 The goal isn't pixel-perfect design. It's to visualize how your user moves through the product.

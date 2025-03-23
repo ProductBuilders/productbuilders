@@ -1,18 +1,27 @@
 ---
 title: Chapter 5 - Starting with the Requirements
+description: Learn how to define clear product requirements that help AI tools generate better code and streamline development.
+keywords: product requirements, product specification, MVP planning, AI development, technical requirements
+author: Product Builders
 ---
 
 # Chapter 5: Starting with the Requirements
 
 > "Requirements are not architecture. Requirements are not implementation. Requirements are needs." - Ralph Young
 
+<div class="content-box">
+
 Once you've decided on your problem space, defined your user persona, selected whether your product is B2C or B2B, and chosen your tech stack, the next step is to define the product requirements.
 
-This step is crucial because a well-defined product specification helps streamline development—whether you're building solo or working with AI-powered tools like Bolt, Cursor, or Copilot.
+This step is crucial because a well-defined product specification helps streamline development—whether you're building solo or working with AI-powered tools like [Bolt](https://bolt.ai), [Cursor](https://cursor.sh), or [Copilot](https://github.com/features/copilot).
 
 💡 **Think of AI tools as your junior developers**—the clearer your requirements, the better they can assist you in coding, debugging, and iterating.
 
-## Why Product Requirements Matter
+</div>
+
+## Why Product Requirements Matter 🎯
+
+<div class="content-box">
 
 Before jumping into development, it's important to document what you're building and why. A solid specification helps:
 
@@ -21,7 +30,11 @@ Before jumping into development, it's important to document what you're building
 - ✅ **Help AI-powered coding assistants generate better, more accurate code**
 - ✅ **Reduce rework by avoiding scope creep or unclear requirements**
 
-## The Framework for Writing Product Requirements
+</div>
+
+## The Framework for Writing Product Requirements 📝
+
+<div class="content-box">
 
 My preferred format for defining product specs follows a structured approach:
 
@@ -70,13 +83,17 @@ This section is where you define how the product works from a development perspe
 
 🚀 **Tech stack I generally use**:
 
+<div class="table-container">
+
 | Component | Web Application | Mobile Application |
 |-----------|----------------|-------------------|
-| Frontend | Next.js (React) | Expo Go |
-| Backend | Supabase / Firebase | Supabase + FastAPI |
-| AI Processing | Open AI / Render / Grok | Same |
-| Payments | Stripe for subscriptions | Revenue Cat |
-| Hosting | Vercel / Netlify | Android or iOS |
+| Frontend | [Next.js](https://nextjs.org) (React) | [Expo Go](https://expo.dev) |
+| Backend | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | Supabase + FastAPI |
+| AI Processing | [OpenAI](https://openai.com) / [Render](https://render.com) / [Grok](https://grok.ai) | Same |
+| Payments | [Stripe](https://stripe.com) for subscriptions | [RevenueCat](https://revenuecat.com) |
+| Hosting | [Vercel](https://vercel.com) / [Netlify](https://netlify.com) | Android or iOS |
+
+</div>
 
 ### 📌 User Journey & Data Flow (Example)
 1. User visits the website → Enters resume details
@@ -85,7 +102,11 @@ This section is where you define how the product works from a development perspe
 4. Users can save templates → Resumes stored in the database
 5. Premium users → Unlock advanced AI suggestions via Stripe
 
-## Bringing It All Together
+</div>
+
+## Bringing It All Together 🎯
+
+<div class="content-box">
 
 By following this structured approach, you ensure your requirements are clear, actionable, and AI-assistant-friendly.
 
@@ -94,3 +115,10 @@ By following this structured approach, you ensure your requirements are clear, a
 - ✅ A clear vision of the solution
 - ✅ User stories that outline real use cases
 - ✅ A detailed technical plan including tech stack & data flow
+
+</div>
+
+<div class="nav-links">
+  <a href="/part2/choosing-tech-stack" class="nav-link">← Previous: Choosing Your Tech Stack</a>
+  <a href="/part3/ai-agents" class="nav-link">Next: AI Agents for Development →</a>
+</div>

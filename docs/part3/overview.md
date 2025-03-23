@@ -1,27 +1,98 @@
 ---
-title: Part 3 Overview - Building Your Product
+title: Part 3 - Building with AI | Product Builders
+description: Learn how to leverage AI tools and agents to accelerate your product development process.
+head:
+  - - meta
+    - name: keywords
+      content: AI development, AI agents, product development, requirements engineering, AI tools
+  - - meta
+    - name: author
+      content: Product Builders Team
+  - - meta
+    - property: og:title
+      content: Part 3 - Building with AI | Product Builders
+  - - meta
+    - property: og:description
+      content: Learn how to leverage AI tools and agents to accelerate your product development process.
 ---
 
-# 🟠 Part 3: Building Your Product
+# Part 3: Building with AI 🤖
 
-With your product idea and tech stack in place, it's time to bring your vision to life. This section will help you define your requirements, leverage AI agents for development, and deploy your product efficiently.
+> "AI is not just a tool; it's your co-pilot in product development." - Product Builders
 
-## 📌 Chapter 5: Starting with the Requirements
+::: tip Key Takeaway
+AI tools and agents can dramatically accelerate your product development process. This section will show you how to leverage them effectively.
+:::
 
-A well-defined product specification is key to building successfully.
+## What You'll Learn 🎯
 
-- ✅ **Define the problem** – What are you solving, and for whom?
-- ✅ **Create a high-level vision** – What does success look like?
-- ✅ **List user stories and use cases** – What should users be able to do?
-- ✅ **Outline technical requirements** – What stack will you use? How will data flow?
+<div class="learning-objectives">
 
-## 🤖 Chapter 6: AI Agents as Your Junior Developer
+✅ How to use AI for development  
+✅ Writing effective requirements  
+✅ Working with AI agents  
+✅ Automating development tasks  
 
-Instead of coding everything manually, use AI tools like Bolt, Cursor, GitHub Copilot, and Claude as your junior developers.
+</div>
 
-- ✅ **Generate code for your tech stack** – With well-structured prompts
-- ✅ **Debug and optimize** – Use AI to troubleshoot issues efficiently
-- ✅ **Break development into phases** – Start with core functionality, then iterate
-- ✅ **Ensure testability** – Validate each phase before moving forward
+## Chapters in This Section 📚
 
-By the end of Part 3, your product will be built and tested, setting the stage for deploying and launching publicly. 🚀 
+<div class="chapters-grid">
+
+### Chapter 5: [Starting with Requirements](/part3/starting-with-requirements)
+- Requirements engineering
+- User story writing
+- Technical specifications
+- Documentation best practices
+
+### Chapter 6: [Working with AI Agents](/part3/ai-agents)
+- AI agent selection
+- Prompt engineering
+- Code generation
+- Testing and validation
+
+</div>
+
+## Key Topics Covered 🗝️
+
+<div class="topics-grid">
+
+### Requirements
+- User stories
+- Technical specs
+- Acceptance criteria
+- Documentation
+
+### AI Development
+- Code generation
+- Testing automation
+- Code review
+- Debugging
+
+### Best Practices
+- Prompt engineering
+- Version control
+- Quality assurance
+- Performance optimization
+
+</div>
+
+::: warning Common Pitfall
+Don't rely solely on AI-generated code. Always review, test, and validate the output.
+:::
+
+## Getting Started 🚀
+
+<div class="getting-started">
+
+1. Start with [Chapter 5](/part3/starting-with-requirements) to learn about requirements
+2. Move to [Chapter 6](/part3/ai-agents) to master AI development
+3. Use the provided templates and resources in each chapter
+4. Join our [Discord community](https://discord.gg/productbuilders) for support
+
+</div>
+
+<div class="nav-links">
+  <a href="/part2/choosing-tech-stack" class="nav-link">← Previous: Choosing Tech Stack</a>
+  <a href="/part3/starting-with-requirements" class="nav-link">Next: Starting with Requirements →</a>
+</div> 

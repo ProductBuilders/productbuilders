@@ -10,7 +10,7 @@ Many low-code tools allow you to quickly build a proof of concept (POC), but the
 
 If you're serious about building a product that can grow and evolve, you need to own your codebase—your secret sauce.
 
-I know it can feel overwhelming if you have zero coding experience, but today's AI-powered coding tools (Lovable, Cursor, Bolt, Claude) make it easier than ever to write and deploy production-grade code.
+I know it can feel overwhelming if you have zero coding experience, but today's AI-powered coding tools ([Lovable](https://lovable.ai), [Cursor](https://cursor.sh), [Bolt](https://bolt.ai), [Claude](https://anthropic.com/claude)) make it easier than ever to write and deploy production-grade code.
 
 🚀 **Goal**: Equip you with a simple, scalable tech stack and show you how to build it using AI tools—even if you're not a developer.
 
@@ -36,10 +36,10 @@ Before choosing a stack, you need to understand the three core components of any
 
 | Product Type | Frontend (UI) | Backend (Logic & Database) | APIs / Integrations | Hosting & DevOps |
 |-------------|---------------|---------------------------|-------------------|------------------|
-| Web-Based SaaS (B2B / B2C) | React (Next.js) / Vue.js | Supabase / Firebase | Stripe (Payments), OpenAI (AI) | Vercel / Render |
-| Mobile App (iOS & Android) | Expo (React Native) | Firebase / Supabase | RevenueCat (Payments), PostHog (Analytics) | Expo Go |
-| API-First Product | Minimal UI (if needed) | Node.js + Supabase | OpenAI, Claude, Replicate (AI APIs) | Railway / Render |
-| Chrome Extension | Manifest V3 (React / Vanilla JS) | Firebase (if needed) | OpenAI (for AI features) | Chrome Web Store |
+| Web-Based SaaS (B2B / B2C) | [React](https://react.dev) ([Next.js](https://nextjs.org)) / [Vue.js](https://vuejs.org) | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | [Stripe](https://stripe.com) (Payments), [OpenAI](https://openai.com) (AI) | [Vercel](https://vercel.com) / [Render](https://render.com) / [Netlify](https://netlify.com) |
+| Mobile App (iOS & Android) | [Expo](https://expo.dev) ([React Native](https://reactnative.dev)) | [Firebase](https://firebase.google.com) / [Supabase](https://supabase.com) | [RevenueCat](https://revenuecat.com) (Payments), [PostHog](https://posthog.com) (Analytics) | [Expo Go](https://expo.dev/go) |
+| API-First Product | Minimal UI (if needed) | [Node.js](https://nodejs.org) + [Supabase](https://supabase.com) | [OpenAI](https://openai.com), [Claude](https://anthropic.com/claude), [Replicate](https://replicate.com) (AI APIs) | [Railway](https://railway.app) / [Render](https://render.com) |
+| Chrome Extension | [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro) ([React](https://react.dev) / Vanilla JS) | [Firebase](https://firebase.google.com) (if needed) | [OpenAI](https://openai.com) (for AI features) | [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) |
 
 ### 💡 Why This Stack?
 - ✅ **Proven & Scalable** – Used by top startups
@@ -49,42 +49,43 @@ Before choosing a stack, you need to understand the three core components of any
 ## 3️⃣ Deep Dive into Each Tech Component
 
 ### 🖥 Frontend (User Interface & Experience)
-- **React (Next.js)** – Best for web-based SaaS apps
-- **Expo (React Native)** – Fastest way to build cross-platform mobile apps
-- **Vue.js** – Alternative to React for web apps
-- **Manifest V3** – For Chrome extensions
+- **[React](https://react.dev) ([Next.js](https://nextjs.org))** – Best for web-based SaaS apps
+- **[Expo](https://expo.dev) ([React Native](https://reactnative.dev))** – Fastest way to build cross-platform mobile apps
+- **[Vue.js](https://vuejs.org)** – Alternative to React for web apps
+- **[Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro)** – For Chrome extensions
 
 ### 🖧 Backend (Logic & Database)
-- **Next.js (Server Actions)** – Best for full-stack SaaS
-- **Supabase** – Open-source Firebase alternative (PostgreSQL-based)
-- **Firebase** – Google's managed backend (auth, database, storage)
-- **Node.js + Express** – If you need custom backend logic
+- **[Next.js](https://nextjs.org) (Server Actions)** – Best for full-stack SaaS
+- **[Supabase](https://supabase.com)** – Open-source Firebase alternative (PostgreSQL-based)
+- **[Firebase](https://firebase.google.com)** – Google's managed backend (auth, database, storage)
+- **[Node.js](https://nodejs.org) + [Express](https://expressjs.com)** – If you need custom backend logic
 
 ### 🔗 Payments & Subscriptions
-- **Stripe** – For web-based SaaS & API products
-- **RevenueCat** – For mobile app subscriptions (iOS & Android)
+- **[Stripe](https://stripe.com)** – For web-based SaaS & API products
+- **[RevenueCat](https://revenuecat.com)** – For mobile app subscriptions (iOS & Android)
 
 ### 📊 Analytics & Tracking
-- **PostHog** – Privacy-friendly product analytics
+- **[PostHog](https://posthog.com)** – Privacy-friendly product analytics
+- **[Google Analytics](https://analytics.google.com)** – Popular, free web analytics platform
 
 ### 🧠 AI APIs & AI Features
-- **OpenAI (GPT-4, DALL·E, Whisper)** – AI-generated content & chatbots
-- **Claude (Anthropic)** – Alternative AI for text-based tasks
-- **Replicate** – Deploy AI models via APIs
+- **[OpenAI](https://openai.com) (GPT-4, DALL·E, Whisper)** – AI-generated content & chatbots
+- **[Claude](https://anthropic.com/claude)** – Alternative AI for text-based tasks
+- **[Replicate](https://replicate.com)** – Deploy AI models via APIs
 
 ### ☁️ Hosting & DevOps (Deployment & Scalability)
-- **Vercel** – Best for Next.js (auto-scaling)
-- **Netlify** – Easy frontend hosting
-- **Render / Railway** – Backend & database hosting
+- **[Vercel](https://vercel.com)** – Best for Next.js (auto-scaling)
+- **[Netlify](https://netlify.com)** – Easy frontend hosting
+- **[Render](https://render.com) / [Railway](https://railway.app)** – Backend & database hosting
 
 ## 4️⃣ AI-Powered Coding: Build Faster with AI
 
 The biggest challenge for non-technical founders is writing code—but AI tools have changed the game.
 
 ### 📌 Top AI Coding Assistants:
-- ✔ **Cursor** – AI-powered IDE for coding in React, Next.js, Node.js
-- ✔ **Bolt** – Auto-generates full-stack applications
-- ✔ **Claude / ChatGPT** – Helps with code debugging & explanation
+- ✔ **[Cursor](https://cursor.sh)** – AI-powered IDE for coding in React, Next.js, Node.js
+- ✔ **[Bolt](https://bolt.ai)** – Auto-generates full-stack applications
+- ✔ **[Claude](https://anthropic.com/claude) / [ChatGPT](https://chat.openai.com)** – Helps with code debugging & explanation
 
 ### 🎯 Action Step:
 👉 Pick one of these tools and use it to write your first piece of code!
