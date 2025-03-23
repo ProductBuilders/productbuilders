@@ -91,8 +91,3 @@ Don't rely solely on AI-generated code. Always review, test, and validate the ou
 4. Join our [Discord community](https://discord.gg/productbuilders) for support
 
 </div>
-
-<div class="nav-links">
-  <a href="/part2/choosing-tech-stack" class="nav-link">← Previous: Choosing Tech Stack</a>
-  <a href="/part3/starting-with-requirements" class="nav-link">Next: Starting with Requirements →</a>
-</div> 

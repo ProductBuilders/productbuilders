@@ -242,6 +242,8 @@ Before writing a single line of code, test your idea with a fake landing page.
 
 ## Final Thought 💭
 
+> "The biggest risk is not taking any risk. In a world that's changing quickly, the only strategy that is guaranteed to fail is not taking risks." - Mark Zuckerberg
+
 ::: warning Remember
 The biggest risk is not taking any risk. But validate before you build!
 :::
@@ -276,8 +278,3 @@ The biggest risk is not taking any risk. But validate before you build!
 ::: tip Ready to Move Forward?
 Now that you understand how to identify problems, let's learn about [understanding your users](/part1/understanding-users)!
 :::
-
-<div class="nav-links">
-  <a href="/part1/overview" class="nav-link">← Previous: Overview</a>
-  <a href="/part1/understanding-users" class="nav-link">Next: Understanding Users →</a>
-</div>

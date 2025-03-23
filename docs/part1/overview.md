@@ -123,8 +123,3 @@ Many founders rush to build without validating their ideas. Take time to underst
 ::: tip Ready to Begin?
 Start with [Chapter 1: Identifying a Problem Worth Solving](/part1/identifying-problems) to begin your journey!
 :::
-
-<div class="nav-links">
-  <a href="/introduction/what-is-this-book" class="nav-link">← Previous: Introduction</a>
-  <a href="/part1/identifying-problems" class="nav-link">Next: Identifying Problems →</a>
-</div>

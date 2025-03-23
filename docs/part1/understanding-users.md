@@ -229,8 +229,3 @@ Before investing time & money, validate your idea quickly:
 ::: tip Ready to Move Forward?
 Continue to [Part 2: Solution Design](/part2/overview) to learn how to turn your insights into a product!
 :::
-
-<div class="nav-links">
-  <a href="/part1/identifying-problems" class="nav-link">← Previous: Identifying Problems</a>
-  <a href="/part2/overview" class="nav-link">Next: Part 2 Overview →</a>
-</div>

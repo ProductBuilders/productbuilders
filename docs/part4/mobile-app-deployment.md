@@ -192,8 +192,3 @@ Congratulations! 🎉 Your app is now available for users worldwide. But the wor
 👉 Up next: How to iterate, scale, and grow your product to the next level! 🚀 
 
 </div>
-
-<div class="nav-links">
-  <a href="/part4/web-app-deployment" class="nav-link">← Previous: Web App Deployment</a>
-  <a href="/part5/overview" class="nav-link">Next: Growth Overview →</a>
-</div> 

@@ -135,8 +135,3 @@ The beauty of an open-source book is that it can grow. If you have perspectives 
 ::: tip Ready to Begin?
 Now that you know who this book is for, let's dive into [identifying problems worth solving](/part1/identifying-problems)!
 :::
-
-<div class="nav-links">
-  <a href="/introduction/what-is-this-book" class="nav-link">← Previous: What is this Book?</a>
-  <a href="/part1/overview" class="nav-link">Next: Part 1 Overview →</a>
-</div>

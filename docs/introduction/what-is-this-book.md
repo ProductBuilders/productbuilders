@@ -155,8 +155,3 @@ In the spirit of product development itself, consider this the first version—t
 ::: tip Ready to Start?
 Continue your journey by understanding [who this book is for](/introduction/who-is-it-for)!
 :::
-
-<div class="nav-links">
-  <a href="/" class="nav-link">← Previous: Home</a>
-  <a href="/introduction/who-is-it-for" class="nav-link">Next: Who is it for? →</a>
-</div>

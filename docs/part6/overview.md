@@ -106,8 +106,3 @@ Want to know when new chapters are released?
 - Subscribe to our [Newsletter](https://productbuilders.substack.com)
 
 </div>
-
-<div class="nav-links">
-  <a href="/part5/overview" class="nav-link">← Previous: Part 5 Overview</a>
-  <a href="/conclusion" class="nav-link">Next: Conclusion →</a>
-</div> 

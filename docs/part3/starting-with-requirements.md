@@ -117,8 +117,3 @@ By following this structured approach, you ensure your requirements are clear, a
 - ✅ A detailed technical plan including tech stack & data flow
 
 </div>
-
-<div class="nav-links">
-  <a href="/part2/choosing-tech-stack" class="nav-link">← Previous: Choosing Your Tech Stack</a>
-  <a href="/part3/ai-agents" class="nav-link">Next: AI Agents for Development →</a>
-</div>

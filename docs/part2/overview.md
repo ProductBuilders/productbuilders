@@ -91,8 +91,3 @@ Don't over-engineer your initial solution. Start simple and iterate based on use
 4. Join our [Discord community](https://discord.gg/productbuilders) for support
 
 </div>
-
-<div class="nav-links">
-  <a href="/part1/understanding-users" class="nav-link">← Previous: Understanding Users</a>
-  <a href="/part2/designing-solution" class="nav-link">Next: Designing Your Solution →</a>
-</div> 

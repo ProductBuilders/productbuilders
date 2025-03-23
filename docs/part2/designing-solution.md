@@ -1,16 +1,25 @@
 ---
-title: Chapter 3 - Designing Your Solution
+title: "Chapter 3 - Designing Your Solution"
+description: "Learn how to design your product solution using simple frameworks and AI tools, without requiring design or technical skills."
+keywords: "product design, MVP, user journey, wireframing, B2B, B2C, solution design"
+author: "Product Builders"
 ---
 
-# Chapter 3: Designing Your Solution
+# Chapter 3: Designing Your Solution 🎨
 
 > "Good design is obvious. Great design is transparent." - Joe Sparano
+
+<div class="content-box">
 
 Once you've identified a problem worth solving and defined your first user persona, it's time to design your solution. This means mapping out the user journey, prioritizing features, and creating a Minimum Viable Product (MVP) with the least effort.
 
 🚀 **Goal**: Help you create a clear product blueprint using simple frameworks and AI tools—no design or technical skills required.
 
+</div>
+
 ## 1️⃣ Your Solution Depends on Your Users (B2C vs. B2B)
+
+<div class="content-box">
 
 Not all digital products are the same. Your user persona and business model dictate whether you build a B2C Mobile App, a B2B SaaS, or an API-first product.
 
@@ -30,7 +39,11 @@ Before sketching your idea, define:
 - ✔ How will they use your product? (Mobile-first vs. desktop SaaS)
 - ✔ Do they need an end-to-end platform or just an API?
 
+</div>
+
 ## 2️⃣ Start with a Simple Sketch (No Design Skills Needed)
+
+<div class="content-box">
 
 Many founders hesitate at this stage because they think they need fancy UI/UX design skills. You don't.
 
@@ -49,7 +62,11 @@ Take 5 minutes to draw:
 - What happens when the user takes an action (e.g., clicks a button)?
 - If you prefer digital tools, Uizard can turn hand-drawn sketches into UI designs!
 
+</div>
+
 ## 3️⃣ Map the User Journey (AI-Assisted)
+
+<div class="content-box">
 
 Before building anything, define how your user interacts with the product.
 
@@ -65,7 +82,11 @@ Try this prompt:
 "I'm building an AI-based resume builder. Can you create a user journey from the landing page to the final resume download?"
 AI will provide a first draft that you can refine.
 
+</div>
+
 ## 4️⃣ Apply the Single Feature Rule
+
+<div class="content-box">
 
 The biggest mistake founders make? Trying to build too much.
 
@@ -82,7 +103,11 @@ If you're building an AI writing tool, don't start with a full editor, grammar c
 ### 🎯 Action Step: Ask yourself:
 👉 "What is the ONE feature that solves my user's problem?"
 
+</div>
+
 ## 5️⃣ Define Features Using MoSCoW Prioritization
+
+<div class="content-box">
 
 Now that you have the core feature, break features into Must-have, Should-have, Could-have, and Won't-have (MoSCoW framework).
 
@@ -95,7 +120,11 @@ Now that you have the core feature, break features into Must-have, Should-have, 
 ### 🎯 Action Step:
 Make a MoSCoW list with just 3-5 core features.
 
+</div>
+
 ## 6️⃣ Preparing for the MVP Phase
+
+<div class="content-box">
 
 At this point, you should have:
 - ✅ A sketch of your product idea
@@ -110,9 +139,17 @@ At this point, you should have:
 
 📌 That's exactly what we'll cover in Chapter 4: Choosing your tech stack. 🚀
 
+</div>
+
 ## 📌 Summary (TL;DR)
+
+<div class="content-box">
+
 - ✅ Define if your solution is a B2C Mobile App, a B2B SaaS, or an API
 - ✅ Sketch your idea – No design skills are needed
 - ✅ Use AI (ChatGPT, Uizard) for quick user journey maps & mockups
 - ✅ Follow the Single Feature Rule – Start small & focus on one core value
-- ✅ Prioritize with MoSCoW – Must-have vs. Nice-to-have 
+- ✅ Prioritize with MoSCoW – Must-have vs. Nice-to-have
+
+</div>
+

@@ -4,4 +4,4 @@ Allow: /
 # Block specific directories if needed in future
 # Disallow: /private/
 
-Sitemap: https://productbuilders.netlify.app/sitemap.xml 
+Sitemap: https://productbuilders.xyz/sitemap.xml 

@@ -133,8 +133,3 @@ Congratulations! 🎉 Your web app is now accessible to users worldwide. But the
 - Implement caching strategies
 
 </div>
-
-<div class="nav-links">
-  <a href="/part4/overview" class="nav-link">← Previous: Deployment Overview</a>
-  <a href="/part4/mobile-app-deployment" class="nav-link">Next: Mobile App Deployment →</a>
-</div> 

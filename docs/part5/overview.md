@@ -91,8 +91,3 @@ Don't focus solely on acquisition. Balance growth with retention and user satisf
 4. Join our [Discord community](https://discord.gg/productbuilders) for support
 
 </div>
-
-<div class="nav-links">
-  <a href="/part4/mobile-app-deployment" class="nav-link">← Previous: Mobile App Deployment</a>
-  <a href="/part5/growth-visibility" class="nav-link">Next: Growth & Visibility →</a>
-</div> 

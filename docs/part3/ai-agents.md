@@ -188,7 +188,3 @@ git push -u origin main
 
 </div>
 
-<div class="nav-links">
-  <a href="/part3/starting-with-requirements" class="nav-link">← Previous: Starting with Requirements</a>
-  <a href="/part4/overview" class="nav-link">Next: Deployment Overview →</a>
-</div>

@@ -51,8 +51,3 @@ Case studies provide context for applying the concepts you're learning in real-w
 These stories are meant to inspire you and provide practical insights that complement the more instructional content in the main chapters.
 
 </div>
-
-<div class="nav-links">
-  <a href="/part6/overview" class="nav-link">← Previous: Part 6 Overview</a>
-  <a href="/case-studies/captions-gpt-launching" class="nav-link">Next: Captions GPT Launch Story →</a>
-</div> 

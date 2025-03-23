@@ -85,8 +85,3 @@ Don't rush your launch. Take time to test thoroughly and prepare your marketing 
 4. Join our [Discord community](https://discord.gg/productbuilders) for support
 
 </div>
-
-<div class="nav-links">
-  <a href="/part3/ai-agents" class="nav-link">← Previous: AI Agents</a>
-  <a href="/part4/web-app-deployment" class="nav-link">Next: Web App Deployment →</a>
-</div> 

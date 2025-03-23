@@ -1,10 +1,15 @@
 ---
-title: Chapter 4 - Choosing Your Tech Stack (Non-Technical Guide)
+title: "Chapter 4 - Choosing Your Tech Stack (Non-Technical Guide)"
+description: "Learn how to choose and implement the right tech stack for your product, even without technical expertise."
+keywords: "tech stack, frontend, backend, APIs, AI tools, development, MVP"
+author: "Product Builders"
 ---
 
-# Chapter 4: Choosing Your Tech Stack (Non-Technical Guide)
+# Chapter 4: Choosing Your Tech Stack (Non-Technical Guide) 🛠️
 
 > "Technology is best when it brings people together." - Matt Mullenweg, WordPress founder
+
+<div class="content-box">
 
 Many low-code tools allow you to quickly build a proof of concept (POC), but they fall short when it comes to scalability, flexibility, and iteration speed.
 
@@ -14,7 +19,11 @@ I know it can feel overwhelming if you have zero coding experience, but today's 
 
 🚀 **Goal**: Equip you with a simple, scalable tech stack and show you how to build it using AI tools—even if you're not a developer.
 
+</div>
+
 ## 1️⃣ Understanding the Basics: Frontend, Backend & APIs
+
+<div class="content-box">
 
 Before choosing a stack, you need to understand the three core components of any app:
 
@@ -30,9 +39,15 @@ Before choosing a stack, you need to understand the three core components of any
 - APIs allow different parts of your app to communicate and connect with external services
 - **Example**: Instagram's API fetches your profile details from the backend when you open the app
 
+</div>
+
 ## 2️⃣ Choosing the Right Tech Stack for Your MVP
 
+<div class="content-box">
+
 ### 📌 Recommended Stack for Different Product Types:
+
+<div class="table-container">
 
 | Product Type | Frontend (UI) | Backend (Logic & Database) | APIs / Integrations | Hosting & DevOps |
 |-------------|---------------|---------------------------|-------------------|------------------|
@@ -41,12 +56,18 @@ Before choosing a stack, you need to understand the three core components of any
 | API-First Product | Minimal UI (if needed) | [Node.js](https://nodejs.org) + [Supabase](https://supabase.com) | [OpenAI](https://openai.com), [Claude](https://anthropic.com/claude), [Replicate](https://replicate.com) (AI APIs) | [Railway](https://railway.app) / [Render](https://render.com) |
 | Chrome Extension | [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro) ([React](https://react.dev) / Vanilla JS) | [Firebase](https://firebase.google.com) (if needed) | [OpenAI](https://openai.com) (for AI features) | [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) |
 
+</div>
+
 ### 💡 Why This Stack?
 - ✅ **Proven & Scalable** – Used by top startups
 - ✅ **Fast Iteration** – Works well with AI tools for coding
 - ✅ **Simple to Deploy** – No complex DevOps needed
 
+</div>
+
 ## 3️⃣ Deep Dive into Each Tech Component
+
+<div class="content-box">
 
 ### 🖥 Frontend (User Interface & Experience)
 - **[React](https://react.dev) ([Next.js](https://nextjs.org))** – Best for web-based SaaS apps
@@ -78,7 +99,11 @@ Before choosing a stack, you need to understand the three core components of any
 - **[Netlify](https://netlify.com)** – Easy frontend hosting
 - **[Render](https://render.com) / [Railway](https://railway.app)** – Backend & database hosting
 
+</div>
+
 ## 4️⃣ AI-Powered Coding: Build Faster with AI
+
+<div class="content-box">
 
 The biggest challenge for non-technical founders is writing code—but AI tools have changed the game.
 
@@ -90,10 +115,16 @@ The biggest challenge for non-technical founders is writing code—but AI tools 
 ### 🎯 Action Step:
 👉 Pick one of these tools and use it to write your first piece of code!
 
+</div>
+
 ## 📌 Summary (TL;DR)
+
+<div class="content-box">
+
 - ✅ Low-code tools are good for POCs but bad for scaling. Own your code
 - ✅ AI coding tools (Cursor, Bolt, Claude) make coding easy—even if you're a beginner
 - ✅ Choose a scalable tech stack: React / Expo (Frontend), Next.js / Firebase / Supabase (Backend), Stripe / RevenueCat (Payments)
 - ✅ Use AI-powered tools to build your MVP faster
 
 🚀 **Next Chapter**: Building & Launching Your MVP! (A hands-on guide to coding & deploying your first product) 
+</div>
