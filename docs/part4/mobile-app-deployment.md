@@ -195,5 +195,5 @@ Congratulations! 🎉 Your app is now available for users worldwide. But the wor
 
 <div class="nav-links">
   <a href="/part4/web-app-deployment" class="nav-link">← Previous: Web App Deployment</a>
-  <a href="/part4/overview" class="nav-link">Next: Deployment Overview →</a>
+  <a href="/part5/overview" class="nav-link">Next: Growth Overview →</a>
 </div> 
