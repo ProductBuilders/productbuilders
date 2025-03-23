@@ -136,7 +136,7 @@ Product Builders is designed to evolve. As new tools emerge, as methodologies im
 
 In the spirit of product development itself, consider this the first version—the MVP—of a resource that will continually improve with community input.
 
-[See our latest updates →](/changelog)
+<!--[See our latest updates →](/changelog)-->
 [Contribute your insights →](/contribute)
 
 </div>

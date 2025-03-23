@@ -266,12 +266,12 @@ The biggest risk is not taking any risk. But validate before you build!
 - [Maze](https://maze.co) for user testing
 - [Airtable](https://airtable.com) for research
 
-### Templates
+<!-- ### Templates
 - [Problem Statement Template](/templates/problem-statement.pdf)
 - [Validation Checklist](/templates/validation-checklist.pdf)
 - [Market Research Framework](/templates/market-research.pdf)
-
-</div>
+-->
+</div> 
 
 ::: tip Ready to Move Forward?
 Now that you understand how to identify problems, let's learn about [understanding your users](/part1/understanding-users)!
