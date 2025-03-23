@@ -1,5 +1,7 @@
 # Product Builders
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1d889c8b-5070-453f-8209-78fce7ebb4e0/deploy-status)](https://app.netlify.com/sites/productbuilders/deploys)
+
 > An open-source guide for founders: Build real apps by coding with AI Agents!
 
 ## About this Guide
