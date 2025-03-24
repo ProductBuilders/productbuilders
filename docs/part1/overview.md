@@ -16,7 +16,7 @@ head:
       content: Learn how to identify valuable problems and understand your users deeply.
 ---
 
-# Part 1: Ideation & Problem Discovery 
+# Part 1: Ideation & Problem Discovery 💡
 
 > "Every great product starts with a real problem." - Product Builders
 

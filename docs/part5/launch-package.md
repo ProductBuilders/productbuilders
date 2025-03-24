@@ -53,8 +53,8 @@ Launching a web or mobile app is more than just deploying code—it's about maki
 
 ### 4️⃣ Privacy Policy & Terms & Conditions
 
-- **[Privacy Policy Template](https://www.privacypolicy.com/)** – Generate app privacy policies
-- **[Terms & Conditions Template](https://www.termsfeed.com/)** – Create a legal terms page
+- **[Privacy Policy Template](/part5/privacy-template)** – Use this template to Generate app privacy policies
+- **[Terms & Conditions Template](/part5/terms-template)** – Use this template to Create a legal terms page
 
 </div>
 
