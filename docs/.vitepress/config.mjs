@@ -88,8 +88,7 @@ export default defineConfig({
           { text: 'Mobile App - Captions GPT (Launching)', link: '/case-studies/captions-gpt-launching' },
           { text: 'Web App - PII Shield (Idea Validation)', link: '/case-studies/pii-shield-validation' },
           { text: 'Mobile App - LeagueAdda (Mocks to Launch)', link: '/case-studies/leagueadda-mocks-to-launch' },
-          { text: 'Mobile App - Captions GPT (Scaling)', link: '/case-studies/captions-gpt-scaling' },
-          { text: 'Mobile App - LeagueAdda (Scaling to 1M)', link: '/case-studies/leagueadda-scaling' }
+          { text: 'Mobile App - LeagueAdda (Scaling to 100K)', link: '/case-studies/leagueadda-scaling' }
         ]
       }
     ],

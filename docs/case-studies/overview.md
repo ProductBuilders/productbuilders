@@ -19,7 +19,7 @@ Welcome to the Case Studies section of Product Builders. While the main chapters
 
 <div class="content-box">
 
-### [Mobile App - Captions GPT (Launching)](/case-studies/captions-gpt-launching)
+### [Mobile App - Captions GPT (Idea to Launch)](/case-studies/captions-gpt-launching)
 Follow the journey of how Captions GPT, an AI-powered caption generation app, went from idea to launch.
 
 ### [Web App - PII Shield (Idea Validation)](/case-studies/pii-shield-validation)
@@ -28,11 +28,8 @@ Explore how the founders of PII Shield validated their idea for a privacy-focuse
 ### [Mobile App - LeagueAdda (Mocks to Launch)](/case-studies/leagueadda-mocks-to-launch)
 Learn how LeagueAdda, a fantasy sports platform, was transformed from design mockups to a launched product.
 
-### [Mobile App - Captions GPT (Scaling)](/case-studies/captions-gpt-scaling)
-Discover the strategies and challenges in scaling Captions GPT from initial users to significant adoption.
-
-### [Mobile App - LeagueAdda (Scaling to 1M)](/case-studies/leagueadda-scaling)
-Explore the growth journey of LeagueAdda from early traction to reaching over a million users.
+### [Fantasy Gaming Mobile App (Scaling to 100K)](/case-studies/leagueadda-scaling)
+Explore the growth journey of LeagueAdda from early traction to reaching over a 100 thousand users.
 
 </div>
 
