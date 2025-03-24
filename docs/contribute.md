@@ -1,3 +1,10 @@
+---
+title: "How to Contribute"
+description: "Learn how to contribute to Product Builders - an open-source guide for non-technical founders"
+keywords: "contribute, open source, documentation, markdown, product builders"
+author: "Product Builders"
+---
+
 # How to Contribute
 
 Thank you for your interest in contributing to Product Builders! This open-source guide thrives on community contributions and shared experiences. Just like our tagline says - "Anyone can build Apps!" - anyone can also contribute to making this resource better!
@@ -62,24 +69,40 @@ To maintain quality and consistency:
 - Follow the existing structure and formatting
 - Add images to clarify complex concepts (place in `/public` directory)
 
-## Markdown Formatting
+## Using the Theme's Markup Features
 
-This guide uses VitePress, which supports standard Markdown plus some extensions:
+This guide uses a custom theme with specific styling and components. Here's how to use them:
+
+### 1. Frontmatter
+
+Every markdown file should start with frontmatter:
 
 ```md
-# Heading 1
-## Heading 2
+---
+title: "Your Title"
+description: "A brief description of the content"
+keywords: "relevant, keywords, for, SEO"
+author: "Product Builders"
+---
+```
 
-*Italic* and **Bold**
+### 2. Content Boxes
 
-[Link Text](http://example.com)
+Use content boxes to highlight important information:
 
-![Image Alt Text](/path/to/image.png)
+```md
+::: tip Tip
+This is a helpful tip or best practice
+:::
 
-> Blockquote
+::: warning Warning
+This is an important warning or caution
+:::
 
-- Bullet
-- Points
+::: info Info
+This is general information
+:::
+```
 
 1. Numbered
 2. List
@@ -93,13 +116,51 @@ function example() {
 }
 ```
 
-::: tip Tip
-Custom containers for tips
-:::
+```bash
+# Shell commands
+npm install
+npm run dev
+```
+```
 
-::: warning Warning
-Custom containers for warnings
-:::
+### 5. Tables
+
+Use tables for structured data:
+
+```md
+| Feature | Description |
+|---------|-------------|
+| Feature 1 | Description 1 |
+| Feature 2 | Description 2 |
+```
+
+### 6. Lists
+
+Use appropriate list types:
+
+```md
+- Unordered list item
+- Another item
+  - Nested item
+  - Another nested item
+
+1. Numbered list item
+2. Another numbered item
+```
+
+### 7. Links and Images
+
+```md
+[Link text](https://example.com)
+
+![Image alt text](/path/to/image.png)
+```
+
+### 8. Emphasis
+
+```md
+*Italic text*
+**Bold text**
 ```
 
 ## Recognition
