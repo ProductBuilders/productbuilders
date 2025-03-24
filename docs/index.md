@@ -129,7 +129,7 @@ This open-source book guides you through every step of the journey:
   <a href="/part2/overview" class="structure-item">Planning Your Product</a>
   <a href="/part3/overview" class="structure-item">Building With AI Coding Agents</a>
   <a href="/part4/overview" class="structure-item">Deploying with Confidence</a>
-  <a href="/part5/overview" class="structure-item">Monetize, Launch & Get Noticed</a>
+  <a href="/part5/overview" class="structure-item">Launch & Get Noticed</a>
   <a href="/part6/overview" class="structure-item">Growing to New Heights</a>
   <a href="/case-studies/overview" class="structure-item">Real-World Case Studies</a>
 </div>
