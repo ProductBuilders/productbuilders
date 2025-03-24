@@ -56,10 +56,10 @@ Building a product doesn't require a computer science degree or years of coding 
 You can read this book from start to finish, or jump to specific sections based on your needs:
 
 - **[Part 1: Ideation & Problem Discovery](/part1/overview)** - If you're searching for ideas
-- **[Part 2: Solution Design](/part2/overview)** - If you need to plan your product
+- **[Part 2: Planning Your Product](/part2/overview)** - If you need to plan your product
 - **[Part 3: Building Your Product](/part3/overview)** - If you're ready to start building
-- **[Part 4: Deployment](/part4/overview)** - If you need to launch your product
-- **[Part 5: Growth & Marketing](/part5/overview)** - If you want to grow your user base
+- **[Part 4: Deployment with Confidence](/part4/overview)** - If you need to launch your product
+- **[Part 5: Launch and Get Noticed](/part5/overview)** - If you want to grow your user base
 - **[Case Studies](/case-studies/overview)** - If you want to learn from real examples
 
 Each chapter contains practical advice, real examples, and actionable steps you can implement immediately.

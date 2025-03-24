@@ -1,5 +1,5 @@
 ---
-title: Part 4 - Deployment & Launch | Product Builders
+title: Part 4 - Deploying with Confidence | Product Builders
 description: Learn how to deploy your web and mobile applications effectively and prepare for a successful launch.
 head:
   - - meta
@@ -10,13 +10,13 @@ head:
       content: Product Builders Team
   - - meta
     - property: og:title
-      content: Part 4 - Deployment & Launch | Product Builders
+      content: Part 4 - Deploying with Confidence | Product Builders
   - - meta
     - property: og:description
       content: Learn how to deploy your web and mobile applications effectively and prepare for a successful launch.
 ---
 
-# Part 4: Deployment & Launch 🚀
+# Part 4: Deploying with Confidence 🚀
 
 > "Launch early. Launch often. Listen to your users." - Product Builders
 

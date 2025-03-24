@@ -68,7 +68,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Part 5: Monetize, Launch and Get Noticed',
+        text: 'Part 5: Launch and Get Noticed',
         items: [
           { text: 'Overview', link: '/part5/overview' },
           { text: 'Chapter 9: Crafting the Perfect Launch Package', link: '/part5/launch-package' },
