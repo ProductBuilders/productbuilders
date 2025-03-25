@@ -1,8 +1,8 @@
-# Product Builders
+# Product Builders 🚀
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1d889c8b-5070-453f-8209-78fce7ebb4e0/deploy-status)](https://app.netlify.com/sites/productbuilders/deploys)
 
-> An open-source guide for founders: Build real apps by coding with AI Agents!
+A comprehensive guide for non-technical founders to build real applications using AI coding assistants. Learn how to leverage tools like Cursor, Bolt, and Lovable to create production-ready applications.
 
 ## About this Guide
 
@@ -18,7 +18,7 @@ Product Builders is an open-source, collaborative guide that helps non-technical
 - Launching, getting feedback, and iterating
 - Creating a successful product as a non-technical founder
 
-## Tech Stack
+## Built With
 
 This guide is built using:
 - [VitePress](https://vitepress.dev/) - A static site generator
@@ -26,6 +26,10 @@ This guide is built using:
 - GitHub for collaboration and version control
 - Google Analytics for usage tracking
 - Custom Vue components for enhanced functionality
+- [Netlify](https://www.netlify.com/) - Hosting & Deployment
+- [CloudFlare](https://www.cloudflare.com/) - DNS & SSL
+- [Namecheap](https://www.namecheap.com/) - Domain Management
+- [Ahrefs](https://ahrefs.com/) - SEO & Analytics
 
 ## Features
 

@@ -155,6 +155,11 @@ gtag('config', 'G-S3TK4P84LM');`],
     ['meta', { name: 'twitter:creator', content: '@angshu-min-js' }],
     
     // Canonical link to prevent duplicate content issues
-    ['link', { rel: 'canonical', href: 'https://productbuilders.xyz' }]
+    ['link', { rel: 'canonical', href: 'https://productbuilders.xyz' }],
+    ['script', { 
+      src: 'https://analytics.ahrefs.com/analytics.js',
+      'data-key': 'lUJQUeuBDMZcVRtRGy6fXw',
+      async: true
+    }]
   ]
 }) 
