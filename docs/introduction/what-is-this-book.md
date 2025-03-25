@@ -51,8 +51,8 @@ I'm [Angshuman Gupta](https://angshumangupta.com/), a product leader with 12+ ye
 
 - 🗣 **[German with Nik](https://germanwithnik.com/)** – A german language learning app providing German lessons through an AI tutor
 - 📸 **[CaptionsGPT](https://captionsgpt.site/)** – An AI-powered mobile app that generates captions for photos & videos
-- 🛡️ **[PII Shield](https://pii-shield.com)** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*
-- 📚 **[PM Interview Prep](https://pminterviewprep.com)** – A comprehensive SaaS platform for product management interview preparation *(Coming Soon)*
+- 🛡️ **[PII Shield](https://jazzy-panda-7fa2c1.netlify.app/)** – A document redaction tool powered by AI that automatically identifies and removes sensitive information *(Coming Soon)*
+- 📚 **[PM Interview Prep](https://product-quest-ai.lovable.app/)** – A comprehensive Micro-SaaS platform for product management interview preparation *(Coming Soon)*
 
 Throughout my career, I've navigated the complexities of product development—from zero to one, scaling, and launching in competitive markets. I believe that with the right tools and mindset, anyone can turn their idea into a real product, even without being a coding expert.
 
