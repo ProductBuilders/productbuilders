@@ -45,7 +45,7 @@ But this isn't just a how-to guide—it's an open-source playbook for builders. 
 
 <div class="author-box">
 
-I'm [Angshuman Gupta](https://angshumangupta.com/), a product leader with 12+ years of experience in startups and multinational companies like [Zalando](https://www.zalando.com), [Zeta](https://www.zeta.tech), and [Ola](https://www.olacabs.com).
+I'm [Angshuman Gupta](https://angshumangupta.com/), a product leader with 12+ years of experience in startups and multinational companies like [Zalando](https://www.zalando.com), [Zeta](https://www.zeta.tech), and [Ola](https://www.olacabs.com).  I've built products from scratch, scaled businesses, and helped drive millions in revenue.
 
 ### My Products 🚀
 

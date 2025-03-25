@@ -85,10 +85,10 @@ export default defineConfig({
         text: 'Case Studies',
         items: [
           { text: 'Overview', link: '/case-studies/overview' },
-          { text: 'Mobile App - Captions GPT (Launching)', link: '/case-studies/captions-gpt-launching' },
-          { text: 'Web App - PII Shield (Idea Validation)', link: '/case-studies/pii-shield-validation' },
-          { text: 'Mobile App - LeagueAdda (Mocks to Launch)', link: '/case-studies/leagueadda-mocks-to-launch' },
-          { text: 'Mobile App - LeagueAdda (Scaling to 100K)', link: '/case-studies/leagueadda-scaling' }
+          { text: '📱Captions GPT (Launching With Vibe Coding)🌟', link: '/case-studies/captions-gpt-launching' },
+          { text: '🌐PII Shield (Validation)💡', link: '/case-studies/pii-shield-validation' },
+          { text: '📱Fantasy Gaming (Mocks to Launch)🚀', link: '/case-studies/leagueadda-mocks-to-launch' },
+          { text: '📱Fantasy Gaming (Scaling to 100K)📈', link: '/case-studies/leagueadda-scaling' }
         ]
       }
     ],

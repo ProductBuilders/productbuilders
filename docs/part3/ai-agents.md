@@ -28,6 +28,8 @@ Let's break down exactly how to work with AI Agents effectively.
 
 <div class="content-box">
 
+> "Vibe coding with AI isn't just about writing code—it's about having a conversation with your tools, exploring possibilities, and letting creativity flow naturally. It's like pair programming with a tireless partner who's always ready to help." - Andrej Karpathy
+
 Once your product & technical specs are ready, the first step is to translate those into an initial working codebase. AI can do this efficiently if prompted correctly.
 
 ### 📌 How to Prompt AI Agents to Write Code for You
