@@ -146,8 +146,8 @@ In the spirit of product development itself, consider this the first version—t
 <div class="community-box">
 
 - 💬 Join our [Discord Community](https://discord.gg/productbuilders)
-- 🐦 Follow us on [Twitter](https://twitter.com/productbuilders)
-- ⭐ Star us on [GitHub](https://github.com/productbuilders/guide)
+- 🐦 Follow me on [Twitter](https://x.com/Angshuman_Gupta)
+- ⭐ Star us on [GitHub](https://github.com/productbuilders)
 - 📧 Subscribe to our [Newsletter](https://productbuilderscommunity.substack.com/)
 
 </div>
