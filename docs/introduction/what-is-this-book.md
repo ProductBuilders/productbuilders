@@ -148,7 +148,7 @@ In the spirit of product development itself, consider this the first version—t
 - 💬 Join our [Discord Community](https://discord.gg/productbuilders)
 - 🐦 Follow us on [Twitter](https://twitter.com/productbuilders)
 - ⭐ Star us on [GitHub](https://github.com/productbuilders/guide)
-- 📧 Subscribe to our [Newsletter](https://productbuilders.substack.com)
+- 📧 Subscribe to our [Newsletter](https://productbuilderscommunity.substack.com/)
 
 </div>
 

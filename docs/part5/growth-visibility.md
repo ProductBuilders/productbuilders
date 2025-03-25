@@ -97,7 +97,7 @@ Growth and visibility are crucial for your product's success. This chapter explo
 - **Use [Slack](https://slack.com/) for Team Communication**  
   Facilitate internal collaboration and keep your team aligned.
 
-- **Build an Email Community with [Mailchimp](https://mailchimp.com/) or [ConvertKit](https://convertkit.com/)**  
+- **Build an Email Community with [Mailchimp](https://mailchimp.com/) or [ConvertKit](https://convertkit.com/) or [Substack](https://substack.com/)**  
   Maintain direct communication with your audience through newsletters and updates.
 
 </div>
