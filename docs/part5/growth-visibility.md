@@ -148,7 +148,7 @@ Growth and visibility are crucial for your product's success. This chapter explo
 - **Build Relationships with Journalists and Bloggers**  
   Engage with media professionals on Twitter and LinkedIn before your launch.
 
-- **Use [HARO](https://www.helpareporter.com/) for Media Opportunities**  
+- **Use HARO for Media Opportunities**  
   Respond to journalist requests to get featured in relevant publications.
 
 - **Create Newsworthy Content and Announcements**  
@@ -195,9 +195,9 @@ Growth and visibility are crucial for your product's success. This chapter explo
 <div class="content-box">
 
 - **Learn from Personal Brand Experts**  
-  - [Marc Louvion](https://twitter.com/marclouvion) for growth strategies
-  - [Lenny Rach](https://twitter.com/lennysan) for product insights
-  - [Jack Butcher](https://twitter.com/jackbutcher) for visual branding
+  - [Marc Louvion](https://x.com/marc_louvion) for growth strategies
+  - [Lenny Rach](https://x.com/lennysan) for product insights
+  - [Jack Butcher](https://x.com/jackbutcher) for visual branding
 
 - **Utilize Viral Marketing on Social Media**  
   Study examples like:
