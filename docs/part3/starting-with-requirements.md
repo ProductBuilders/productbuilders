@@ -88,9 +88,10 @@ This section is where you define how the product works from a development perspe
 | Component | Web Application | Mobile Application |
 |-----------|----------------|-------------------|
 | Frontend | [Next.js](https://nextjs.org) (React) | [Expo Go](https://expo.dev) |
-| Backend | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | Supabase + FastAPI |
-| AI Processing | [OpenAI](https://openai.com) / [Render](https://render.com) / [Grok](https://grok.ai) | Same |
-| Payments | [Stripe](https://stripe.com) for subscriptions | [RevenueCat](https://revenuecat.com) |
+| Backend | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | [Supabase](https://supabase.com) + Fastify (Custom) |
+| AI Processing | [OpenAI](https://openai.com) / [Render](https://render.com) / [Groq](https://console.groq.com/) | Same |
+| Payments | [Stripe](https://stripe.com) for subscriptions | [RevenueCat](https://revenuecat.com) for Payment Wall |
+| Analytics | [Google Analytics](https://analytics.google.com/) | [Posthog](https://posthog.com/) |
 | Hosting | [Vercel](https://vercel.com) / [Netlify](https://netlify.com) | Android or iOS |
 
 </div>

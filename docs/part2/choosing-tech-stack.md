@@ -15,7 +15,7 @@ Many low-code tools allow you to quickly build a proof of concept (POC), but the
 
 If you're serious about building a product that can grow and evolve, you need to own your codebase—your secret sauce.
 
-I know it can feel overwhelming if you have zero coding experience, but today's AI-powered coding tools ([Lovable](https://lovable.ai), [Cursor](https://cursor.sh), [Bolt](https://bolt.ai), [Claude](https://anthropic.com/claude)) make it easier than ever to write and deploy production-grade code.
+I know it can feel overwhelming if you have zero coding experience, but today's AI-powered coding tools ([Lovable](https://lovable.dev), [Cursor](https://cursor.sh), [Bolt](https://bolt.ai), [Claude](https://anthropic.com/claude)) make it easier than ever to write and deploy production-grade code.
 
 🚀 **Goal**: Equip you with a simple, scalable tech stack and show you how to build it using AI tools—even if you're not a developer.
 
@@ -51,7 +51,7 @@ Before choosing a stack, you need to understand the three core components of any
 
 | Product Type | Frontend (UI) | Backend (Logic & Database) | APIs / Integrations | Hosting & DevOps |
 |-------------|---------------|---------------------------|-------------------|------------------|
-| Web-Based SaaS (B2B / B2C) | [React](https://react.dev) ([Next.js](https://nextjs.org)) / [Vue.js](https://vuejs.org) | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | [Stripe](https://stripe.com) (Payments), [OpenAI](https://openai.com) (AI) | [Vercel](https://vercel.com) / [Render](https://render.com) / [Netlify](https://netlify.com) |
+| Web-Based SaaS (B2B / B2C) | [React](https://react.dev) ([Next.js](https://nextjs.org)) / [Vue.js](https://vuejs.org) | [Supabase](https://supabase.com) / [Firebase](https://firebase.google.com) | [Stripe](https://stripe.com) (Payments), [OpenAI](https://openai.com) (AI), [GA](https://analytics.google.com/) (Analytics) | [Vercel](https://vercel.com) / [Render](https://render.com) / [Netlify](https://netlify.com) |
 | Mobile App (iOS & Android) | [Expo](https://expo.dev) ([React Native](https://reactnative.dev)) | [Firebase](https://firebase.google.com) / [Supabase](https://supabase.com) | [RevenueCat](https://revenuecat.com) (Payments), [PostHog](https://posthog.com) (Analytics) | [Expo Go](https://expo.dev/go) |
 | API-First Product | Minimal UI (if needed) | [Node.js](https://nodejs.org) + [Supabase](https://supabase.com) | [OpenAI](https://openai.com), [Claude](https://anthropic.com/claude), [Replicate](https://replicate.com) (AI APIs) | [Railway](https://railway.app) / [Render](https://render.com) |
 | Chrome Extension | [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro) ([React](https://react.dev) / Vanilla JS) | [Firebase](https://firebase.google.com) (if needed) | [OpenAI](https://openai.com) (for AI features) | [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) |
@@ -109,7 +109,7 @@ The biggest challenge for non-technical founders is writing code—but AI tools 
 
 ### 📌 Top AI Coding Assistants:
 - ✔ **[Cursor](https://cursor.sh)** – AI-powered IDE for coding in React, Next.js, Node.js
-- ✔ **[Bolt](https://bolt.ai)** – Auto-generates full-stack applications
+- ✔ **[Bolt](https://bolt.ai) / [Lovable](https://lovable.dev)** – Auto-generates full-stack applications
 - ✔ **[Claude](https://anthropic.com/claude) / [ChatGPT](https://chat.openai.com)** – Helps with code debugging & explanation
 
 ### 🎯 Action Step:
@@ -122,7 +122,7 @@ The biggest challenge for non-technical founders is writing code—but AI tools 
 <div class="content-box">
 
 - ✅ Low-code tools are good for POCs but bad for scaling. Own your code
-- ✅ AI coding tools (Cursor, Bolt, Claude) make coding easy—even if you're a beginner
+- ✅ AI coding tools (Cursor, Bolt, Claude, etc) make coding easy—even if you're a beginner
 - ✅ Choose a scalable tech stack: React / Expo (Frontend), Next.js / Firebase / Supabase (Backend), Stripe / RevenueCat (Payments)
 - ✅ Use AI-powered tools to build your MVP faster
 

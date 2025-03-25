@@ -1,5 +1,5 @@
 ---
-title: Part 2 - Solution Design & Architecture | Product Builders
+title: Part 2 -  Planning Your Product | Product Builders
 description: Learn how to design effective solutions and choose the right technology stack for your product.
 head:
   - - meta
@@ -10,13 +10,13 @@ head:
       content: Product Builders Team
   - - meta
     - property: og:title
-      content: Part 2 - Solution Design & Architecture | Product Builders
+      content: Part 2 -  Planning Your Product | Product Builders
   - - meta
     - property: og:description
       content: Learn how to design effective solutions and choose the right technology stack for your product.
 ---
 
-# Part 2: Solution Design & Architecture 🎨
+# Part 2:  Planning Your Product 🎨
 
 > "Simplicity is the ultimate sophistication." - Leonardo da Vinci
 
