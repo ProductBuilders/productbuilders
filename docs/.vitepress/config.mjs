@@ -98,7 +98,7 @@ export default defineConfig({
     ],
     footer: {
     //  copyright: 'Released under the MIT License.',
-      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project by <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>. Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>. Powered by AI coding assistants.',
+      message: 'Open-source under the MIT License. Created by the community, for the community. A passion project of <a href="https://angshumangupta.com/" target="_blank">Angshuman Gupta</a>.',
       nav: [
         { text: 'Discord Community', link: 'https://discord.gg/XbYrxMPW' },
         { text: 'Contribute', link: '/contribute' },

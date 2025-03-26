@@ -17,7 +17,7 @@ hero:
 features:
   - icon: 💡
     title: Validate Ideas Fast
-    details: Discover frameworks for finding genuine market problems and validating your ideas without writing code
+    details: Discover frameworks for finding genuine market problems and validating your ideas 
   - icon: 🎨
     title: Design Like a Pro
     details: Create beautiful, intuitive user interfaces even without design experience using AI-powered tools
@@ -30,9 +30,11 @@ features:
 ---
 
 <div class="landing-container">
+
 <br>
 
 # From idea to profitable product with AI coding assistants
+
 
 > "The best way to predict the future is to build it." - Alan Kay
 
@@ -42,6 +44,8 @@ Product Builders is an open-source free guide that takes you through every step 
   <a href="/introduction/what-is-this-book" class="cta-button">Start Your Journey</a>
   <a href="/contribute" class="cta-button-secondary">Contribute</a>
 </div>
+
+<!--
 
 ## Build products people actually want
 
@@ -65,7 +69,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
     <p>Deploy your product with confidence and implement strategies to acquire your first users.</p>
   </div>
 </div>
-
+-->
 ## Success stories built with AI coding agents
 
 <div class="apps-showcase">
@@ -73,7 +77,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
     <div class="app-image captions-gpt-image"></div>
     <div class="app-content">
       <h3>CaptionsGPT</h3>
-      <p>An AI-powered mobile app that generates captions for videos, built by a non-technical founder using AI coding agents and the frameworks in this guide.</p>
+      <p>An AI-powered mobile app that generates captions for photos & videos, built using AI coding agents and the frameworks in this guide.</p>
       <a href="https://captionsgpt.site/" target="_blank" class="app-link">Visit App →</a>
     </div>
   </div>
@@ -82,7 +86,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
     <div class="app-image german-with-nik-image"></div>
     <div class="app-content">
       <h3>German with Nik</h3>
-      <p>A language learning app that provides personalized German lessons through an AI tutor. Built from idea to launch using AI coding assistants and Product Builders.</p>
+      <p>A language learning app that provides personalized German lessons through an AI tutor. Built from idea to launch by a Product Builder.</p>
       <a href="https://germanwithnik.com/" target="_blank" class="app-link">Visit App →</a>
     </div>
   </div>

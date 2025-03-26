@@ -29,7 +29,7 @@ const jsonLd = computed(() => {
       '@context': 'https://schema.org',
       '@type': 'Book',
       name: 'Product Builders: A Guide for Non-Technical Founders',
-      description: 'A comprehensive guide for non-technical founders to build digital products using AI tools without coding.',
+      description: 'A comprehensive guide for non-technical founders to build digital products using AI.',
       url: 'https://productbuilders.xyz',
       author: {
         '@type': 'Person',

@@ -37,14 +37,14 @@ Welcome to Part 6 of ProductBuilders, where we focus on scaling your product aft
 <div class="learning-objectives">
 
 ### Scaling Your Product
-✅ Handle growing user bases effectively  
-✅ Manage increasing product complexity  
-✅ Scale infrastructure seamlessly  
+✅ Having a North Star    
+✅ Marketing & Growth Strategies   
+✅ Managing your product's roadmap  
 
-### Building a Sustainable Business
+### Plan Your Exit
 ✅ Evolve from product to business  
-✅ Establish growth processes  
-✅ Create long-term value  
+✅ Manage your financials  
+✅ Exit Strategies (Acquision or Merger) 
 
 </div>
 
