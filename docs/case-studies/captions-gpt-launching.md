@@ -287,12 +287,13 @@ The final application uses:
 
 <div class="content-box">
 
-Part 5 of this project (in progress) will cover:
+::: warning Next I will cover:
 - Landing page development
 - App Store assets creation
 - App Store Optimization (ASO)
 - Promotional video production
 - Marketing strategy
+:::
 
 Stay tuned for updates on the full launch story!
 
