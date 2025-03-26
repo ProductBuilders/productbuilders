@@ -20,10 +20,10 @@ Welcome to the Case Studies section of Product Builders. While the main chapters
 <div class="content-box">
 
 ### [Mobile App - Captions GPT (Idea to Launch)](/case-studies/captions-gpt-launching)
-Follow the journey of how Captions GPT, an AI-powered caption generation app, went from idea to launch.
+Follow the journey of how CaptionsGPT, an AI-powered caption generation app, went from idea to launch using Vibe Coding.
 
 ### [Web App - PII Shield (Idea Validation)](/case-studies/pii-shield-validation)
-Explore how the founders of PII Shield validated their idea for a privacy-focused text sanitization tool before building.
+Explore how the PII Shield idea was validated before building.
 
 ### [Mobile App - LeagueAdda (Mocks to Launch)](/case-studies/leagueadda-mocks-to-launch)
 Learn how LeagueAdda, a fantasy sports platform, was transformed from design mockups to a launched product.

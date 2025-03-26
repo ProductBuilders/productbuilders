@@ -28,7 +28,7 @@ Scaling a product requires careful planning, sustainable practices, and the righ
 
 <div class="content-box">
 
-Welcome to Part 6 of ProductBuilders, where we focus on scaling your product after achieving initial traction. This is where your journey transforms from building a product to creating a sustainable business.
+Welcome to Part 6 of Product Builders, where we focus on scaling your product after achieving initial traction. This is where your journey transforms from building a product to creating a sustainable business and finally exiting.
 
 </div>
 
