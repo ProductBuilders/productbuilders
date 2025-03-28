@@ -1,14 +1,48 @@
 <script setup>
-import { onMounted, ref, watch } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { onMounted, ref, watch, onBeforeUnmount } from 'vue'
+import { useData, useRoute, useRouter } from 'vitepress'
 
 const { isDark } = useData()
 const route = useRoute()
+const router = useRouter()
 const utterancesRef = ref(null)
+const loginHandled = ref(false)
+
+// Handle login redirect if we land on any page with utterances token
+const handleLoginRedirect = () => {
+  // If we have a token in the URL and haven't handled it yet
+  if (window.location.search.includes('utterances=') && !loginHandled.value) {
+    loginHandled.value = true
+    console.log('Detected utterances auth token in URL')
+    
+    // Extract the original path from localStorage if it exists
+    const originalPath = localStorage.getItem('utterances_original_path')
+    if (originalPath && originalPath !== route.path) {
+      console.log('Redirecting back to original page:', originalPath)
+      
+      // Get the token from the URL
+      const utterancesParam = new URLSearchParams(window.location.search).get('utterances')
+      
+      // Redirect to the original page with the token
+      setTimeout(() => {
+        // Use router to navigate and preserve the token
+        router.go(`${originalPath}?utterances=${utterancesParam}`)
+      }, 100)
+      return true
+    }
+  }
+  return false
+}
 
 // Function to load utterances script
 const loadUtterances = () => {
   if (!utterancesRef.value) return
+  
+  // Store current path before authentication
+  if (!window.location.search.includes('utterances=')) {
+    localStorage.setItem('utterances_original_path', route.path)
+    console.log('Saved current path for redirection:', route.path)
+  }
   
   // Remove existing utterances if any
   const utterancesContainer = utterancesRef.value
@@ -18,9 +52,6 @@ const loadUtterances = () => {
   
   // Get the current page URL for proper redirect after authentication
   const currentPageUrl = window.location.origin + window.location.pathname
-  
-  // For debugging - log the redirect URL
-  console.log('Utterances redirect URL:', currentPageUrl)
   
   // Create script element
   const utterancesScript = document.createElement('script')
@@ -38,22 +69,36 @@ const loadUtterances = () => {
   // Append script to the container
   utterancesContainer.appendChild(utterancesScript)
   
-  // Handle authentication redirect if we have a utterances token in URL
+  // Process the auth token if present in URL
   if (window.location.search.includes('utterances=')) {
+    console.log('Processing utterances token...')
     // Delay execution to ensure utterances script has loaded
     setTimeout(() => {
-      const iframe = document.querySelector('.utterances-frame');
+      const iframe = document.querySelector('.utterances-frame')
       if (iframe) {
-        // Force a reload of the iframe to process the authentication
-        iframe.src = iframe.src;
+        console.log('Refreshing utterances iframe to complete auth')
+        iframe.src = iframe.src
       }
-    }, 1000);
+    }, 1500)
   }
 }
 
-// Load utterances when the component is mounted
+// Check for authentication redirect on component mount
 onMounted(() => {
-  loadUtterances()
+  // First check if we need to handle a redirect
+  const isRedirecting = handleLoginRedirect()
+  
+  // If not redirecting, load utterances as normal
+  if (!isRedirecting) {
+    loadUtterances()
+  }
+})
+
+// Clean up localStorage on unmount
+onBeforeUnmount(() => {
+  if (loginHandled.value) {
+    localStorage.removeItem('utterances_original_path')
+  }
 })
 
 // Watch for dark/light mode changes and reload utterances with appropriate theme
@@ -65,7 +110,11 @@ watch(isDark, () => {
 watch(
   () => route.path,
   () => {
-    loadUtterances()
+    // Check for auth redirect first
+    const isRedirecting = handleLoginRedirect()
+    if (!isRedirecting) {
+      loadUtterances()
+    }
   }
 )
 </script>
