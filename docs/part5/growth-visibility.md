@@ -33,6 +33,10 @@ Growth and visibility are crucial for your product's success. This chapter explo
 - **Build Anticipation Through Waitlists and Early Access**  
   Use tools like [Product Hunt's Upcoming Pages](https://www.producthunt.com/upcoming) to gather early interest and feedback. Creating an upcoming page well before your launch can help collect emails of interested users, some of whom may become beta testers or early adopters.
 
+::: info
+**Leverage Marketing Resources and Platforms**: Explore our comprehensive [Marketing Resources Checklist](/part5/marketing-resources) for directories, communities, publications, and other platforms to promote your product.
+::: 
+
 ### 2️⃣ Content Marketing
 
 - **Start a Blog or Newsletter to Establish Authority**  
