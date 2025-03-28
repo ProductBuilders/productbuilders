@@ -5,7 +5,7 @@ keywords: "marketing resources, product launch, startup directories, reddit comm
 author: "Product Builders"
 ---
 
-# Marketing Checklist 📊
+# Marketing Resources 📊
 
 <div class="content-box">
 
@@ -154,7 +154,6 @@ This comprehensive checklist provides a wide range of platforms, communities, an
 |----------|-------------|
 | [Flippa](https://flippa.com/) | Marketplace for buying and selling online businesses. |
 | [Empire Flippers](https://empireflippers.com/) | Brokerage service for selling profitable online businesses. |
-| [MicroAcquire](https://microacquire.com/) | Platform for acquiring and selling startups without brokers. |
 | [FE International](https://feinternational.com/) | M&A advisory firm specializing in SaaS and eCommerce exits. |
 | [Acquire.com](https://acquire.com/) | Marketplace connecting startup sellers with buyers. |
 
