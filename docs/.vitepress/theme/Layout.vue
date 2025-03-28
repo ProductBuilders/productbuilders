@@ -5,6 +5,7 @@ import { useData } from 'vitepress'
 import PageAuthor from './components/PageAuthor.vue'
 import JsonLd from './components/JsonLd.vue'
 import Comments from './components/Comments.vue'
+import DynamicCanonical from './components/DynamicCanonical.vue'
 
 // Use the default VitePress theme
 const { Layout } = DefaultTheme
@@ -40,6 +41,9 @@ const shouldShowComments = () => {
 
 <template>
   <Layout>
+    <!-- Include the DynamicCanonical component -->
+    <DynamicCanonical />
+    
     <template #doc-after>
       <PageAuthor v-if="page.isPage" />
       <!-- Always include Comments component for auth handling but let it decide visibility internally -->

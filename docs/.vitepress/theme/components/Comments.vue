@@ -33,11 +33,30 @@ const handleLoginRedirect = () => {
       // Get the token from the URL
       const utterancesParam = new URLSearchParams(window.location.search).get('utterances')
       
+      // Get the canonical URL for this original path
+      // Calculate the full URL for the original path
+      // First check if we're on the home page and need special handling
+      let targetUrl
+      
+      if (window.location.pathname === '/' && originalPath !== '/') {
+        // We're on the home page but should be on another page
+        targetUrl = `${window.location.origin}${originalPath}?utterances=${utterancesParam}`
+        console.log('Redirect from homepage to original page:', targetUrl)
+      } else if (window.location.pathname !== originalPath) {
+        // We're on some other page than the original
+        targetUrl = `${window.location.origin}${originalPath}?utterances=${utterancesParam}`
+        console.log('Redirect to original page:', targetUrl)
+      } else {
+        // We're already on the right page, just make sure the token is in the URL
+        // No need to redirect, just ensure the comments are loaded with the token
+        console.log('Already on the correct page, no redirect needed')
+        return false
+      }
+      
       // Redirect to the original page with the token
-      // Replace router.go with window.location for more reliable redirect with query params
       setTimeout(() => {
-        console.log('Redirecting to:', `${window.location.origin}${originalPath}?utterances=${utterancesParam}`)
-        window.location.href = `${window.location.origin}${originalPath}?utterances=${utterancesParam}`
+        console.log('Redirecting to:', targetUrl)
+        window.location.href = targetUrl
       }, 100)
       return true
     }
@@ -68,7 +87,22 @@ const loadUtterances = () => {
   }
   
   // Get the current page URL for proper redirect after authentication
-  const currentPageUrl = window.location.origin + window.location.pathname
+  // Instead of just using pathname, use the full canonical URL
+  // This will respect the canonical URL set by the DynamicCanonical component
+  const canonicalEl = document.querySelector('link[rel="canonical"]')
+  let currentPageUrl
+  
+  if (canonicalEl && canonicalEl.href) {
+    currentPageUrl = canonicalEl.href
+    console.log('Using canonical URL for Utterances:', currentPageUrl)
+  } else {
+    // If no canonical URL is found, construct one using the site's base URL and current path
+    const { site } = useData()
+    const baseUrl = site.value.sitemap?.hostname || window.location.origin
+    const path = route.path
+    currentPageUrl = `${baseUrl}${path}`
+    console.log('Canonical not found, constructing URL:', currentPageUrl)
+  }
   
   // Create script element
   const utterancesScript = document.createElement('script')

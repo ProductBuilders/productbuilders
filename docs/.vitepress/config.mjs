@@ -8,7 +8,7 @@ export default defineConfig({
   
   // SEO optimizations
   lang: 'en-US',
-  titleTemplate: '%s | Product Builders',
+  titleTemplate: 'Product Builders | Build real apps by coding with AI Agents',
   
   sitemap: {
     hostname: 'https://productbuilders.xyz'
@@ -154,8 +154,8 @@ gtag('config', 'G-S3TK4P84LM');`],
     ['meta', { name: 'twitter:image', content: 'https://productbuilders.xyz/og-image.png' }],
     ['meta', { name: 'twitter:creator', content: '@angshu-min-js' }],
     
-    // Canonical link to prevent duplicate content issues
-    ['link', { rel: 'canonical', href: 'https://productbuilders.xyz' }],
+    // Canonical link is now set dynamically in DynamicCanonical.vue
+    // ['link', { rel: 'canonical', href: 'https://productbuilders.xyz' }],
     ['script', { 
       src: 'https://analytics.ahrefs.com/analytics.js',
       'data-key': 'lUJQUeuBDMZcVRtRGy6fXw',
