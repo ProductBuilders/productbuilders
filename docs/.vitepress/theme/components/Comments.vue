@@ -16,6 +16,12 @@ const loadUtterances = () => {
     utterancesContainer.removeChild(utterancesContainer.firstChild)
   }
   
+  // Get the current page URL for proper redirect after authentication
+  const currentPageUrl = window.location.origin + window.location.pathname
+  
+  // For debugging - log the redirect URL
+  console.log('Utterances redirect URL:', currentPageUrl)
+  
   // Create script element
   const utterancesScript = document.createElement('script')
   utterancesScript.async = true
@@ -26,8 +32,23 @@ const loadUtterances = () => {
   utterancesScript.setAttribute('theme', isDark.value ? 'github-dark' : 'github-light')
   utterancesScript.setAttribute('crossorigin', 'anonymous')
   
+  // Add origin parameter to ensure proper redirect back to the current page
+  utterancesScript.setAttribute('origin', currentPageUrl)
+  
   // Append script to the container
   utterancesContainer.appendChild(utterancesScript)
+  
+  // Handle authentication redirect if we have a utterances token in URL
+  if (window.location.search.includes('utterances=')) {
+    // Delay execution to ensure utterances script has loaded
+    setTimeout(() => {
+      const iframe = document.querySelector('.utterances-frame');
+      if (iframe) {
+        // Force a reload of the iframe to process the authentication
+        iframe.src = iframe.src;
+      }
+    }, 1000);
+  }
 }
 
 // Load utterances when the component is mounted
