@@ -8,6 +8,14 @@ const router = useRouter()
 const utterancesRef = ref(null)
 const loginHandled = ref(false)
 
+// Add prop to determine if comments should be displayed
+const props = defineProps({
+  shouldShow: {
+    type: Boolean,
+    default: true
+  }
+})
+
 // Handle login redirect if we land on any page with utterances token
 const handleLoginRedirect = () => {
   // If we have a token in the URL and haven't handled it yet
@@ -17,16 +25,19 @@ const handleLoginRedirect = () => {
     
     // Extract the original path from localStorage if it exists
     const originalPath = localStorage.getItem('utterances_original_path')
-    if (originalPath && originalPath !== route.path) {
+    console.log('Original path from localStorage:', originalPath)
+    
+    if (originalPath) {
       console.log('Redirecting back to original page:', originalPath)
       
       // Get the token from the URL
       const utterancesParam = new URLSearchParams(window.location.search).get('utterances')
       
       // Redirect to the original page with the token
+      // Replace router.go with window.location for more reliable redirect with query params
       setTimeout(() => {
-        // Use router to navigate and preserve the token
-        router.go(`${originalPath}?utterances=${utterancesParam}`)
+        console.log('Redirecting to:', `${window.location.origin}${originalPath}?utterances=${utterancesParam}`)
+        window.location.href = `${window.location.origin}${originalPath}?utterances=${utterancesParam}`
       }, 100)
       return true
     }
@@ -36,7 +47,13 @@ const handleLoginRedirect = () => {
 
 // Function to load utterances script
 const loadUtterances = () => {
-  if (!utterancesRef.value) return
+  // Skip if comments shouldn't be shown or ref is not available
+  if (!utterancesRef.value || !props.shouldShow) {
+    console.log('Not loading utterances - shouldShow:', props.shouldShow, 'ref available:', !!utterancesRef.value)
+    return
+  }
+  
+  console.log('Loading utterances comments')
   
   // Store current path before authentication
   if (!window.location.search.includes('utterances=')) {
@@ -85,6 +102,8 @@ const loadUtterances = () => {
 
 // Check for authentication redirect on component mount
 onMounted(() => {
+  console.log('Comments component mounted, shouldShow:', props.shouldShow)
+  
   // First check if we need to handle a redirect
   const isRedirecting = handleLoginRedirect()
   
@@ -117,14 +136,28 @@ watch(
     }
   }
 )
+
+// Watch for shouldShow changes
+watch(
+  () => props.shouldShow,
+  (newValue) => {
+    console.log('shouldShow changed to:', newValue)
+    if (newValue) {
+      loadUtterances()
+    }
+  }
+)
 </script>
 
 <template>
-  <div class="comments-container">
+  <!-- Only render the visible parts when shouldShow is true, but always have the component for auth handling -->
+  <div v-if="shouldShow" class="comments-container">
     <h2>Comments</h2>
     <p>Share your thoughts and questions about this page. Sign in with GitHub to comment.</p>
     <div ref="utterancesRef" class="utterances-container"></div>
   </div>
+  <!-- Hidden div for auth handling when comments shouldn't be shown -->
+  <div v-else ref="utterancesRef" style="display: none;"></div>
 </template>
 
 <style scoped>

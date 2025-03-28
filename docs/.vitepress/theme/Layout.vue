@@ -19,8 +19,19 @@ console.log('Is page?', page.value.isPage)
 
 // Function to check if the current page should display comments
 const shouldShowComments = () => {
-  // Show comments for all content pages except specific ones if needed
-  // Add logic here if you want to exclude certain pages
+  // Don't show comments on the home page or pages that explicitly disable them
+  if (frontmatter.value.layout === 'home') {
+    console.log('Not showing comments on home page')
+    return false
+  }
+  
+  // Don't show comments if explicitly disabled
+  if (frontmatter.value.comments === false) {
+    console.log('Comments explicitly disabled for this page')
+    return false
+  }
+  
+  // Show comments for all other content pages
   const shouldShow = page.value.isPage
   console.log('Should show comments?', shouldShow)
   return shouldShow
@@ -31,7 +42,8 @@ const shouldShowComments = () => {
   <Layout>
     <template #doc-after>
       <PageAuthor v-if="page.isPage" />
-      <Comments />
+      <!-- Always include Comments component for auth handling but let it decide visibility internally -->
+      <Comments :should-show="shouldShowComments()" />
     </template>
     
     <!-- Add structured data -->
