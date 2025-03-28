@@ -136,7 +136,7 @@ const loadUtterances = () => {
 
 // Check for authentication redirect on component mount
 onMounted(() => {
-  console.log('Comments component mounted, shouldShow:', props.shouldShow)
+  console.log('Comments component mounted for path:', route.path, 'shouldShow:', props.shouldShow)
   
   // First check if we need to handle a redirect
   const isRedirecting = handleLoginRedirect()
@@ -147,10 +147,26 @@ onMounted(() => {
   }
 })
 
-// Clean up localStorage on unmount
+// Properly clean up on unmount
 onBeforeUnmount(() => {
+  console.log('Comments component unmounting for path:', route.path)
+  
+  // Clean up auth data if needed
   if (loginHandled.value) {
     localStorage.removeItem('utterances_original_path')
+  }
+  
+  // Remove the utterances container if it exists
+  if (utterancesRef.value) {
+    while (utterancesRef.value.firstChild) {
+      utterancesRef.value.removeChild(utterancesRef.value.firstChild)
+    }
+  }
+  
+  // Also clean up any utterances iframe that might have been added to the DOM
+  const utterancesFrame = document.querySelector('.utterances-frame')
+  if (utterancesFrame && utterancesFrame.parentElement) {
+    utterancesFrame.parentElement.removeChild(utterancesFrame)
   }
 })
 

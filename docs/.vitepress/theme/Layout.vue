@@ -1,6 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
 // import { onMounted, watch } from 'vue'
 import PageAuthor from './components/PageAuthor.vue'
 import JsonLd from './components/JsonLd.vue'
@@ -10,6 +10,7 @@ import DynamicCanonical from './components/DynamicCanonical.vue'
 // Use the default VitePress theme
 const { Layout } = DefaultTheme
 const { frontmatter, page } = useData()
+const route = useRoute()
 
 // Simple debug info
 console.log('Layout component loaded')
@@ -46,8 +47,11 @@ const shouldShowComments = () => {
     
     <template #doc-after>
       <PageAuthor v-if="page.isPage" />
-      <!-- Always include Comments component for auth handling but let it decide visibility internally -->
-      <Comments :should-show="shouldShowComments()" />
+      <!-- Add a unique key based on the current page path to force re-mounting -->
+      <Comments 
+        :should-show="shouldShowComments()" 
+        :key="route.path" 
+      />
     </template>
     
     <!-- Add structured data -->
