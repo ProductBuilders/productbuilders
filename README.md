@@ -30,6 +30,7 @@ This guide is built using:
 - [CloudFlare](https://www.cloudflare.com/) - DNS & SSL
 - [Namecheap](https://www.namecheap.com/) - Domain Management
 - [Ahrefs](https://ahrefs.com/) - SEO & Analytics
+- [Utterances](https://utteranc.es/) - GitHub-based comments system
 
 ## Features
 
@@ -38,6 +39,7 @@ This guide is built using:
 - **Interactive Components**: Track user engagement with Google Analytics event tracking
 - **Real-World Case Studies**: Examples of applications built by non-technical founders using AI coding tools
 - **Community Integration**: Connect with other founders through our Discord community
+- **Comments System**: Discuss content on each page using GitHub-powered comments via utterances
 
 ## Getting Started
 
