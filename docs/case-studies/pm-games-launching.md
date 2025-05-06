@@ -13,30 +13,37 @@ This case study explores how I built a suite of interactive games for my persona
 
 </div>
 
-## 🛠️ Tools Used
-
-<div class="content-box">
-
-- **AI Assistant:** Cursor
-- **Stack:** React, TypeScript, Vite, Tailwind CSS, Shadcn UI
-
-</div>
-
 ## 🎯 Development Approach
 
 <div class="content-box">
 
 The development process followed a consistent pattern for each game:
 
-1. **Prompt Structure:**
+1. **Idea Generation & Brainstorming:**
+   - Used ChatGPT to brainstorm game concepts and mechanics
+   - Generated initial feature lists and gameplay scenarios
+   - Refined game ideas through iterative AI conversations
+
+2. **Prompt Structure (For Cursor):**
    ```
    In my existing website built with React, TypeScript, Vite, and Tailwind CSS, build me the game {game name}. The game does {game functionality}. Create them as separate files.
    ```
 
-2. **Component Architecture:**
+3. **Component Architecture:**
    - Each game was developed as an independent component
    - Seamless integration with existing React + Tailwind codebase
    - Consistent state management using React hooks
+
+</div>
+
+## 🛠️ Tools Used
+
+<div class="content-box">
+
+- **AI Assistants:** 
+  - Cursor for code generation and implementation
+  - ChatGPT for brainstorming and idea generation
+- **Stack:** React, TypeScript, Vite, Tailwind CSS, Shadcn UI
 
 </div>
 
