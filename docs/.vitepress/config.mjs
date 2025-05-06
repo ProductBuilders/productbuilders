@@ -88,7 +88,8 @@ export default defineConfig({
           { text: '📱Captions GPT (Launching With Vibe Coding)🌟', link: '/case-studies/captions-gpt-launching' },
           { text: '🌐PII Shield (Validation)💡', link: '/case-studies/pii-shield-validation' },
           { text: '📱Fantasy Gaming (Mocks to Launch)🚀', link: '/case-studies/leagueadda-mocks-to-launch' },
-          { text: '📱Fantasy Gaming (Scaling to 100K)📈', link: '/case-studies/leagueadda-scaling' }
+          { text: '📱Fantasy Gaming (Scaling to 100K)📈', link: '/case-studies/leagueadda-scaling' },
+          { text: '🎮PM Games (Interactive Learning)🎲', link: '/case-studies/pm-games-launching' }
         ]
       }
     ],
