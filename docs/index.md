@@ -33,7 +33,7 @@ features:
 
 <br>
 
-# From idea to profitable product with AI coding assistants
+# From idea to profitable product with AI 
 
 
 > "The best way to predict the future is to build it." - Alan Kay
@@ -70,7 +70,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   </div>
 </div>
 -->
-## Success stories built with AI coding agents
+## Success stories built with AI Agents
 
 <div class="apps-showcase">
   <div class="app-card">
@@ -117,7 +117,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   <div class="community-content">
     <h3>Connect with Fellow AI-Powered Builders</h3>
     <p>Join our Discord community to connect with other non-technical founders coding with AI agents, share your product journey, get feedback on your AI prompts, and access exclusive resources and support.</p>
-    <a href="https://discord.gg/XbYrxMPW" target="_blank" class="discord-button">
+    <a href="https://discord.gg/69Qh855T" target="_blank" class="discord-button">
       Join Discord Server
     </a>
   </div>
