@@ -33,7 +33,7 @@ features:
 
 <br>
 
-# From idea to profitable product with AI 
+# From idea to profitable product with AI Agents
 
 
 > "The best way to predict the future is to build it." - Alan Kay
