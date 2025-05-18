@@ -25,8 +25,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Build', link: '/introduction/what-is-this-book', class: 'action-button' },
       { text: 'Contribute', link: '/contribute' },
-      { text: 'Contributors', link: '/contributors' },
-      { text: 'API', link: '/api' }
+      { text: 'Contributors', link: '/contributors' }
     ],
     sidebar: [
       {

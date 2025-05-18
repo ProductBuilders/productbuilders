@@ -1,0 +1,152 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Product Builders Search API",
+    "description": "API for searching content across the Product Builders website",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/search": {
+      "get": {
+        "summary": "Search content",
+        "description": "Search across all content including chapters, case studies, and resources",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "Search query string",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Type of content to search (chapter, case-study, resource)",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": ["chapter", "case-study", "resource", "all"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "title": {
+                            "type": "string",
+                            "description": "Title of the content"
+                          },
+                          "description": {
+                            "type": "string",
+                            "description": "Brief description or excerpt"
+                          },
+                          "url": {
+                            "type": "string",
+                            "description": "URL to the content"
+                          },
+                          "type": {
+                            "type": "string",
+                            "description": "Type of content (chapter, case-study, resource)"
+                          },
+                          "keywords": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "description": "Relevant keywords"
+                          },
+                          "lastModified": {
+                            "type": "string",
+                            "format": "date-time",
+                            "description": "Last modification date"
+                          }
+                        }
+                      }
+                    },
+                    "total": {
+                      "type": "integer",
+                      "description": "Total number of results"
+                    },
+                    "page": {
+                      "type": "integer",
+                      "description": "Current page number"
+                    },
+                    "perPage": {
+                      "type": "integer",
+                      "description": "Number of results per page"
+                    }
+                  }
+                },
+                "example": {
+                  "results": [
+                    {
+                      "title": "Identifying Problems Worth Solving",
+                      "description": "Learn how to identify and validate problems that are worth solving using AI tools...",
+                      "url": "/part1/identifying-problems",
+                      "type": "chapter",
+                      "keywords": ["problem identification", "validation", "AI tools", "user research"],
+                      "lastModified": "2024-03-20T11:37:47Z"
+                    },
+                    {
+                      "title": "Captions GPT Case Study",
+                      "description": "A detailed case study of building and launching Captions GPT using AI coding assistants...",
+                      "url": "/case-studies/captions-gpt-launching",
+                      "type": "case-study",
+                      "keywords": ["AI coding", "launch", "case study", "product development"],
+                      "lastModified": "2024-03-20T11:37:47Z"
+                    }
+                  ],
+                  "total": 2,
+                  "page": 1,
+                  "perPage": 10
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid search parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No results found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 

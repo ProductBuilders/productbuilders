@@ -199,7 +199,7 @@ Located in `.cursor/rules/case-study.mdc`, these rules define the structure and 
 ## Site Features
 
 ### Navigation
-- Top navigation bar with links to Home, Build, Contribute, Contributors, and API
+- Top navigation bar with links to Home, Build, Contribute, and Contributors
 - Sidebar navigation showing chapter hierarchy and case studies
 - Breadcrumb navigation at the top of each page
 - Previous/Next navigation at the bottom of each page
