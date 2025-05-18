@@ -1,0 +1,160 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Product Builders API",
+    "version": "1.0.0",
+    "description": "API for accessing Product Builders content and resources. Provides access to guides, case studies, and tutorials about building products using AI coding assistants."
+  },
+  "paths": {
+    "/api/content": {
+      "get": {
+        "summary": "Get content by type",
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Content type (case-study, tutorial, guide, chapter)",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": ["case-study", "tutorial", "guide", "chapter"]
+            }
+          },
+          {
+            "name": "part",
+            "in": "query",
+            "description": "Part number (1-6) for chapter content",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Content retrieved successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "title": { "type": "string" },
+                      "description": { "type": "string" },
+                      "url": { "type": "string" },
+                      "type": { "type": "string" },
+                      "tags": { "type": "array", "items": { "type": "string" } },
+                      "tools": { "type": "array", "items": { "type": "string" } },
+                      "technologies": { "type": "array", "items": { "type": "string" } }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/search": {
+      "get": {
+        "summary": "Search content",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Search query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Filter by content type",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": ["case-study", "tutorial", "guide", "chapter"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": { "type": "string" },
+                          "title": { "type": "string" },
+                          "description": { "type": "string" },
+                          "url": { "type": "string" },
+                          "type": { "type": "string" },
+                          "relevance_score": { "type": "number" },
+                          "tools": { "type": "array", "items": { "type": "string" } },
+                          "technologies": { "type": "array", "items": { "type": "string" } }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/case-studies": {
+      "get": {
+        "summary": "Get all case studies",
+        "parameters": [
+          {
+            "name": "tool",
+            "in": "query",
+            "description": "Filter by AI coding tool (Cursor, Bolt, Lovable, etc.)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of case studies",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": { "type": "string" },
+                      "title": { "type": "string" },
+                      "description": { "type": "string" },
+                      "url": { "type": "string" },
+                      "tools": { "type": "array", "items": { "type": "string" } },
+                      "technologies": { "type": "array", "items": { "type": "string" } },
+                      "outcomes": { "type": "object" },
+                      "lessons_learned": { "type": "array", "items": { "type": "string" } }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 

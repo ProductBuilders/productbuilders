@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Product Builders Guide",
+  "name_for_model": "product_builders_guide",
+  "description_for_human": "Access comprehensive information about building products using AI coding assistants. Learn how to use tools like Cursor, Bolt, and Lovable to create production-ready applications as a non-technical founder.",
+  "description_for_model": "Provides detailed information about product development using AI coding assistants, including case studies, technical tutorials, and implementation guides. Focuses on helping non-technical founders build and launch digital products.",
+  "auth": { "type": "none" },
+  "api": { 
+    "type": "openapi",
+    "url": "https://productbuilders.xyz/api/openapi.json"
+  },
+  "logo_url": "https://productbuilders.xyz/logo.png",
+  "contact_email": "contact@productbuilders.xyz",
+  "legal_info_url": "https://productbuilders.xyz/terms",
+  "categories": [
+    "productivity",
+    "education",
+    "developer-tools"
+  ],
+  "examples": [
+    "How do I start building a product with Cursor AI?",
+    "Show me case studies of successful products built with AI coding assistants",
+    "What are the best practices for using AI to write code?",
+    "How can I deploy my AI-built application to production?"
+  ]
+} 

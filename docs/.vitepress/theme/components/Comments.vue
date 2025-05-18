@@ -108,7 +108,7 @@ const loadUtterances = () => {
   const utterancesScript = document.createElement('script')
   utterancesScript.async = true
   utterancesScript.src = 'https://utteranc.es/client.js'
-  utterancesScript.setAttribute('repo', 'angshu-min-js/productbuilders')
+  utterancesScript.setAttribute('repo', 'productbuilders/productbuilders')
   utterancesScript.setAttribute('issue-term', 'title')
   utterancesScript.setAttribute('label', 'comments')
   utterancesScript.setAttribute('theme', isDark.value ? 'github-dark' : 'github-light')

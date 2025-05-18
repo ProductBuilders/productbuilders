@@ -1,5 +1,6 @@
 // Note: This file uses ECMAScript modules (ESM)
 import { defineConfig } from 'vitepress'
+import { generateSitemap } from './theme/sitemap'
 
 export default defineConfig({
   title: "Product Builders",
@@ -25,7 +26,7 @@ export default defineConfig({
       { text: 'Build', link: '/introduction/what-is-this-book', class: 'action-button' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Contributors', link: '/contributors' },
-     // { text: 'GitHub', link: 'https://github.com/angshu-min-js/productbuilders' }
+      { text: 'API', link: '/api' }
     ],
     sidebar: [
       {
@@ -123,15 +124,23 @@ export default defineConfig({
     // Optional: Add dark/light mode toggle
     appearance: true
   },
+  
+  // Build hooks
+  async buildEnd(siteConfig) {
+    // Generate sitemap
+    await generateSitemap(siteConfig)
+  },
+  
+  // Head configuration
   head: [
-    // Google Analytics - implemented per https://github.com/vuejs/vitepress/issues/1131
+    // Google Analytics
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-S3TK4P84LM' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-S3TK4P84LM');`],
     
-    // Existing meta tags
+    // Meta tags
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }],
@@ -155,8 +164,10 @@ gtag('config', 'G-S3TK4P84LM');`],
     ['meta', { name: 'twitter:image', content: 'https://productbuilders.xyz/og-image.png' }],
     ['meta', { name: 'twitter:creator', content: '@angshu-min-js' }],
     
-    // Canonical link is now set dynamically in DynamicCanonical.vue
-    // ['link', { rel: 'canonical', href: 'https://productbuilders.xyz' }],
+    // ChatGPT Plugin
+    ['link', { rel: 'ai-plugin', href: '/ai-plugin.json' }],
+    
+    // Analytics
     ['script', { 
       src: 'https://analytics.ahrefs.com/analytics.js',
       'data-key': 'lUJQUeuBDMZcVRtRGy6fXw',

@@ -3,9 +3,13 @@ title: "PM Games - Building Interactive Games for Personal Website"
 description: "A case study on building interactive product management games using AI coding assistants"
 keywords: "product management games, interactive learning, Cursor AI, React, TypeScript, Vite, Tailwind CSS"
 author: "Angshuman Gupta"
+date: 2024-03-20
+type: case-study
 ---
 
 # PM Games: Building Interactive Games for Personal Website 🎮
+
+> "The best way to learn is by doing, and the best way to do is by playing." - Anonymous
 
 <div class="content-box">
 
@@ -189,4 +193,57 @@ The development process followed a consistent pattern for each game:
 - [GitHub Repository](https://github.com/angshu-min-js/angshumangupta.com)
 - [Cursor AI](https://cursor.sh)
 
-</div> 
+</div>
+
+<script setup>
+import BaseSEO from '../.vitepress/theme/components/BaseSEO.vue'
+</script>
+
+<style scoped>
+.content-box {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  color: var(--vp-c-text-1);
+}
+
+h1 {
+  color: var(--vp-c-text-1);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--vp-c-text-1);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--vp-c-text-1);
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-1);
+}
+
+strong {
+  color: var(--vp-c-text-1);
+}
+
+a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style> 

@@ -1,0 +1,169 @@
+---
+description: SEO and LLMO Rules
+globs: 
+alwaysApply: false
+---
+ # Cursor Rule: Universal SEO and LLMO (OpenAI/ChatGPT) Integration
+
+## 1. SEO Requirements
+
+### a. Sitemap
+- Add or update `public/sitemap.xml` to include all main pages, project detail pages, and important URLs.
+- Each `<url>` should have `<loc>`, `<lastmod>`, `<changefreq>`, and `<priority>`.
+- Example:
+  ```xml
+  <url>
+    <loc>https://yourdomain.com/page</loc>
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  ```
+
+### b. Robots.txt
+- Ensure `public/robots.txt` references the sitemap and allows major crawlers.
+- Example:
+  ```
+  User-agent: *
+  Allow: /
+  Sitemap: https://yourdomain.com/sitemap.xml
+  ```
+
+### c. Meta Tags
+- Use dynamic meta tags for each page (title, description, canonical, Open Graph, Twitter Card).
+- Implement with a reusable component (e.g., `MetaTags.tsx`).
+- Example:
+  ```html
+  <title>Page Title | Site Name</title>
+  <meta name="description" content="Page summary." />
+  <link rel="canonical" href="https://yourdomain.com/page" />
+  <meta property="og:title" content="Page Title" />
+  <meta property="og:description" content="Page summary." />
+  <meta property="og:url" content="https://yourdomain.com/page" />
+  <meta name="twitter:card" content="summary_large_image" />
+  ```
+
+### d. Structured Data (JSON-LD)
+- Add or update `public/structured-data.js` to inject JSON-LD schemas for key entities (e.g., Person, Project, Article, SoftwareApplication).
+- Example:
+  ```js
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Project Title",
+    "description": "Short description of project"
+  }
+  ```
+
+### e. Accessibility & Best Practices
+- Ensure all images have `alt` attributes.
+- Use semantic HTML and ARIA labels where appropriate.
+- Ensure good heading structure and color contrast.
+
+---
+
+## 2. LLMO/AI (OpenAI, ChatGPT Plugin) Integration
+
+### a. API Endpoints
+- Expose relevant data (projects, articles, etc.) via RESTful endpoints (e.g., `/api/projects.json`).
+- Responses should be structured, machine-readable, and include all relevant fields.
+- Example:
+  ```json
+  [
+    {
+      "id": "project-id",
+      "title": "Project Title",
+      "description": "Summary...",
+      ...
+    }
+  ]
+  ```
+
+### b. OpenAPI Specification
+- Provide an `openapi.json` file describing all public API endpoints, request/response schemas, and authentication (if any).
+- Example:
+  ```json
+  {
+    "openapi": "3.0.0",
+    "info": { "title": "Site API", "version": "1.0.0" },
+    "paths": { "/api/projects.json": { "get": { ... } } }
+  }
+  ```
+
+### c. ChatGPT Plugin Manifest
+- Add an `ai-plugin.json` manifest in the public root with plugin name, description, auth, API URL, and OpenAPI spec URL.
+- Example:
+  ```json
+  {
+    "schema_version": "v1",
+    "name_for_human": "Portfolio Plugin",
+    "name_for_model": "portfolio",
+    "description_for_human": "Query portfolio projects and experience.",
+    "description_for_model": "Get project, experience, and game data.",
+    "auth": { "type": "none" },
+    "api": { "type": "openapi", "url": "https://yourdomain.com/openapi.json" },
+    "logo_url": "https://yourdomain.com/logo.png",
+    "contact_email": "you@yourdomain.com",
+    "legal_info_url": "https://yourdomain.com/terms.html"
+  }
+  ```
+
+### d. Discoverability
+- Ensure the plugin manifest and OpenAPI spec are accessible at their URLs.
+- Add documentation or a README section describing how to use the plugin with ChatGPT or other LLMs.
+
+### e. Search Endpoint
+- Provide a `/api/search.json` endpoint for keyword-based search over your content.
+- Example:
+  ```json
+  [
+    { "id": "project-id", "title": "Project Title", "keywords": ["AI", "NLP"] }
+  ]
+  ```
+
+---
+
+## 3. Required File Updates & Locations
+- `public/sitemap.xml` — Sitemap for SEO
+- `public/robots.txt` — Crawler directives
+- `public/structured-data.js` — JSON-LD schema injection
+- `public/api/*.json` — API endpoints for LLMO
+- `public/ai-plugin.json` — ChatGPT plugin manifest
+- `public/openapi.json` — OpenAPI spec
+- `README.md` — Document SEO and LLMO features
+
+---
+
+## 4. Validation Checklist
+- [ ] All main URLs are in `sitemap.xml`
+- [ ] `robots.txt` references the sitemap
+- [ ] Meta tags are dynamic and correct per page
+- [ ] Structured data covers all key entities
+- [ ] API endpoints return correct, structured data
+- [ ] OpenAPI spec is up to date
+- [ ] Plugin manifest is accessible and correct
+- [ ] Search endpoint is available and returns relevant results
+- [ ] Documentation is present in README
+
+---
+
+## 5. Example Directory Structure
+```
+/public
+  /api
+    projects.json
+    search.json
+    index.json
+  ai-plugin.json
+  openapi.json
+  robots.txt
+  sitemap.xml
+  structured-data.js
+README.md
+/src
+  components/MetaTags.tsx
+```
+
+---
+
+**This rule is universal and can be adapted for any web project to ensure robust SEO and LLMO (OpenAI/ChatGPT) integration.**

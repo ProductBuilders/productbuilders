@@ -20,6 +20,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "glob": "^11.0.2",
+    "gray-matter": "^4.0.3",
     "vitepress": "^1.6.3"
   },
   "dependencies": {
