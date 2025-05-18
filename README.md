@@ -57,7 +57,7 @@ No special environment variables are needed for local development.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/angshu-min-js/productbuilders.git
+git clone https://github.com/productbuilders/productbuilders.git
 cd productbuilders
 ```
 
@@ -146,7 +146,7 @@ Connect with other non-technical founders, product builders, and AI enthusiasts 
 - Connect with other non-technical founders
 - Get direct feedback on your product ideas and code
 
-[Join our Discord server](https://discord.gg/XbYrxMPW) to become part of the Product Builders community!
+[Join our Discord server](https://discord.com/invite/yc39e2vc) to become part of the Product Builders community!
 
 ## Author
 
