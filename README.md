@@ -158,4 +158,88 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-A big thank you to all our [contributors](https://productbuilders.xyz/contributors) who help make this resource better! 
+A big thank you to all our [contributors](https://productbuilders.xyz/contributors) who help make this resource better!
+
+## Documentation Rules
+
+### Chapter Rules
+Located in `.cursor/rules/part-chapter.mdc`, these rules define the structure and formatting for adding new chapters:
+
+- File structure and naming conventions
+- Frontmatter requirements
+- Content structure and sections
+- UI elements and styling
+- Navigation and SEO guidelines
+- Best practices for writing chapters
+
+### Case Study Rules
+Located in `.cursor/rules/case-study.mdc`, these rules define the structure and formatting for adding new case studies:
+
+- File structure and naming conventions
+- Frontmatter requirements
+- Content structure and sections
+- UI elements and styling
+- Navigation and SEO guidelines
+- Best practices for writing case studies
+
+## Adding New Content
+
+### Adding a New Chapter
+1. Create a new markdown file in the appropriate part directory
+2. Follow the chapter rules in `.cursor/rules/part-chapter.mdc`
+3. Include required sections and formatting
+4. Add navigation links in the sidebar configuration
+
+### Adding a New Case Study
+1. Create a new markdown file in the `docs/case-studies/` directory
+2. Follow the case study rules in `.cursor/rules/case-study.mdc`
+3. Include required sections and formatting
+4. Add to the case studies list in the sidebar configuration
+
+## Site Features
+
+### Navigation
+- Top navigation bar with links to Home, Build, Contribute, Contributors, and API
+- Sidebar navigation showing chapter hierarchy and case studies
+- Breadcrumb navigation at the top of each page
+- Previous/Next navigation at the bottom of each page
+
+### Comments System
+- Uses Utterances for GitHub-based comments
+- Appears at the bottom of each page
+- Requires GitHub authentication to comment
+
+### SEO Components
+- Automatically manages meta tags
+- Generates JSON-LD schema
+- Handles Open Graph and Twitter cards
+
+### Analytics Integration
+- Google Analytics (GA4) tracking
+- Event tracking for:
+  - Page views
+  - Button clicks
+  - User engagement
+  - Session duration
+
+### Mobile Responsiveness
+- Content boxes adapt to screen size
+- Images are responsive
+- Tables become scrollable on mobile
+- Navigation collapses into hamburger menu
+
+### Dark/Light Mode
+- Automatically adapts to system preference
+- Manual toggle in navigation
+- Maintains consistent contrast in both modes
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch for your changes
+3. Follow the documentation rules for adding new content
+4. Submit a pull request with a clear description of your changes
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
