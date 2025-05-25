@@ -1,12 +1,3 @@
 User-agent: *
 Allow: /
-
-# Sitemap
 Sitemap: https://productbuilders.xyz/sitemap.xml
-
-# Disallow API endpoints
-Disallow: /api/
-
-# Allow ChatGPT plugin
-Allow: /ai-plugin.json
-Allow: /openapi.json 

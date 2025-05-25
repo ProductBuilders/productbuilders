@@ -1,11 +1,38 @@
 ---
 layout: home
+title: "AI Product Building for Non-Technical Founders | Product Builders"
+description: "Learn to build apps with AI tools like Cursor & Bolt, no coding needed. Your guide to AI product building for non-technical founders & entrepreneurs."
+head:
+  - - script
+    - type: application/ld+json
+    - innerHTML: |
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "AI Product Building for Non-Technical Founders | Product Builders",
+          "author": {
+            "@type": "Organization",
+            "name": "Product Builders"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Product Builders",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://productbuilders.xyz/favicon.png"
+            }
+          },
+          "datePublished": "2023-10-01",
+          "dateModified": "2024-03-15",
+          "description": "Learn to build apps with AI tools like Cursor & Bolt, no coding needed. Your guide to AI product building for non-technical founders & entrepreneurs.",
+          "mainEntityOfPage": "https://productbuilders.xyz/"
+        }
 hero:
-  text: "Launch apps that make money!"
-  tagline: The open-source free guide for founders to create successful apps using AI
+  text: "Build Apps with AI: For Non-Technical Founders"
+  tagline: The open-source free guide for founders to create successful apps using AI coding assistants.
   image:
-    src: /images/hero-image.png
-    alt: Product Builder - Non-technical founder building apps with AI agents
+    src: /images/hero-image.webp
+    alt: "Non-technical founder building apps with AI coding assistants - AI product building guide"
   actions:
     - theme: brand
       text: Start Building
@@ -16,16 +43,16 @@ hero:
 
 features:
   - icon: 💡
-    title: Validate Ideas Fast
+    title: "Validate Startup Ideas with AI Insights"
     details: Discover frameworks for finding genuine market problems and validating your ideas 
   - icon: 🎨
-    title: Design Like a Pro
+    title: "Design User Interfaces with AI Design Tools"
     details: Create beautiful, intuitive user interfaces even without design experience using AI-powered tools
   - icon: 🤖
-    title: Code with AI Agents
+    title: "Learn AI Coding with Assistants like Cursor & Bolt"
     details: Use Cursor, Bolt, Lovable, and other AI coding assistants to write actual code without prior programming knowledge
   - icon: 🚀
-    title: Launch & Scale
+    title: "Launch and Scale Your AI-Built App"
     details: Learn proven strategies to take your product from MVP to revenue, with real-world case studies
 ---
 
@@ -33,12 +60,12 @@ features:
 
 <br>
 
-# From idea to profitable product with AI Agents
+## From Idea to AI-Powered Product: Your Journey
 
 
 > "The best way to predict the future is to build it." - Alan Kay
 
-Product Builders is an open-source free guide that takes you through every step of creating digital products by coding with AI-powered agents like Cursor, Bolt, and Lovable. No traditional coding knowledge required.
+Product Builders is an open-source free guide that takes you through every step of creating digital products by coding with AI-powered agents like Cursor, Bolt, and Lovable. No traditional coding knowledge required. Learn AI product building today.
 
 <div class="cta-container">
   <a href="/introduction/what-is-this-book" class="cta-button">Start Your Journey</a>
@@ -70,7 +97,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   </div>
 </div>
 -->
-## Success stories built with AI Agents
+## Success Stories: Building Apps with AI Agents
 
 <div class="apps-showcase">
   <div class="app-card">
@@ -92,7 +119,7 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   </div>
 </div>
 
-## What readers are saying
+## What Non-Technical Founders Are Saying
 
 <div class="testimonials-grid">
   <div class="testimonial-card">
@@ -111,19 +138,19 @@ Product Builders helps you identify genuine market needs, design intuitive solut
   </div>
 </div>
 
-## Join our Discord Community
+## Join Our AI Product Builders Community
 
 <div class="community-section">
   <div class="community-content">
     <h3>Connect with Fellow AI-Powered Builders</h3>
-    <p>Join our Discord community to connect with other non-technical founders coding with AI agents, share your product journey, get feedback on your AI prompts, and access exclusive resources and support.</p>
+    <p>Join our Discord community to connect with other non-technical founders coding with AI agents, share your product journey, get feedback on your AI prompts, and access exclusive resources and support for your AI product building journey.</p>
     <a href="https://discord.gg/69Qh855T" target="_blank" class="discord-button">
       Join Discord Server
     </a>
   </div>
 </div>
 
-## Start building with AI coding agents today
+## Start Building with AI Coding Assistants Today
 
 This open-source book guides you through every step of the journey:
 
@@ -517,9 +544,7 @@ This open-source book guides you through every step of the journey:
     grid-template-columns: 1fr;
   }
   
-  .features-grid {
-    grid-template-columns: 1fr;
-  }
+  /* .features-grid removed as it's not used by active elements on this page */
   
   .book-structure {
     grid-template-columns: 1fr;

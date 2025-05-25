@@ -134,16 +134,33 @@ const loadUtterances = () => {
   }
 }
 
-// Check for authentication redirect on component mount
+let observer = null
+
+// Check for authentication redirect on component mount and setup observer
 onMounted(() => {
   console.log('Comments component mounted for path:', route.path, 'shouldShow:', props.shouldShow)
   
-  // First check if we need to handle a redirect
   const isRedirecting = handleLoginRedirect()
   
-  // If not redirecting, load utterances as normal
-  if (!isRedirecting) {
-    loadUtterances()
+  if (!isRedirecting && props.shouldShow && utterancesRef.value) {
+    observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          console.log('Comments section visible, loading utterances.')
+          loadUtterances()
+          // No need to observe anymore once loaded for this instance
+          if (utterancesRef.value) { // Check if ref still exists
+            observer.unobserve(utterancesRef.value)
+          }
+        }
+      },
+      { threshold: 0.1 } // Adjust threshold as needed
+    )
+    observer.observe(utterancesRef.value)
+  } else if (isRedirecting) {
+    console.log('Redirecting for auth, utterances loading deferred or handled by redirect.')
+  } else if (!props.shouldShow) {
+    console.log('Comments not shown for this page, utterances not loaded by observer.')
   }
 })
 
@@ -151,51 +168,86 @@ onMounted(() => {
 onBeforeUnmount(() => {
   console.log('Comments component unmounting for path:', route.path)
   
-  // Clean up auth data if needed
+  if (observer && utterancesRef.value) {
+    observer.unobserve(utterancesRef.value)
+  }
+  observer = null
+  
   if (loginHandled.value) {
     localStorage.removeItem('utterances_original_path')
   }
   
-  // Remove the utterances container if it exists
-  if (utterancesRef.value) {
-    while (utterancesRef.value.firstChild) {
-      utterancesRef.value.removeChild(utterancesRef.value.firstChild)
+  const utterancesContainer = utterancesRef.value
+  if (utterancesContainer) {
+    while (utterancesContainer.firstChild) {
+      utterancesContainer.removeChild(utterancesContainer.firstChild)
     }
   }
   
-  // Also clean up any utterances iframe that might have been added to the DOM
   const utterancesFrame = document.querySelector('.utterances-frame')
   if (utterancesFrame && utterancesFrame.parentElement) {
     utterancesFrame.parentElement.removeChild(utterancesFrame)
   }
 })
 
-// Watch for dark/light mode changes and reload utterances with appropriate theme
+// Watch for dark/light mode changes and reload utterances if visible/loaded
 watch(isDark, () => {
-  loadUtterances()
+  // Only reload if utterances have been loaded (i.e., container has children)
+  if (utterancesRef.value && utterancesRef.value.firstChild) {
+    console.log('Dark mode changed, reloading utterances.')
+    loadUtterances()
+  }
 })
 
-// Watch for route changes to load comments for new pages
-watch(
-  () => route.path,
-  () => {
-    // Check for auth redirect first
-    const isRedirecting = handleLoginRedirect()
-    if (!isRedirecting) {
-      loadUtterances()
-    }
-  }
-)
+// Watch for route changes (component re-mounts due to :key, so onMounted handles new page)
+// However, if props.shouldShow changes dynamically without a route change (less likely for this setup),
+// we might need to handle it. The current :key approach makes this less of an issue.
 
-// Watch for shouldShow changes
+// Watch for shouldShow changes to potentially initiate observation or cleanup
 watch(
   () => props.shouldShow,
-  (newValue) => {
-    console.log('shouldShow changed to:', newValue)
-    if (newValue) {
-      loadUtterances()
+  (newValue, oldValue) => {
+    console.log('shouldShow changed from', oldValue, 'to:', newValue, 'for path:', route.path)
+    if (newValue && !oldValue) {
+      // Transitioning from not shown to shown
+      // Need to re-setup observer if not already redirecting and component is mounted
+      // This scenario is tricky because onMounted handles initial setup.
+      // If the component instance persists and shouldShow flips, we might need to act.
+      // However, with :key="route.path", a new instance is created on route change.
+      // This watcher is more for cases where shouldShow might change on the *same* page.
+      if (utterancesRef.value && !observer) { // Check if observer needs to be setup
+        const isRedirecting = handleLoginRedirect() // Check redirect status again
+        if (!isRedirecting) {
+            observer = new IntersectionObserver(
+              ([entry]) => {
+                if (entry.isIntersecting) {
+                  console.log('Comments section became visible (shouldShow changed), loading utterances.')
+                  loadUtterances()
+                  if (utterancesRef.value) {
+                     observer.unobserve(utterancesRef.value)
+                  }
+                }
+              }, { threshold: 0.1 }
+            )
+            observer.observe(utterancesRef.value)
+        }
+      }
+    } else if (!newValue && oldValue) {
+      // Transitioning from shown to not shown
+      if (observer && utterancesRef.value) {
+        observer.unobserve(utterancesRef.value)
+        observer = null // Clear the observer
+      }
+      // Remove utterances content if it was loaded
+      const utterancesContainer = utterancesRef.value
+      if (utterancesContainer) {
+        while (utterancesContainer.firstChild) {
+          utterancesContainer.removeChild(utterancesContainer.firstChild)
+        }
+      }
     }
-  }
+  },
+  { immediate: false } // Avoid running on initial mount as onMounted handles it
 )
 </script>
 
