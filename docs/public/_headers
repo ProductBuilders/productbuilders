@@ -1,0 +1,40 @@
+# Set default caching for HTML files - Netlify's default is often good (ETag based)
+# You can uncomment and adjust if specific HTML caching is needed.
+# /*.html
+#  Cache-Control: public, max-age=0, must-revalidate
+
+# Cache versioned assets (JS, CSS) aggressively
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache images and other media types aggressively
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+/favicon.png
+  Cache-Control: public, max-age=31536000, immutable
+
+# Ensure robots.txt and sitemap.xml are re-validated more frequently or not cached too long by intermediaries
+/robots.txt
+  Cache-Control: public, max-age=86400 # 1 day
+/sitemap.xml
+  Cache-Control: public, max-age=86400 # 1 day
+
+# Security Headers (Optional but good practice)
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  # Content-Security-Policy: default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com https://analytics.ahrefs.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com;
+  # The CSP above is an example and needs careful tuning. Utterances requires more open CSP.
+  # For Utterances, you might need:
+  # script-src 'self' 'unsafe-inline' https://utteranc.es https://*.googletagmanager.com https://analytics.ahrefs.com;
+  # frame-src 'self' https://utteranc.es;
+  # child-src 'self' https://utteranc.es;
+  # connect-src 'self' https://api.github.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com;
+
+# Note: A very strict Content-Security-Policy (CSP) can interfere with VitePress's inline scripts
+# or third-party scripts like Google Analytics and Utterances.
+# Start without CSP or with a very lenient one and tighten it progressively.
+# The one provided for Utterances is a starting point.
+# For now, I will keep CSP commented out as it requires careful setup and testing.

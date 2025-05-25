@@ -132,12 +132,32 @@ export default defineConfig({
   
   // Head configuration
   head: [
+    // Global WebSite Schema
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Product Builders",
+      "url": "https://productbuilders.xyz",
+      "description": "Build real apps by coding with AI Agents! A guide for non-technical founders building with AI coding assistants like Cursor, Bolt, and Lovable",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://productbuilders.xyz/search?q={search_term_string}" // Assuming search works like this
+        },
+        "query-input": "required name=search_term_string"
+      }
+    })],
+
     // Google Analytics
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-S3TK4P84LM' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-S3TK4P84LM');`],
+
+    // Preload LCP image for homepage
+    ['link', { rel: 'preload', href: '/images/hero-image.webp', as: 'image' }],
     
     // Meta tags
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
