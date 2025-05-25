@@ -56,14 +56,13 @@ Successful products solve real problems. Many entrepreneurs, especially non-tech
 
 ### Key Learnings: Validating Startup Ideas
 
-<div class="learning-objectives">
-
 ✅ Why identifying a strong problem is critical for your startup.
-✅ How to recognize real-world problems suitable for AI solutions.
-✅ Methods to validate if solving a problem is worth your effort as a founder.
-✅ Ensuring market demand: Are people willing to pay for your AI product?
 
-</div>
+✅ How to recognize real-world problems suitable for AI solutions.
+
+✅ Methods to validate if solving a problem is worth your effort as a founder.
+
+✅ Ensuring market demand: Are people willing to pay for your AI product?
 
 Mastering problem validation makes building, launching, and scaling your AI-powered product significantly easier.
 
@@ -75,11 +74,12 @@ Mastering problem validation makes building, launching, and scaling your AI-powe
 
 <div class="key-questions">
 
-Great businesses often start by identifying something broken or inefficient. Observe, analyze, and question. Instead of "What AI product should I build?" ask:
-
 ✔ What problem frustrates people (including yourself)? This is key for startup ideas.
+
 ✔ Where are the daily struggles in life or work that an AI tool could solve?
+
 ✔ What inefficiencies can be addressed with AI-powered solutions?
+
 ✔ How are people currently solving this problem? Is their method painful, costly, or time-consuming?
 
 </div>
@@ -242,7 +242,7 @@ Test demand for your AI solution concept *before* building it.
 - Consider a small, targeted ad spend ($10-$20) on platforms like Facebook or Google Ads to reach your potential audience.
 
 **Step 3**: Measure Sign-ups & Interest (Over 24-48 hours)
-- If you get a significant number of sign-ups (e.g., 30-50+ for a niche B2B AI tool, or more for B2C), it’s a strong signal of a validated startup idea.
+- If you get a significant number of sign-ups (e.g., 30-50+ for a niche B2B AI tool, or more for B2C), it's a strong signal of a validated startup idea.
 - Low interest might mean you need to refine your problem statement, target audience, or the solution concept itself.
 
 📌 **Tip**: Emphasize the benefits of the AI solution for the user.
